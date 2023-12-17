@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\RouteModuleController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [RouteModuleController::class, 'home'])->name('home');
+Route::get('contact', [RouteModuleController::class, 'contact'])->name('contactus');
+Route::get('careers', [RouteModuleController::class, 'careers'])->name('careers');
+Route::get('about', [RouteModuleController::class, 'about'])->name('about');
+Route::get('about/executive-team', [RouteModuleController::class, 'executive'])->name('about.executive');

@@ -1,0 +1,57 @@
+.logo {
+    width: 122px;
+}
+.header.-type-5.-is-sticky {
+    background-color: #ffffff;
+}
+.header.-type-5.-is-sticky .headerMenu__item,
+.header.-type-5 .headerMenu__item {
+    color: black;
+    font-size: 14px;
+}
+.headerMenuSubnav__item a {
+    font-size: 14px;
+}
+.header.-type-5.-is-sticky .header__number,
+.header.-type-5 .header__number {
+    color: #b09c34;
+}
+.header.-type-5 {
+    height: 95px;
+    background: white;
+}
+.our-projects .imageCard.-type-2 .imageCard__title {
+    text-transform: uppercase;
+}
+.our-projects .imageCard__text.text-dark-1 a {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #b09c34;
+    text-decoration: overline;
+}
+.mines .imageCard.-type-1 .imageCard__title {
+    text-decoration: overline;
+}
+.mines .imageCard.-type-1 .imageCard__title a:hover {
+    color: #b09c34;
+}
+.bg-white {
+    background-color: white !important;
+}
+.pageHeader.-type-1 {
+    padding-bottom: 0px;
+}
+.pageHeader.-type-1 .pageHeader__title {
+    text-align: end;
+    /* color: #b09c34; */
+    font-size: 45px;
+    text-decoration: overline;
+}
+.jobs a.button {
+    line-height: 10px;
+    float: right;
+    clear: both;
+}
+.gl-2 a {
+    border: 1px solid #e7dfdf;
+}
