@@ -55,3 +55,16 @@
 .gl-2 a {
     border: 1px solid #e7dfdf;
 }
+.header.-type-5 .header__menuBtn i::after,
+.header.-type-5 .header__menuBtn i::before {
+    background-color: #b09c34;
+}
+.header.-type-5 .header__menuBtn {
+    color: #b09c34;
+}
+
+@media (max-width: 767px) {
+    .menu .menuNav__item + * {
+        margin-top: 28px;
+    }
+}

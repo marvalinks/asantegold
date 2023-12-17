@@ -86,7 +86,7 @@
         </div>
 
         <div class="header__right">
-            <div class="headerMenu__item">
+            <div class="headerMenu__item xl:d-none">
                 <a href="#">MEDIA</a>
 
                 <div class="headerMenuSubnav">
@@ -104,10 +104,10 @@
                     </div>
                 </div>
             </div>
-            <div class="headerMenu__item">
+            <div class="headerMenu__item xl:d-none">
                 <a href="{{route('careers')}}">CAREERS</a>
             </div>
-            <div class="headerMenu__item">
+            <div class="headerMenu__item xl:d-none">
                 <a href="{{route('contactus')}}">CONTACT US</a>
             </div>
 
