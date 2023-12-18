@@ -10,10 +10,10 @@
                             <a href="#">About Asante Gold Corporation</a>
                         </div>
                         <div class="headerMenuSubnav__item">
-                            <a href="#">Executive Team</a>
+                            <a href="{{route('about.executive')}}">Executive Team</a>
                         </div>
                         <div class="headerMenuSubnav__item">
-                            <a href="#">Governance & Board of Directors</a>
+                            <a href="{{route('about.governance')}}">Governance & Board of Directors</a>
                         </div>
                     </div>
                 </div>
@@ -39,7 +39,7 @@
 
                     <div class="headerMenuSubnav">
                         <div class="headerMenuSubnav__item">
-                            <a href="#">ESTMA Reports</a>
+                            <a href="{{route('estma.reports')}}">ESTMA Reports</a>
                         </div>
                     </div>
                 </div>

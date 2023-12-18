@@ -11,12 +11,7 @@
     </div>
 </section>
 <section>
-    <div class="row gl-2">
-        <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-3">FACT SHEET</a>
-        <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-3">EXECUTIVE TEAM</a>
-        <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-3">GOVERNANCE & BOARD</a>
-        <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-3">CONTACT US</a>
-    </div>
+  @include('fragments.about-menu')
 </section>
 <section class="layout-pt-lg">
   <div class="container">
@@ -73,32 +68,29 @@
   </div>
 
 </section>
-<section class="testimonialsSection" style="margin-top: 100px;">
-  <div class="testimonialsSection__bg" style="height: 45%;">
-      <div class="testimonialsSection__images js-section-slider-testimonials-images">
-          <img src="/assets/img/about/3/1.png" alt="image" />
-      </div>
-      <div class="bg-accent-2"></div>
-  </div>
-
+<section class="layout-pt-lg">
   <div class="container">
-      <div class="row justify-end">
-          <div class="col-xl-5 col-lg-6 col-md-7">
-              <div class="testimonialsSection__content layout-pt-lg layout-pb-lg">
-                  <div class="relative overflow-hidden pt-30 js-section-slider-testimonials swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
-                      <div class="swiper-wrapper" id="swiper-wrapper-3a9fa8caa667dc63" aria-live="polite">
-                          <div class="swiper-slide swiper-slide-active" style="width: 570px;" role="group" aria-label="1 / 4">
-                              <h4 class="text-18 fw-500 uppercase mb-30">Our determination</h4>
-
-                              <p class="text-18 sm:text-16">
-                                At Asante Gold Corporation, we are determined to create a better world and benefit the local population. Where possible, we will use industry best practices and methods to lower our mining impact and improve total economic returns.
-                              </p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
+    <div class="row y-gap-30 justify-between items-center">
+      <div class="col-lg-6">
+        <div class="ratio ratio-1:1">
+          <img src="/assets/img/about/6/1.png" alt="image" class="img-ratio rounded-12">
+        </div>
       </div>
+
+      <div class="col-xl-5 col-lg-6">
+        <h2 class="text-62 md:text-38 uppercase">
+          <span class="text-accent-1">Our </span><br>
+          determination
+        </h2>
+
+        <p class="text-18 md:text-16 mt-60 md:mt-20">
+          At Asante Gold Corporation, we are determined to create a better world and benefit the local population. Where possible, we will use industry best practices and methods to lower our mining impact and improve total economic returns.
+        </p>
+        {{-- <button class="button -md -dark-1 -min-260 rounded-12 text-accent-1 border-accent-1 mt-60 md:mt-20">Explore</button> --}}
+      </div>
+    </div>
   </div>
 </section>
+<br><br>
+
 @endsection

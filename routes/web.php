@@ -19,3 +19,5 @@ Route::get('contact', [RouteModuleController::class, 'contact'])->name('contactu
 Route::get('careers', [RouteModuleController::class, 'careers'])->name('careers');
 Route::get('about', [RouteModuleController::class, 'about'])->name('about');
 Route::get('about/executive-team', [RouteModuleController::class, 'executive'])->name('about.executive');
+Route::get('about/governance', [RouteModuleController::class, 'governance'])->name('about.governance');
+Route::get('estma-reports', [RouteModuleController::class, 'estmaReports'])->name('estma.reports');

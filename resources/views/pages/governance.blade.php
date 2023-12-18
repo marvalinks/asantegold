@@ -7,7 +7,7 @@
     </div>
 
     <div class="container">
-      <h1 data-anim-child="slide-up delay-1" class="pageHeader__title is-in-view">Executive Team</h1>
+      <h1 data-anim-child="slide-up delay-1" class="pageHeader__title is-in-view">Governance</h1>
     </div>
 </section>
 <section>
