@@ -31,8 +31,16 @@ class RouteModuleController extends Controller
     {
         return view('pages.governance');
     }
+    public function directors(Request $request)
+    {
+        return view('pages.directors');
+    }
     public function estmaReports(Request $request)
     {
         return view('pages.estmaReports');
+    }
+    public function test(Request $request)
+    {
+        return view('pages.test');
     }
 }

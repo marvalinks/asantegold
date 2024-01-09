@@ -1,3 +1,6 @@
+body {
+    background-color: #d8dee2 !important;
+}
 .logo {
     width: 122px;
 }
@@ -62,7 +65,12 @@
 .header.-type-5 .header__menuBtn {
     color: #b09c34;
 }
-
+.bg-accent-2 {
+    /* background-color: #d8dee2 !important; */
+}
+.headerMenu__item + * {
+    margin-left: 85px;
+}
 @media (max-width: 767px) {
     .menu .menuNav__item + * {
         margin-top: 28px;

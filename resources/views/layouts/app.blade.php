@@ -28,6 +28,7 @@
                 clip: rect(0, 1440px, 860px, 0);
             }
         </style>
+        @yield('styles')
     </head>
 
     <body style="">

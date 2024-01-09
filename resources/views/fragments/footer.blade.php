@@ -8,10 +8,10 @@
             </div>
 
             <div class="col-xl-6 col-lg-7">
-                <h2 class="footer__mainTitle">
+                {{-- <h2 class="footer__mainTitle">
                     ARE YOU INTERESTED IT'S TIME<br class="md:d-none" />
                     TO TALK TO US TODAY
-                </h2>
+                </h2> --}}
             </div>
         </div>
 
@@ -33,7 +33,7 @@
                 <div class="row y-gap-15 justify-between">
                     <div class="col-md-auto col-6">
                         <h4 class="footer__title text-18 fw-500 uppercase">
-                            SALES OFFICE
+                            OFFICE
                         </h4>
 
                         <div class="footer__list">
@@ -43,13 +43,22 @@
                             </div>
                             <div>info@asantegold.com</div>
                             <div>+233-303-972-147</div>
-                            <div>Opening Hours: 8:00 — 19:00</div>
+                            <div>Opening Hours: 8:00 — 17:00</div>
+                        </div>
+                        <div class="footer__list">
+                            <div>
+                                17 Jungle Avenue<br class="md:d-none" />
+                                East Legon, Accra - Ghana.
+                            </div>
+                            <div>info@asantegold.com</div>
+                            <div>+233-303-972-147</div>
+                            <div>Opening Hours: 8:00 — 17:00</div>
                         </div>
                     </div>
 
                     <div class="col-md-auto col-6">
                         <h4 class="footer__title text-18 fw-500 uppercase">
-                            MENU
+                            QUICK LINKS
                         </h4>
 
                         <div class="footer__list">

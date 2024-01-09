@@ -37,9 +37,6 @@
                         </div>
 
                         <div class="hero__content">
-                            <div class="hero__subtitle">
-                                Asante Gold Corporation
-                            </div>
 
                             <h1 class="hero__title text-white">
                                 Ghana Gold <br class="lg:d-none" />
@@ -64,9 +61,6 @@
                         </div>
 
                         <div class="hero__content">
-                            <div class="hero__subtitle">
-                                Convenient Location – Best Price – 2 or 3 Bedroom Apartment.
-                            </div>
 
                             <h1 class="hero__title text-white">
                                 Beautiful Spaces<br class="md:d-none" />
@@ -92,9 +86,6 @@
                         </div>
 
                         <div class="hero__content">
-                            <div class="hero__subtitle">
-                                Convenient Location – Best Price – 2 or 3 Bedroom Apartment.
-                            </div>
 
                             <h1 class="hero__title text-white">
                                 GRAND, ELEGANT<br class="lg:d-none" />

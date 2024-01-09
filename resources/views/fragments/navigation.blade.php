@@ -3,6 +3,12 @@
         <div class="header__left">
             <div class="headerMenu">
                 <div class="headerMenu__item">
+                    <a href="{{route('home')}}" class="header__logo">
+                        <img src="/assets/images/logo/logo-asante.png" alt="logo icon" class="logo" />
+                        <img src="/assets/images/logo/logo-asante.png" alt="logo icon" class="logo" />
+                    </a>
+                </div>
+                <div class="headerMenu__item">
                     <a href="{{route('about')}}">ABOUT</a>
 
                     <div class="headerMenuSubnav">
@@ -72,57 +78,51 @@
                     </div>
                 </div>
 
-                
-
+                <div class="headerMenu__item xl:d-none">
+                    <a href="#">MEDIA</a>
+    
+                    <div class="headerMenuSubnav">
+                        <div class="headerMenuSubnav__item">
+                            <a href="#">Image Gallery</a>
+                        </div>
+                        <div class="headerMenuSubnav__item">
+                            <a href="#">Video Gallery</a>
+                        </div>
+                        <div class="headerMenuSubnav__item">
+                            <a href="#">Events</a>
+                        </div>
+                        <div class="headerMenuSubnav__item">
+                            <a href="#">Media Activities</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="headerMenu__item xl:d-none">
+                    <a href="{{route('careers')}}">CAREERS</a>
+                </div>
+                <div class="headerMenu__item xl:d-none">
+                    <a href="{{route('contactus')}}">CONTACT US</a>
+                </div>
                 
             </div>
         </div>
 
         <div class="header__center">
-            <a href="{{route('home')}}" class="header__logo">
-                <img src="/assets/images/logo/logo-asante.png" alt="logo icon" class="logo" />
-                <img src="/assets/images/logo/logo-asante.png" alt="logo icon" class="logo" />
-            </a>
+            <div class="headerMenu__item header__menuBtn">
+                <a href="{{route('home')}}" class="header__logo">
+                    <img src="/assets/images/logo/logo-asante.png" alt="logo icon" class="logo" />
+                    <img src="/assets/images/logo/logo-asante.png" alt="logo icon" class="logo" />
+                </a>
+            </div>
         </div>
 
         <div class="header__right">
-            <div class="headerMenu__item xl:d-none">
-                <a href="#">MEDIA</a>
-
-                <div class="headerMenuSubnav">
-                    <div class="headerMenuSubnav__item">
-                        <a href="#">Image Gallery</a>
-                    </div>
-                    <div class="headerMenuSubnav__item">
-                        <a href="#">Video Gallery</a>
-                    </div>
-                    <div class="headerMenuSubnav__item">
-                        <a href="#">Events</a>
-                    </div>
-                    <div class="headerMenuSubnav__item">
-                        <a href="#">Media Activities</a>
-                    </div>
-                </div>
-            </div>
-            <div class="headerMenu__item xl:d-none">
-                <a href="{{route('careers')}}">CAREERS</a>
-            </div>
-            <div class="headerMenu__item xl:d-none">
-                <a href="{{route('contactus')}}">CONTACT US</a>
-            </div>
-
-            <div class="header__number xl:d-none">
-                <a href="#">+233 303 972 147</a>
-            </div>
+            
 
             <button class="header__menuBtn js-menu-button">
                 <i></i>
                 <span>MENU</span>
             </button>
 
-            {{-- <button class="button -md -outline-white text-white lg:d-none js-toggle-requestForm">
-                Request a viewing
-            </button> --}}
         </div>
     </div>
 </header>

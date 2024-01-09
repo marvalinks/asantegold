@@ -1,5 +1,16 @@
 @extends('layouts.app')
 
+@section('styles')
+    <style>
+        .imageSliderNav{
+            top: 90%;
+        }
+        .blogCard.-type-1 .blogCard__content{
+            min-height: 370px;
+        }
+    </style>
+@endsection
+
 @section('content')
 @include('fragments.home-slider')
 
@@ -37,7 +48,7 @@
 </section>
 <br><br>
 {{-- Projects --}}
-<section class="layout-pt-lg layout-pb-lg bg-accent-2 our-projects">
+<section class="layout-pt-lg layout-pb-lg bg-accent-2 our-projects bg-accent-2">
     <div class="container">
         <div class="row justify-between items-center">
             <div class="col-auto">
@@ -238,8 +249,9 @@
         </div>
 
         <div class="row y-gap-30 pt-60 md:pt-30">
-            <div data-anim="slide-up delay-1" class="col-lg-4 col-md-6 is-in-view">
-                <a href="blog-single.html" class="blogCard -type-1">
+            @for ($i=1; $i < 9; $i++)
+            <div data-anim="slide-up delay-{{$i}}" class="col-lg-3 col-md-4 is-in-view">
+                <a href="#" class="blogCard -type-1">
                     <div class="blogCard__content px-40 py-40 md:px-30 md:py-30">
                         <div>
                             <div class="blogCard__tag">NEWS</div>
@@ -251,53 +263,15 @@
 
                         <div class="blogCard__date">
                             <div>17</div>
-                            <div>NOV</div>
-                            {{-- <p class="imageCard__text text-dark-1">
-                                <a href="#">Download Press Release</a>
-                            </p> --}}
+                            <div>
+                                NOV <br>
+                                2023
+                            </div>
                         </div>
                     </div>
                 </a>
             </div>
-
-            <div data-anim="slide-up delay-2" class="col-lg-4 col-md-6 is-in-view">
-                <a href="blog-single.html" class="blogCard -type-1">
-                    <div class="blogCard__content px-40 py-40 md:px-30 md:py-30">
-                        <div>
-                            <div class="blogCard__tag">NEWS</div>
-                            <h3 class="blogCard__title">
-                                HOW IS THE CONSTRUCTION OF<br />
-                                SKY PARK RESIDENCES GOING?
-                            </h3>
-                        </div>
-
-                        <div class="blogCard__date">
-                            <div>24</div>
-                            <div>NOV</div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div data-anim="slide-up delay-3" class="col-lg-4 col-md-6 is-in-view">
-                <a href="blog-single.html" class="blogCard -type-1">
-                    <div class="blogCard__content px-40 py-40 md:px-30 md:py-30">
-                        <div>
-                            <div class="blogCard__tag">NEWS</div>
-                            <h3 class="blogCard__title">
-                                CONSTRUCTION OF SKY PARK<br />
-                                RESIDENCES PROCEEDS ACCORDING<br />
-                                TO SCHEDULE
-                            </h3>
-                        </div>
-
-                        <div class="blogCard__date">
-                            <div>12</div>
-                            <div>NOV</div>
-                        </div>
-                    </div>
-                </a>
-            </div>
+            @endfor
         </div>
     </div>
 </section>
