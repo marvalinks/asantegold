@@ -29,13 +29,13 @@
 
                     <div class="headerMenuSubnav">
                         <div class="headerMenuSubnav__item">
-                            <a href="#">Bibiani Gold Mine</a>
+                            <a href="{{route('operations', ['bibiani'])}}">Bibiani Gold Mine</a>
                         </div>
                         <div class="headerMenuSubnav__item">
-                            <a href="#">Chirano Gold Mine</a>
+                            <a href="{{route('operations', ['chirano'])}}">Chirano Gold Mine</a>
                         </div>
                         <div class="headerMenuSubnav__item">
-                            <a href="#">Our Projects</a>
+                            <a href="{{route('projects')}}">Our Projects</a>
                         </div>
                     </div>
                 </div>
@@ -55,13 +55,13 @@
 
                     <div class="headerMenuSubnav">
                         <div class="headerMenuSubnav__item">
-                            <a href="#">Annual And Special General Meeting</a>
+                            <a href="{{route('annual.meetings')}}">Annual And Special General Meeting</a>
                         </div>
                         <div class="headerMenuSubnav__item">
                             <a href="#">News Releases</a>
                         </div>
                         <div class="headerMenuSubnav__item">
-                            <a href="#">Presentation</a>
+                            <a href="{{route('presentation')}}">Presentation</a>
                         </div>
                         <div class="headerMenuSubnav__item">
                             <a href="#">Share Structure</a>

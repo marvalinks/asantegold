@@ -22,4 +22,8 @@ Route::get('about/executive-team', [RouteModuleController::class, 'executive'])-
 Route::get('about/governance', [RouteModuleController::class, 'governance'])->name('about.governance');
 Route::get('about/directors', [RouteModuleController::class, 'directors'])->name('about.directors');
 Route::get('estma-reports', [RouteModuleController::class, 'estmaReports'])->name('estma.reports');
-Route::get('test', [RouteModuleController::class, 'test'])->name('test');
+Route::get('operations/{id}', [RouteModuleController::class, 'operations'])->name('operations');
+Route::get('projects', [RouteModuleController::class, 'projects'])->name('projects');
+Route::get('projects/{id}', [RouteModuleController::class, 'projectSingle'])->name('projects.details');
+Route::get('annual-meetings', [RouteModuleController::class, 'annualMeetings'])->name('annual.meetings');
+Route::get('presentation', [RouteModuleController::class, 'presentation'])->name('presentation');

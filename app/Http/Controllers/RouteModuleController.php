@@ -9,7 +9,8 @@ class RouteModuleController extends Controller
     
     public function home(Request $request)
     {
-        return view('pages.home');
+        $projects = ['Aboduabo', 'kubi', 'keyhole', 'betenase', 'fahiakoba', 'ashanti ii project'];
+        return view('pages.home', compact('projects'));
     }
     public function contact(Request $request)
     {
@@ -42,5 +43,51 @@ class RouteModuleController extends Controller
     public function test(Request $request)
     {
         return view('pages.test');
+    }
+    public function operations(Request $request, $id)
+    {
+        $name = '';
+        if($id == 'bibiani') {
+            $name = "Bibiani Gold Mine";
+        }
+        if($id == 'chirano') {
+            $name = "Chirano Gold Mine";
+        }
+        
+        return view('pages.operations.bibiani', compact('name'));
+    }
+    public function projects(Request $request)
+    {
+        $projects = ['Aboduabo', 'kubi', 'keyhole', 'betenase', 'fahiakoba', 'ashanti ii project'];
+        // $projects = [
+        //     ['name' => 'Aboduabo', 'image' => '/assets/images/projects/'.strtolower()]
+        // ]
+        return view('pages.projects', compact('projects'));
+    }
+    public function projectSingle(Request $request, $id)
+    {
+        $projects = ['aboduabo', 'kubi', 'keyhole', 'betenase', 'fahiakoba', 'ashanti ii project'];
+        $name = str_replace('-', ' ', strtolower($id));
+        if (in_array($name, $projects)) {
+            return view('pages.projects.kubi', compact('name'));
+        }
+        die('not found');
+        $name = '';
+        if($id == 'bibiani') {
+            $name = "Bibiani Gold Mine";
+        }
+        if($id == 'chirano') {
+            $name = "Chirano Gold Mine";
+        }
+        
+        return view('pages.projects.kubi', compact('name'));
+    }
+    public function annualMeetings(Request $request)
+    {
+        return view('pages.investors.annual-meetings');
+    }
+    public function presentation(Request $request)
+    {
+        return view('pages.investors.presentation');
     }
 }
