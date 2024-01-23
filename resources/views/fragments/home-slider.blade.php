@@ -1,7 +1,7 @@
 <section data-anim-wrap="" class="hero -type-7 bg-dark-2 js-hero-type-7 animated">
     <div class="hero__slider js-slider swiper-initialized swiper-horizontal swiper-pointer-events swiper-watch-progress swiper-backface-hidden">
         <div class="swiper-wrapper" id="swiper-wrapper-462571ed285fc1029" aria-live="polite" style="transition-duration: 0ms; transform: translate3d(-1440px, 0px, 0px);">
-            <div class="swiper-slide swiper-slide-prev" style="width: 1440px;" role="group" aria-label="1 / 4">
+            <div class="swiper-slide swiper-slide-prev" role="group" aria-label="1 / 4">
                 <div class="container">
                     <div class="hero__slide">
                         <div class="hero__bg">
@@ -29,7 +29,7 @@
                 </div>
             </div>
 
-            <div class="swiper-slide swiper-slide-visible swiper-slide-active" style="width: 1440px;" role="group" aria-label="2 / 4">
+            <div class="swiper-slide swiper-slide-visible swiper-slide-active" role="group" aria-label="2 / 4">
                 <div class="container">
                     <div class="hero__slide">
                         <div class="hero__bg">
@@ -53,7 +53,7 @@
                 </div>
             </div>
 
-            <div class="swiper-slide swiper-slide-next" style="width: 1440px;" role="group" aria-label="3 / 4">
+            <div class="swiper-slide swiper-slide-next" role="group" aria-label="3 / 4">
                 <div class="container">
                     <div class="hero__slide">
                         <div class="hero__bg">
@@ -78,7 +78,7 @@
                 </div>
             </div>
 
-            <div class="swiper-slide" style="width: 1440px;" role="group" aria-label="4 / 4">
+            <div class="swiper-slide" role="group" aria-label="4 / 4">
                 <div class="container">
                     <div class="hero__slide">
                         <div class="hero__bg">

@@ -15,7 +15,8 @@
 @include('fragments.home-slider')
 
 <div class="pt-100 md:pt-20 sm:pt-60 bg-dark-2"></div>
-<section class="layout-pt-lg">
+<section class="layout-pt-lg news-ns">
+    <br><br><br>
     <div class="container">
       <div data-anim-wrap="" class="row y-gap-30 justify-between animated">
         <div class="col-xl-5 col-lg-6 md:order-2">
@@ -33,22 +34,44 @@
             Asante <span class="text-accent-1">Gold</span> Corporation
           </h2>
 
-          <p class="mt-60 md:mt-30">
-            Asante is a gold exploration, development and operating company with a high-quality portfolio of projects and mines in Ghana.
+          <p class="mt-60 md:mt-30 f19">
+            <strong>Asante Gold Corporation is a gold production, exploration and development company with a high-quality portfolio of mines and projects in Ghana, Africa’s largest and safest gold producer.</strong>
           </p>
-          <p class="mt-30 md:mt-5">
-            Asante is currently operating the Bibiani and Chirano Gold Mines and continues with detailed technical studies at its Kubi Gold Project for early production.
-          </p>
-          <p class="mt-30 md:mt-5">
-            All mines and projects are located on the prolific Bibiani and Ashanti Gold Belts.  Asante is also exploring its Keyhole, Fahiakoba, and Betenase projects for new discoveries, all adjoining or along strike of major gold mines near the centre of Ghana’s Golden Triangle. Asante has also made a strategic investment in Roscan Gold Corporation.
+          <p class="mt-30 md:mt-5 f19">
+            Asante is focused on operating, developing and managing gold mines and projects including the Bibiani mine, Chirano mine and Kubi development project located on the prolific Bibiani and Ashanti Gold Belts.
           </p>
         </div>
       </div>
     </div>
 </section>
+{{-- News --}}
+<section class="layout-pt-lg layout-pb-lg relative news-ns rxrx">
+    <div class="sectionBg -mx-60 bg-accent-2 z--1"></div>
+
+    <div class="container">
+        <div class="row y-gap-30 pt-60 md:pt-30 new-section">
+            <div class="col-auto">
+                <h2 class="text-62 md:text-38 uppercase fw-500 hdd">
+                    <span class="text-accent-1">Our Latest </span><br />
+                    News
+                </h2>
+            </div>
+            @for ($i=1; $i < 6; $i++)
+            <ul class="">
+                <li>
+                    <h4>November 6, 2023</h4>
+                    <a href="#">
+                        <h3> Asante Announces Mineral Resource Extension For The Grasshopper Starter Pit Development For Bibiani Gold Mine</h3>
+                    </a>
+                </li>
+            </ui>
+            @endfor
+        </div>
+    </div>
+</section>
 <br><br>
 {{-- Projects --}}
-<section class="layout-pt-lg layout-pb-lg bg-accent-2 our-projects bg-accent-2">
+{{-- <section class="layout-pt-lg layout-pb-lg bg-accent-2 our-projects bg-accent-2">
     <div class="container">
         <div class="row justify-between items-center">
             <div class="col-auto">
@@ -59,7 +82,6 @@
             </div>
 
             <div class="col-xl-6">
-                {{-- <p class="">From the vibrant ground level plaza to the terraces, privategardens, balconies and lush rooftop work spaces, Costix offersan array of amenities …</p> --}}
             </div>
         </div>
 
@@ -67,7 +89,7 @@
             @include('fragments.projects')
         </div>
     </div>
-</section>
+</section> --}}
 {{-- Gold mines --}}
 <section class="layout-pt-lg mines">
     <div class="container">
@@ -130,50 +152,6 @@
         </div>
     </div>
 </section>
-{{-- News --}}
-<section class="layout-pt-lg layout-pb-lg relative">
-    <div class="sectionBg -mx-60 bg-accent-2 z--1"></div>
 
-    <div class="container">
-        <div class="row justify-between items-center">
-            <div class="col-auto">
-                <h2 class="text-62 md:text-38 uppercase fw-500">
-                    <span class="text-accent-1">Our Latest </span><br />
-                    News
-                </h2>
-            </div>
-
-            <div class="col-xl-6 md:d-none">
-                {{-- <p>From the vibrant ground level plaza to the terraces, privategardens, balconies and lush rooftop work spaces, Costix offersan array of amenities …</p> --}}
-            </div>
-        </div>
-
-        <div class="row y-gap-30 pt-60 md:pt-30">
-            @for ($i=1; $i < 9; $i++)
-            <div data-anim="slide-up delay-{{$i}}" class="col-lg-3 col-md-4 is-in-view">
-                <a href="#" class="blogCard -type-1">
-                    <div class="blogCard__content px-40 py-40 md:px-30 md:py-30">
-                        <div>
-                            <div class="blogCard__tag">NEWS</div>
-                            <h3 class="blogCard__title">
-                                THE DIFFERENT TYPES OF<br />
-                                LUXURY SPACES
-                            </h3>
-                        </div>
-
-                        <div class="blogCard__date">
-                            <div>17</div>
-                            <div>
-                                NOV <br>
-                                2023
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            @endfor
-        </div>
-    </div>
-</section>
 
 @endsection
