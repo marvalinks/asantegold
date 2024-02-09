@@ -29,10 +29,10 @@
 
                     <div class="headerMenuSubnav">
                         <div class="headerMenuSubnav__item">
-                            <a href="{{route('operations', ['bibiani'])}}">Bibiani Gold Mine</a>
+                            <a href="{{route('operations.bibiani')}}">Bibiani Gold Mine</a>
                         </div>
                         <div class="headerMenuSubnav__item">
-                            <a href="{{route('operations', ['chirano'])}}">Chirano Gold Mine</a>
+                            <a href="{{route('operations.chirano')}}">Chirano Gold Mine</a>
                         </div>
                         <div class="headerMenuSubnav__item">
                             <a href="{{route('projects')}}">Our Projects</a>

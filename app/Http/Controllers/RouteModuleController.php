@@ -44,17 +44,16 @@ class RouteModuleController extends Controller
     {
         return view('pages.test');
     }
-    public function operations(Request $request, $id)
+    public function bibiani(Request $request)
     {
-        $name = '';
-        if($id == 'bibiani') {
-            $name = "Bibiani Gold Mine";
-        }
-        if($id == 'chirano') {
-            $name = "Chirano Gold Mine";
-        }
         
-        return view('pages.operations.bibiani', compact('name'));
+        return view('pages.operations.bibiani');
+    }
+    public function chirano(Request $request)
+    {
+        
+        
+        return view('pages.operations.chirano');
     }
     public function projects(Request $request)
     {
@@ -73,14 +72,17 @@ class RouteModuleController extends Controller
         }
         die('not found');
         $name = '';
+        $data = '';
         if($id == 'bibiani') {
             $name = "Bibiani Gold Mine";
+            $data = 'aaa';
         }
         if($id == 'chirano') {
             $name = "Chirano Gold Mine";
+            $data = 'skasaks';
         }
         
-        return view('pages.projects.kubi', compact('name'));
+        return view('pages.projects.kubi', compact('name', 'data'));
     }
     public function annualMeetings(Request $request)
     {
