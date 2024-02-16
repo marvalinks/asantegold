@@ -13,7 +13,7 @@
 
                     <div class="headerMenuSubnav">
                         <div class="headerMenuSubnav__item">
-                            <a href="#">About Asante Gold Corporation</a>
+                            <a href="{{route('about')}}">About Asante Gold Corporation</a>
                         </div>
                         <div class="headerMenuSubnav__item">
                             <a href="{{route('about.executive')}}">Executive Team</a>

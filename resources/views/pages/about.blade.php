@@ -73,7 +73,7 @@
     <div class="row y-gap-30 justify-between items-center">
       <div class="col-lg-6">
         <div class="ratio ratio-1:1">
-          <img src="/assets/img/about/6/1.png" alt="image" class="img-ratio rounded-12">
+          <img src="/assets/images/backgrounds/bg05.jpg" alt="image" class="img-ratio rounded-12">
         </div>
       </div>
 

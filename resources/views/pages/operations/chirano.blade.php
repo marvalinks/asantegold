@@ -24,7 +24,7 @@
             <div class="col-md-12">
                 <h2 class="text-62 md:text-38 uppercase fw-500">Project  <span class="text-accent-1">Details</span></h2>
   
-                <p class="mt-30 md:mt-5">data</p>
+                <p class="mt-30 md:mt-5"><h2 class="text-accent-1">CHIRANO</h2></p>
             </div>
         </div>
 
@@ -43,20 +43,33 @@
     <div data-anim-child="slide-up delay-1" class="col-xl-6 col-lg-6 md:order-1 is-in-view">
       <h2 class="text-62 md:text-38 uppercase fw-500">Asante Gold  <span class="text-accent-1">Corporation</span></h2>
   
-      <p class="mt-60 md:mt-30">Asante is a gold exploration, development and operating company with a high-quality portfolio of projects and mines in Ghana.</p>
-      <p class="mt-30 md:mt-5">
-        Asante is currently operating the Bibiani and Chirano Gold Mines and continues with detailed technical studies at its Kubi Gold Project for early production.
+      <p class="mt-60 md:mt-30">Asante is a gold exploration, development and operating company with a high-quality portfolio of projects and mines in Ghana.
+        The Bibiani & Chirano deposits are hosted in the Bibiani Shear Zone, on the eastern margin of the Sefwi belt.
+        Gold occurs in the shear zone & massive quartz veins that crosscut folded meta-sedimentary rocks of the Kumasi-Afema basin.
       </p>
       <p class="mt-30 md:mt-5">
-        All mines and projects are located on the prolific Bibiani and Ashanti Gold Belts.  Asante is also exploring its Keyhole, Fahiakoba, and Betenase projects 
-        for new discoveries, all adjoining or along strike of major gold mines near the centre of Ghana’s Golden Triangle. Asante has also made a strategic investment in Roscan Gold Corporation.
+        <h2 class="text-accent-1">Exploration</h2>
+        Invest $6M/y in near mine and regional exploration for year 2023,2024,2025 to increase LOM from 5 to >10 years.
       </p>
       <p class="mt-30 md:mt-5">
-        Asante is listed on the Canadian Securities Exchange, the Ghana Stock Exchange and the Frankfurt Stock Exchange.
+        <h2 class="text-accent-1">Mine Planning</h2>
+        Utilize $1750/oz for resource & reserve calculation (from $1200/oz) - Resource upgrade and NI-43-101 update to be issued Q1 2024.
+        Mining Sequence and schedule adjusted Q4 2022 to improve mill feed grade and increase tonnes milled
       </p>
       <p class="mt-30 md:mt-5">
-        We co-listed our shares on the Ghana Stock Exchange to allow a whole new group of Ghanaian investors the opportunity 
-        to invest in the growth of their own local gold mining industry.
+        <h2 class="text-accent-1">Process Plant</h2>
+        Install Gravity Recovery Plant - completion November 2023. <br>
+        Install Oxygen Plant and Aachen Reactor - to improve shear of mineral surfaces & liberation of gold, increase dissolved oxygen and improve
+        leach performance - completion November 2023. <br>
+        Increase throughput to +4 Mt/y from Q4 2023
+      </p>
+      <p class="mt-30 md:mt-5">
+        <h2 class="text-accent-1">Results</h2>
+        Gold recovery has increased from 85 to 87% and is planned to increase further to 92% at Q1 2024 with completion of gravity recovery and oxygen plants,
+        plus Aachen reactor and upgrade of grinding classification system. <br>
+        Mill feed grade improve from 1.83g/t to 1.5 (Q4 2022) and is planned improve further to 1.65g/t (Q3 2023) <br>
+        Increase glod production from 133Koz (2022) to 145Koz (2023) & +200Koz/y from 2027. <br>
+        Reduce AISC from $1389 to $1200/oz
       </p>
     </div>
     
