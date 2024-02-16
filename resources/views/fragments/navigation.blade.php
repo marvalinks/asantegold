@@ -67,7 +67,7 @@
                             <a href="#">Stock Information</a>
                         </div>
                         <div class="headerMenuSubnav__item">
-                            <a href="#">Financial Statements</a>
+                            <a href="{{route('financial.statement')}}">Financial Statements</a>
                         </div>
                         <div class="headerMenuSubnav__item">
                             <a href="#">Analyst Coverage</a>
