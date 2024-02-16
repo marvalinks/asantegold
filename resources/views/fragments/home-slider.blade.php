@@ -1,6 +1,6 @@
 <section data-anim-wrap="" class="hero -type-7 bg-dark-2 js-hero-type-7 animated">
     <div class="hero__slider js-slider swiper-initialized swiper-horizontal swiper-pointer-events swiper-watch-progress swiper-backface-hidden">
-        <div class="swiper-wrapper" id="swiper-wrapper-462571ed285fc1029" aria-live="polite" style="transition-duration: 0ms; transform: translate3d(-1440px, 0px, 0px);">
+        <div class="swiper-wrapper" id="swiper-wrapper-462571ed285fc1029" aria-live="polite">
             <div class="swiper-slide swiper-slide-prev" role="group" aria-label="1 / 4">
                 <div class="container">
                     <div class="hero__slide">
@@ -9,9 +9,6 @@
                         </div>
 
                         <div class="hero__content">
-                            <div class="hero__subtitle">
-                                Convenient Location – Best Price – 2 or 3 Bedroom Apartment.
-                            </div>
 
                             <h1 class="hero__title text-white">
                                 Ghana Gold Producer<br />
