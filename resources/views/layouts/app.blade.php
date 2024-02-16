@@ -85,8 +85,8 @@
         <script src="/assets/js/vendors.js"></script>
         <script src="/assets/js/main.js"></script>
         <script src="/stocks/assets/dist/app.js"></script>
-        <script>
+        {{-- <script>
             $('.elementor-button').addClass('g78');
-        </script>
+        </script> --}}
     </body>
 </html>
