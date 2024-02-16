@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\FinancialYear;
 use Illuminate\Http\Request;
 
 class RouteModuleController extends Controller
@@ -93,5 +94,10 @@ class RouteModuleController extends Controller
     public function shareStructure(Request $request)
     {
         return view('pages.share-structure');
+    }
+    public function financialStatement(Request $request)
+    {
+        $years = FinancialYear::orderBy('year', 'desc')->get();
+        return view('pages.financial-statement', compact('years'));
     }
 }

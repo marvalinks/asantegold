@@ -29,3 +29,4 @@ Route::get('projects/{id}', [RouteModuleController::class, 'projectSingle'])->na
 Route::get('annual-meetings', [RouteModuleController::class, 'annualMeetings'])->name('annual.meetings');
 Route::get('presentation', [RouteModuleController::class, 'presentation'])->name('presentation');
 Route::get('share-structure', [RouteModuleController::class, 'shareStructure'])->name('share.structure');
+Route::get('financial-statement', [RouteModuleController::class, 'financialStatement'])->name('financial.statement');
