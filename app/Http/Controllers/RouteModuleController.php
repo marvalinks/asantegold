@@ -15,6 +15,7 @@ class RouteModuleController extends Controller
         $client = new Client();
         $response = $client->get('https://asantegold.com/wp-json/wp/v2/posts?_embed&per_page=6');
         $posts = json_decode($response->getBody(), true);
+        $posts = [];
         return view('pages.home', compact('projects', 'posts'));
     }
     public function contact(Request $request)
@@ -109,6 +110,7 @@ class RouteModuleController extends Controller
         $client = new Client();
         $response = $client->get('https://asantegold.com/wp-json/wp/v2/posts?_embed');
         $posts = json_decode($response->getBody(), true);
+        $posts = [];
         return view('pages.news.releases', compact('posts'));
     }
     public function newsReleasesDetails(Request $request, $slug)
