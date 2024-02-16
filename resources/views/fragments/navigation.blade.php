@@ -16,10 +16,7 @@
                             <a href="{{route('about')}}">About Asante Gold Corporation</a>
                         </div>
                         <div class="headerMenuSubnav__item">
-                            <a href="{{route('about.executive')}}">Executive Team</a>
-                        </div>
-                        <div class="headerMenuSubnav__item">
-                            <a href="{{route('about.governance')}}">Governance & Board of Directors</a>
+                            <a href="{{route('about.executive')}}">Asante Team</a>
                         </div>
                     </div>
                 </div>

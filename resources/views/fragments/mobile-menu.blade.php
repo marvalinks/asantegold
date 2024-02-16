@@ -14,12 +14,9 @@
                         </div>
 
                         <div class="submenu__item">
-                            <a href="{{route('about.executive')}}">Executive Team</a>
+                            <a href="{{route('about.executive')}}">Asante Team</a>
                         </div>
 
-                        <div class="submenu__item">
-                            <a href="{{route('about.governance')}}">Governance & Board of Directors</a>
-                        </div>
                     </div>
                 </div>
             </div>
