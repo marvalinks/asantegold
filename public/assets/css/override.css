@@ -75,7 +75,7 @@ body {
     font-size: 43px !important;
 }
 .new-section {
-    width: 80%;
+    /* width: 80%; */
     margin: auto;
 }
 .new-section li {
@@ -118,6 +118,20 @@ body {
 }
 .bg-accent-7 {
     background-color: #c0aa8d;
+}
+.hero.-type-7 .hero__bg::after {
+    background-color: rgb(0 0 0 / 13%);
+}
+.hero.-type-7 .hero__content {
+    padding-top: 220px;
+}
+.hero.-type-7 {
+    height: 65vh;
+}
+.g78 {
+    font-size: 18px;
+    color: #c0c669;
+    text-decoration: underline;
 }
 @media (max-width: 767px) {
     .menu .menuNav__item + * {

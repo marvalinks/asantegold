@@ -12,9 +12,10 @@
 </section>
 <section>
     <div class="row gl-2">
-        <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-4">aa Status</a>
-        <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-4">Forecast Gold Production & Resource Block</a>
-        <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-4">Download Bibiani Technical Report</a>
+        <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-3">Introduction</a>
+        <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-3">Operational Ststus</a>
+        <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-3">Forecast production & Resource Block</a>
+        <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-3">Download Bibiani Technical Report</a>
     </div>
 </section>
 <section class="layout-pt-lg">

@@ -21,11 +21,11 @@
       <div data-anim-wrap="" class="row y-gap-30 justify-between animated">
         <div class="col-xl-5 col-lg-6 md:order-2">
           <div data-anim-child="slide-up delay-3" class="relative is-in-view">
-            <img src="/assets/images/backgrounds/bg06.jpg" alt="image">
+            <img src="/assets/images/2.jpg" alt="image">
 
-            <button class="play-button bg-dark-1 text-white">
+            <a target="_blank" href="https://www.youtube.com/watch?v=7N3g2xgzSkc" class="play-button bg-dark-1 text-white">
               <i class="icon-play text-30"></i>
-            </button>
+            </a>
           </div>
         </div>
 
@@ -48,24 +48,61 @@
 <section class="layout-pt-lg layout-pb-lg relative news-ns rxrx">
     <div class="sectionBg -mx-60 bg-accent-2 z--1"></div>
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="row y-gap-30 pt-60 md:pt-30 new-section">
-            <div class="col-auto">
-                <h2 class="text-62 md:text-38 uppercase fw-500 hdd">
-                    <span class="text-accent-1">Our Latest </span><br />
-                    News
-                </h2>
-            </div>
-            @for ($i=1; $i < 6; $i++)
-            <ul class="">
-                <li>
-                    <h4>November 6, 2023</h4>
-                    <a href="#">
-                        <h3> Asante Announces Mineral Resource Extension For The Grasshopper Starter Pit Development For Bibiani Gold Mine</h3>
+            <div class="col-md-6">
+                <div data-anim-child="slide-up delay-1" class="col-xl-12 col-lg-12 md:order-1 is-in-view">
+                    <h5 class="md:text-38 uppercase fw-500" style="font-size: 35px">Corporate Update Presentation</h5>
+                      <br><br>
+                    <img src="/assets/images/presentation/new-Screenshot-2023-10-31-163722.png" alt="">
+                    <br><br>
+                    <a target="_blank" href="/assets/images/presentation/Asante-Investor-presentation-October-23-2023.pdf" class="button -md -dark-1 bg-accent-1 text-white col-12">
+                      click here Download
                     </a>
-                </li>
-            </ui>
-            @endfor
+                    <br>
+                    <ul class="">
+                        <li>
+                            <h4>February, 2023</h4>
+                            <a href="#">
+                                <h3> Corporate Update Presentation</h3>
+                            </a>
+                        </li>
+                    </ui>
+                    <a target="_blank" href="/assets/images/presentation/Asante-Investor-presentation-October-23-2023.pdf" class="button -md -dark-1 bg-accent-1 text-white col-12">
+                      Prospect - Secondary Listing By Introduction
+                    </a>
+                    <br>
+                    <ul class="">
+                        <li>
+                            <h4>29 June, 2022</h4>
+                            <a href="#">
+                                <h3> Asante Secondary Listing By Introdiction on the GSE</h3>
+                            </a>
+                        </li>
+                    </ui>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="col-auto">
+                    <h2 class="text-62 md:text-38 uppercase fw-500 hdd">
+                        <span class="text-accent-1">Our Latest </span><br />
+                        News
+                    </h2>
+                </div>
+                @foreach($posts as $post)
+                <ul class="">
+                    <li>
+                        <h4>{{\Carbon\Carbon::parse($post['date_gmt'])->toFormattedDateString()}}</h4>
+                        <a href="#">
+                            <h3> {{$post['title']['rendered']}}</h3>
+                        </a>
+                    </li>
+                </ui>
+                @endforeach
+                <a href="{{route('news.releases')}}" class="button -md -dark-1 bg-accent-1 text-white col-12">
+                    View All News
+                </a>
+            </div>
         </div>
     </div>
 </section>

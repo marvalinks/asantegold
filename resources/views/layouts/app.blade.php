@@ -10,6 +10,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
         <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&amp;display=swap" rel="stylesheet" />
 
+        <link rel="icon" type="image/x-icon" href="/assets/images/favicon/icon01.png">
+
         <!-- Stylesheets -->
         <link rel="stylesheet" href="/assets/css/vendors.css" />
         <link rel="stylesheet" href="/assets/css/main.css" />
@@ -82,5 +84,9 @@
         <!-- JavaScript -->
         <script src="/assets/js/vendors.js"></script>
         <script src="/assets/js/main.js"></script>
+        <script src="/stocks/assets/dist/app.js"></script>
+        <script>
+            $('.elementor-button').addClass('g78');
+        </script>
     </body>
 </html>

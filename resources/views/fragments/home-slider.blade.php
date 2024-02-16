@@ -10,17 +10,17 @@
 
                         <div class="hero__content">
 
-                            <h1 class="hero__title text-white">
+                            {{-- <h1 class="hero__title text-white">
                                 Ghana Gold Producer<br />
                                 A New Residential<br />
                                 Complex
-                            </h1>
+                            </h1> --}}
 
-                            <div class="hero__button d-flex mt-30">
+                            {{-- <div class="hero__button d-flex mt-30">
                                 <a href="#" class="button -md -dark-1 bg-accent-1 text-white">
                                     DISCOVER MORE
                                 </a>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </div>
@@ -35,16 +35,16 @@
 
                         <div class="hero__content">
 
-                            <h1 class="hero__title text-white">
+                            {{-- <h1 class="hero__title text-white">
                                 Ghana Gold <br class="lg:d-none" />
                                 Producer<br class="lg:d-none" />
-                            </h1>
+                            </h1> --}}
 
-                            <div class="hero__button d-flex mt-30">
+                            {{-- <div class="hero__button d-flex mt-30">
                                 <a href="#" class="button -md -dark-1 bg-accent-1 text-white">
                                     Investor Presentation
                                 </a>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </div>
@@ -59,17 +59,17 @@
 
                         <div class="hero__content">
 
-                            <h1 class="hero__title text-white">
+                            {{-- <h1 class="hero__title text-white">
                                 Beautiful Spaces<br class="md:d-none" />
                                 In The Best<br class="md:d-none" />
                                 Places
-                            </h1>
+                            </h1> --}}
 
-                            <div class="hero__button d-flex mt-30">
+                            {{-- <div class="hero__button d-flex mt-30">
                                 <a href="#" class="button -md -dark-1 bg-accent-1 text-white">
                                     DISCOVER MORE
                                 </a>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </div>
@@ -84,7 +84,7 @@
 
                         <div class="hero__content">
 
-                            <h1 class="hero__title text-white">
+                            {{-- <h1 class="hero__title text-white">
                                 GRAND, ELEGANT<br class="lg:d-none" />
                                 AND SKY-HIGH
                             </h1>
@@ -93,7 +93,7 @@
                                 <a href="#" class="button -md -dark-1 bg-accent-1 text-white">
                                     DISCOVER MORE
                                 </a>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </div>

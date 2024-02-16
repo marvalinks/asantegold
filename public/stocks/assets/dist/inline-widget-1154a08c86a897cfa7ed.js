@@ -1,0 +1,13 @@
+/*!
+ * 
+ * Premium Stock Market Widgets
+ * -----------------------------
+ * Version 4.4.0, built on Friday, November 17, 2023
+ * Copyright (c) Financial apps and plugins <info@financialplugins.com>. All rights reserved
+ * Demo: https://stockmarketwidgets.financialplugins.com/
+ * Purchase (WordPress version): https://1.envato.market/az97R
+ * Purchase (PHP version): https://1.envato.market/AQ17o
+ * Like: https://www.facebook.com/financialplugins/
+ *
+ */
+(self.psmw59847=self.psmw59847||[]).push([[8833],{83395:(t,e,r)=>{var n={"./template.vue":30264};function s(t){var e=l(t);return r(e)}function l(t){if(!r.o(n,t)){var e=new Error("Cannot find module '"+t+"'");throw e.code="MODULE_NOT_FOUND",e}return n[t]}s.keys=function(){return Object.keys(n)},s.resolve=l,t.exports=s,s.id=83395},84655:(t,e,r)=>{"use strict";r.d(e,{Z:()=>i});var n=r(8081),s=r.n(n),l=r(23645),a=r.n(l)()(s());a.push([t.id,".smw-widget[data-v-339019f6]{color:inherit}.smw-widget[data-v-339019f6]>  div{display:inline !important}.smw-widget[data-v-339019f6]>  div .smw-placeholder{display:inline-block;vertical-align:middle}",""]);const i=a},30264:(t,e,r)=>{"use strict";r.r(e),r.d(e,{default:()=>j});var n=r(5166);var s=r(61600),l=r(89685),a=r(32448),i=["style"];function o(t,e){if(null==t)return{};var r,n,s=function(t,e){if(null==t)return{};var r,n,s={},l=Object.keys(t);for(n=0;n<l.length;n++)r=l[n],e.indexOf(r)>=0||(s[r]=t[r]);return s}(t,e);if(Object.getOwnPropertySymbols){var l=Object.getOwnPropertySymbols(t);for(n=0;n<l.length;n++)r=l[n],e.indexOf(r)>=0||Object.prototype.propertyIsEnumerable.call(t,r)&&(s[r]=t[r])}return s}const d={components:{Placeholder:a.Z},mixins:[s.Z,l.Z],computed:{attrsWithoutStyle(){var t=this.attrs,{style:e}=t;return o(t,i)}}};var u=r(93379),c=r.n(u),p=r(7795),f=r.n(p),y=r(90569),m=r.n(y),v=r(3565),w=r.n(v),b=r(19216),g=r.n(b),h=r(44589),O=r.n(h),Z=r(84655),_={};_.styleTagTransform=O(),_.setAttributes=w(),_.insert=m().bind(null,"head"),_.domAPI=f(),_.insertStyleElement=g();c()(Z.Z,_);Z.Z&&Z.Z.locals&&Z.Z.locals;const j=(0,r(83744).Z)(d,[["render",function(t,e,r,s,l,a){var i=(0,n.up)("placeholder");return(0,n.wg)(),(0,n.iD)("span",{class:(0,n.C_)(t.classes)},[(0,n.Wm)(i,{display:t.display},{default:(0,n.w5)((()=>[((0,n.wg)(),(0,n.j4)((0,n.LL)(t.widget),{attrs:a.attrsWithoutStyle,symbol:t.attrs.assets[0]},null,8,["attrs","symbol"]))])),_:1},8,["display"])],2)}],["__scopeId","data-v-339019f6"]])},86552:(t,e,r)=>{"use strict";r.r(e),r.d(e,{default:()=>l});var n=r(5166),s=r(55048);const l={__name:"type",setup:t=>(t,e)=>((0,n.wg)(),(0,n.j4)((0,n.LL)((0,n.SU)(s.y)(r(83395))),(0,n.vs)((0,n.F4)((0,n.l1)())),null,16))}}}]);

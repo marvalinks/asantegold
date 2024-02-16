@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\FinancialYear;
+use GuzzleHttp\Client;
 use Illuminate\Http\Request;
 
 class RouteModuleController extends Controller
@@ -11,7 +12,10 @@ class RouteModuleController extends Controller
     public function home(Request $request)
     {
         $projects = ['Aboduabo', 'kubi', 'keyhole', 'betenase', 'fahiakoba', 'ashanti ii project'];
-        return view('pages.home', compact('projects'));
+        $client = new Client();
+        $response = $client->get('https://asantegold.com/wp-json/wp/v2/posts?_embed&per_page=6');
+        $posts = json_decode($response->getBody(), true);
+        return view('pages.home', compact('projects', 'posts'));
     }
     public function contact(Request $request)
     {
@@ -99,5 +103,31 @@ class RouteModuleController extends Controller
     {
         $years = FinancialYear::orderBy('year', 'desc')->get();
         return view('pages.financial-statement', compact('years'));
+    }
+    public function newsReleases(Request $request)
+    {
+        $client = new Client();
+        $response = $client->get('https://asantegold.com/wp-json/wp/v2/posts?_embed');
+        $posts = json_decode($response->getBody(), true);
+        return view('pages.news.releases', compact('posts'));
+    }
+    public function newsReleasesDetails(Request $request, $slug)
+    {
+        $client = new Client();
+        $response = $client->get('https://asantegold.com/wp-json/wp/v2/posts?slug='.$slug.'&_embed');
+        $response2 = $client->get('https://asantegold.com/wp-json/wp/v2/posts?_embed');
+
+        $articles = json_decode($response->getBody(), true);
+        $posts = json_decode($response->getBody(), true);
+        if (!empty($articles) && is_array($articles)) {
+            $post = $articles[0];
+            return view('pages.news.details', compact('posts','post'));
+        } else {
+            abort(404); // Post not found
+        }
+    }
+    public function stockInfo(Request $request)
+    {
+        return view('pages.stock-info');
     }
 }

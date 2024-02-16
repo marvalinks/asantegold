@@ -30,3 +30,6 @@ Route::get('annual-meetings', [RouteModuleController::class, 'annualMeetings'])-
 Route::get('presentation', [RouteModuleController::class, 'presentation'])->name('presentation');
 Route::get('share-structure', [RouteModuleController::class, 'shareStructure'])->name('share.structure');
 Route::get('financial-statement', [RouteModuleController::class, 'financialStatement'])->name('financial.statement');
+Route::get('news-releases', [RouteModuleController::class, 'newsReleases'])->name('news.releases');
+Route::get('news-releases/{id}', [RouteModuleController::class, 'newsReleasesDetails'])->name('news.releases.details');
+Route::get('stock-information', [RouteModuleController::class, 'stockInfo'])->name('stock.information');
