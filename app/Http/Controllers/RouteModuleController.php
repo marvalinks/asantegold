@@ -46,12 +46,10 @@ class RouteModuleController extends Controller
     }
     public function bibiani(Request $request)
     {
-        
         return view('pages.operations.bibiani');
     }
     public function chirano(Request $request)
     {
-        
         
         return view('pages.operations.chirano');
     }
@@ -91,5 +89,9 @@ class RouteModuleController extends Controller
     public function presentation(Request $request)
     {
         return view('pages.investors.presentation');
+    }
+    public function shareStructure(Request $request)
+    {
+        return view('pages.share-structure');
     }
 }

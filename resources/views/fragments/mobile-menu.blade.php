@@ -75,7 +75,7 @@
                             <a href="#">Presentation</a>
                         </div>
                         <div class="submenu__item">
-                            <a href="#">Share Structure</a>
+                            <a href="{{route('share.structure')}}">Share Structure</a>
                         </div>
                         <div class="submenu__item">
                             <a href="#">Stock Information</a>
