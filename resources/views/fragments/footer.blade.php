@@ -62,13 +62,13 @@
                         </h4>
 
                         <div class="footer__list">
-                            <a href="#">About</a>
-                            <a href="#">Bibiani Gold Mine</a>
-                            <a href="#">Chirano Gold Mine</a>
-                            <a href="#">Presentation</a>
-                            <a href="#">Share Structure</a>
-                            <a href="#">Stock Information</a>
-                            <a href="#">Financial Statements</a>
+                            <a href="{{route('about')}}">About</a>
+                            <a href="{{route('operations.bibiani')}}">Bibiani Gold Mine</a>
+                            <a href="{{route('operations.chirano')}}">Chirano Gold Mine</a>
+                            <a href="{{route('presentation')}}">Presentation</a>
+                            <a href="{{route('share.structure')}}">Share Structure</a>
+                            <a href="{{route('stock.information')}}">Stock Information</a>
+                            <a href="{{route('financial.statement')}}">Financial Statements</a>
                             <a href="#">Analyst Coverage</a>
                         </div>
                     </div>
@@ -79,11 +79,11 @@
                         </h4>
 
                         <div class="footer__list">
-                            <a href="#">Facebook</a>
-                            <a href="#">Twitter</a>
-                            <a href="#">Instagram</a>
-                            <a href="#">Linkedin</a>
-                            <a href="#">YouTube</a>
+                            <a target="_blank" href="https://web.facebook.com/corpasantegold/">Facebook</a>
+                            <a target="_blank" href="https://twitter.com/corpasantegold">Twitter</a>
+                            <a target="_blank" href="https://www.instagram.com/corpasantegold/">Instagram</a>
+                            <a target="_blank" href="https://www.linkedin.com/company/corpasantegold">Linkedin</a>
+                            <a target="_blank" href="https://www.youtube.com/channel/UCxRIWKBllJmU2cd__w1lFUg">YouTube</a>
                         </div>
                     </div>
                 </div>
