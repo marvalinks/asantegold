@@ -93,7 +93,7 @@
         <div class="footer__bottom">
             <div class="row justify-between md:justify-center">
                 <div class="col-auto">
-                    <div>© 2023 Asante Gold Corporation. All Right Reserved.</div>
+                    <div>© 2024 Asante Gold Corporation. All Right Reserved.</div>
                 </div>
 
                 <div class="col-auto">

@@ -3,7 +3,7 @@
 @section('content')
 <section data-anim-wrap="" class="pageHeader -type-1 animated">
     <div data-anim-child="fade delay-1" class="pageHeader__image is-in-view">
-      <img src="/assets/images/backgrounds/bg06.jpg" alt="image">
+      <img src="/assets/images/abt.jpg" alt="image">
     </div>
 
     <div class="container">
@@ -15,7 +15,7 @@
 </section>
 <section class="layout-pt-lg">
   <div class="container">
-    <div data-anim-child="slide-up delay-1" class="col-xl-6 col-lg-6 md:order-1 is-in-view">
+    <div data-anim-child="slide-up delay-1" class="col-xl-10 col-lg-10 md:order-1 is-in-view">
       <h2 class="text-62 md:text-38 uppercase fw-500">Asante Gold  <span class="text-accent-1">Corporation</span></h2>
   
       <p class="mt-60 md:mt-30">Asante is a gold exploration, development and operating company with a high-quality portfolio of projects and mines in Ghana.</p>
