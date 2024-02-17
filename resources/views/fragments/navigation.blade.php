@@ -64,7 +64,7 @@
                             <a href="{{route('share.structure')}}">Share Structure</a>
                         </div>
                         <div class="headerMenuSubnav__item">
-                            <a href="#">Stock Information</a>
+                            <a href="{{route('stock.information')}}">Stock Information</a>
                         </div>
                         <div class="headerMenuSubnav__item">
                             <a href="{{route('financial.statement')}}">Financial Statements</a>

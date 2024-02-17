@@ -30,13 +30,13 @@
                 <div class="submenu js-submenu">
                     <div class="submenu__wrap">
                         <div class="submenu__item">
-                            <a href="#">Bibiani Gold Mine</a>
+                            <a href="{{route('operations.bibiani')}}">Bibiani Gold Mine</a>
                         </div>
                         <div class="submenu__item">
-                            <a href="#">Chirano Gold Mine</a>
+                            <a href="{{route('operations.chirano')}}">Chirano Gold Mine</a>
                         </div>
                         <div class="submenu__item">
-                            <a href="#">Our Projects</a>
+                            <a href="{{route('projects')}}">Our Projects</a>
                         </div>
                     </div>
                 </div>
@@ -66,22 +66,22 @@
                 <div class="submenu js-submenu">
                     <div class="submenu__wrap">
                         <div class="submenu__item">
-                            <a href="#">Annual And Special General Meeting</a>
+                            <a href="{{route('annual.meetings')}}">Annual And Special General Meeting</a>
                         </div>
                         <div class="submenu__item">
-                            <a href="#">News Releases</a>
+                            <a href="{{route('news.releases')}}">News Releases</a>
                         </div>
                         <div class="submenu__item">
-                            <a href="#">Presentation</a>
+                            <a href="{{route('presentation')}}">Presentation</a>
                         </div>
                         <div class="submenu__item">
                             <a href="{{route('share.structure')}}">Share Structure</a>
                         </div>
                         <div class="submenu__item">
-                            <a href="#">Stock Information</a>
+                            <a href="{{route('stock.information')}}">Stock Information</a>
                         </div>
                         <div class="submenu__item">
-                            <a href="#">Financial Statements</a>
+                            <a href="{{route('financial.statement')}}">Financial Statements</a>
                         </div>
                         <div class="submenu__item">
                             <a href="#">Analyst Coverage</a>

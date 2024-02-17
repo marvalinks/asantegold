@@ -214,7 +214,7 @@
                         </div>
 
                         <h3 class="imageCard__title text-white">
-                            <a href="#">BIBIANI GOLD MINE</a>
+                            <a href="{{route('operations.bibiani')}}">BIBIANI GOLD MINE</a>
                         </h3>
                     </div>
                 </div>
@@ -226,7 +226,7 @@
                         </div>
 
                         <h3 class="imageCard__title text-white">
-                            <a href="#">CHIRANO GOLD MINE</a>
+                            <a href="{{route('operations.chirano')}}">CHIRANO GOLD MINE</a>
                         </h3>
                     </div>
                 </div>
