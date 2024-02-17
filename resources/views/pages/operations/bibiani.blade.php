@@ -18,22 +18,22 @@
 
 @section('content')
 <section data-anim-wrap="" class="pageHeader -type-1 animated">
-    <div data-anim-child="fade delay-1" class="pageHeader__image is-in-view">
-      <img src="/assets/images/Bibiani.jpg" alt="image">
-    </div>
+  <div data-anim-child="fade delay-1" class="pageHeader__image is-in-view">
+    <img src="/assets/images/Bibiani.jpg" alt="image">
+  </div>
 
-    <div class="container">
-      <h1 data-anim-child="slide-up delay-1" class="pageHeader__title is-in-view">Bibiani</h1>
-    </div>
+  <div class="container">
+    <h1 data-anim-child="slide-up delay-1" class="pageHeader__title is-in-view">Bibiani</h1>
+  </div>
 </section>
 <section>
-    <div class="row gl-2">
-        <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-3 bg-wht"></a>
-        <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-3 bg-wht"></a>
-        <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-3 bg-wht"></a>
-        <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-3 nhk">Download Bibiani Technical Report</a>
-    </div>
+  <div class="row gl-2">
+      <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-4 bg-wht"></a>
+      <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-4 bg-wht"></a>
+      <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-4">Download Bibiani Technical Report</a>
+  </div>
 </section>
+
 <section class="layout-pt-lg pj">
   <div class="container">
     {{--  --}}
