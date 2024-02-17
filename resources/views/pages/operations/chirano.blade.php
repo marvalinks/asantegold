@@ -1,5 +1,21 @@
 @extends('layouts.app')
 
+@section('scripts')
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Get all elements with class 'elementor-button'
+        const buttons = document.querySelectorAll('.nhk');
+
+        // Loop through each button element
+        buttons.forEach(button => {
+            // Add additional class to the button element
+            button.classList.add('col-12');
+        });
+    });
+
+  </script>
+@endsection
+
 @section('content')
 <section data-anim-wrap="" class="pageHeader -type-1 animated">
     <div data-anim-child="fade delay-1" class="pageHeader__image is-in-view">

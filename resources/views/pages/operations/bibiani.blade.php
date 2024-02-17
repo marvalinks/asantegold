@@ -1,5 +1,21 @@
 @extends('layouts.app')
 
+@section('scripts')
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Get all elements with class 'elementor-button'
+        const buttons = document.querySelectorAll('.nhk');
+
+        // Loop through each button element
+        buttons.forEach(button => {
+            // Add additional class to the button element
+            button.classList.add('col-12');
+        });
+    });
+
+  </script>
+@endsection
+
 @section('content')
 <section data-anim-wrap="" class="pageHeader -type-1 animated">
     <div data-anim-child="fade delay-1" class="pageHeader__image is-in-view">
@@ -15,7 +31,7 @@
         <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-3 bg-wht"></a>
         <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-3 bg-wht"></a>
         <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-3 bg-wht"></a>
-        <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-3">Download Bibiani Technical Report</a>
+        <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-3 nhk">Download Bibiani Technical Report</a>
     </div>
 </section>
 <section class="layout-pt-lg pj">
