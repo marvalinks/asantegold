@@ -189,4 +189,7 @@ body {
     #smdf2 {
         display: none;
     }
+    .imageSliderNav {
+        top: 50%;
+    }
 }

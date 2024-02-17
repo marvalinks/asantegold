@@ -47,12 +47,13 @@
                         </div>
                         <div class="footer__list">
                             <div>
-                                17 Jungle Avenue<br class="md:d-none" />
-                                East Legon, Accra - Ghana.
+                                John Grygorcewics<br class="md:d-none" />
+                                The Chief Financial Officer
                             </div>
-                            <div>info@asantegold.com</div>
-                            <div>+233-303-972-147</div>
-                            <div>Opening Hours: 8:00 — 17:00</div>
+                            <div>Asante Gold Corporation</div>
+                            <div>Suit 615-800 West Pender Street</div>
+                            <div>Vancouver, British Columbia</div>
+                            <div>Canada</div>
                         </div>
                     </div>
 
