@@ -85,6 +85,7 @@
         <script src="/assets/js/vendors.js"></script>
         <script src="/assets/js/main.js"></script>
         <script src="/stocks/assets/dist/app.js"></script>
+        @yield('scripts')
         {{-- <script>
             $('.elementor-button').addClass('g78');
         </script> --}}
