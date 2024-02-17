@@ -164,6 +164,9 @@ body {
 #smdf {
     display: none;
 }
+#smdf2 {
+    display: block;
+}
 @media (max-width: 767px) {
     .menu .menuNav__item + * {
         margin-top: 28px;
@@ -182,5 +185,8 @@ body {
     }
     #smdf {
         display: block;
+    }
+    #smdf2 {
+        display: none;
     }
 }

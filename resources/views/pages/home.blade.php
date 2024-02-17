@@ -73,11 +73,14 @@
         <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
             {
                 "symbols": [
-                
-                {
-                    "description": "FRANKFURT EXCHANGE",
-                    "proName": "FWB:1A9"
-                }
+                    {
+                        "description": "FRANKFURT EXCHANGE",
+                        "proName": "FWB:1A9"
+                    },
+                    {
+                        "description": "GOLD",
+                        "proName": "COMEX:GC1!"
+                    }
                 ],
                 "isTransparent": false,
                 "showSymbolLogo": true,
