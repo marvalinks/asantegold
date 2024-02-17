@@ -45,11 +45,8 @@
                             <div>+233-303-972-147</div>
                             <div>Opening Hours: 8:00 — 17:00</div>
                         </div>
+                        <hr>
                         <div class="footer__list">
-                            <div>
-                                John Grygorcewics<br class="md:d-none" />
-                                The Chief Financial Officer
-                            </div>
                             <div>Asante Gold Corporation</div>
                             <div>Suit 615-800 West Pender Street</div>
                             <div>Vancouver, British Columbia</div>
