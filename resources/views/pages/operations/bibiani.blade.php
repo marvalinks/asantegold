@@ -19,7 +19,7 @@
 @section('content')
 <section data-anim-wrap="" class="pageHeader -type-1 animated">
   <div data-anim-child="fade delay-1" class="pageHeader__image is-in-view">
-    <img src="/assets/images/Bibiani.jpg" alt="image">
+    <img src="/assets/images/bibiani.jpg" alt="image">
   </div>
 
   <div class="container">
