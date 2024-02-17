@@ -149,7 +149,7 @@
                 <ul class="">
                     <li>
                         <h4>{{\Carbon\Carbon::parse($post['date_gmt'])->toFormattedDateString()}}</h4>
-                        <a href="#">
+                        <a href="{{route('news.releases.details', [$post['slug']])}}">
                             <h3> {{$post['title']['rendered']}}</h3>
                         </a>
                     </li>
