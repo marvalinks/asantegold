@@ -34,7 +34,7 @@
             <div class="col-md-6">
                 <ul>
                     <li style="padding-bottom: 20px;">
-                        <a target="_blank" href="https://asantegold.com/defaults/2023/06/E099633-2022-ESTMA-Report-Asante-Gold-Corporation.pdf" class="button -md -dark-1 bg-accent-1 text-white col-12">
+                        <a target="_blank" href="https://drive.google.com/file/d/1uf9flcBc68_N-7OgiYkY0_OdNHJSEFCa/view?usp=drive_link" class="button -md -dark-1 bg-accent-1 text-white col-12">
                             DOWNLOAD  –  ASANTE GOLD ESTMA 2022 REPORT 
                         </a>
                     </li>
