@@ -142,6 +142,25 @@ body {
 .ert .tradingview-widget-container {
     height: 500px !important;
 }
+.yt button {
+    width: 100%;
+}
+.yt .col-auto {
+    width: 30%;
+}
+.bg-wht {
+    background: white !important;
+}
+.pj ul {
+    padding: 45px;
+}
+.pj li {
+    list-style: circle;
+    padding-bottom: 15px;
+}
+.pj button.is-tab-el-active {
+    background-color: #10100f !important;
+}
 @media (max-width: 767px) {
     .menu .menuNav__item + * {
         margin-top: 28px;
