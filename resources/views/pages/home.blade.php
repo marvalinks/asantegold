@@ -59,6 +59,10 @@
                 {
                     "description": "FRANKFURT EXCHANGE",
                     "proName": "FWB:1A9"
+                },
+                {
+                    "description": "GOLD",
+                    "proName": "COMEX:GC1!"
                 }
                 ],
                 "isTransparent": false,
