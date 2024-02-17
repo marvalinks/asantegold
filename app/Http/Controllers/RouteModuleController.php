@@ -13,7 +13,7 @@ class RouteModuleController extends Controller
     {
         $projects = ['Aboduabo', 'kubi', 'keyhole', 'betenase', 'fahiakoba', 'ashanti ii project'];
         $client = new Client();
-        $response = $client->get('https://asantegold.com/wp-json/wp/v2/posts?_embed&per_page=6');
+        $response = $client->get('https://wp.asantegold.com/wp-json/wp/v2/posts?_embed&per_page=6');
         $posts = json_decode($response->getBody(), true);
         // $posts = [];
         return view('pages.home', compact('projects', 'posts'));
@@ -116,8 +116,8 @@ class RouteModuleController extends Controller
     public function newsReleasesDetails(Request $request, $slug)
     {
         $client = new Client();
-        $response = $client->get('https://asantegold.com/wp-json/wp/v2/posts?slug='.$slug.'&_embed');
-        $response2 = $client->get('https://asantegold.com/wp-json/wp/v2/posts?_embed');
+        $response = $client->get('https://wp.asantegold.com/wp-json/wp/v2/posts?slug='.$slug.'&_embed');
+        $response2 = $client->get('https://wp.asantegold.com/wp-json/wp/v2/posts?_embed');
 
         $articles = json_decode($response->getBody(), true);
         $posts = json_decode($response->getBody(), true);
