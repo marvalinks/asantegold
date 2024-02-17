@@ -76,13 +76,13 @@
     <div class="container">
       <div data-anim-wrap="" class="row y-gap-30 justify-between animated">
         <div class="col-xl-5 col-lg-6 md:order-2">
-          <div data-anim-child="slide-up delay-3" class="relative is-in-view">
-            <img src="/assets/images/2.jpg" alt="image">
+            <div data-anim-child="slide-up delay-1" class="relative is-in-view">
+              <img src="/assets/images/2.jpg" alt="image">
 
-            <a target="_blank" href="https://www.youtube.com/watch?v=7N3g2xgzSkc" class="play-button bg-dark-1 text-white">
-              <i class="icon-play text-30"></i>
-            </a>
-          </div>
+              <a href="https://www.youtube.com/watch?v=7N3g2xgzSkc" class="play-button bg-dark-1 text-white js-gallery" data-gallery="gallery1">
+                <i class="icon-play text-30"></i>
+              </a>
+            </div>
         </div>
 
         <div data-anim-child="slide-up delay-1" class="col-xl-6 col-lg-6 md:order-1 is-in-view">
