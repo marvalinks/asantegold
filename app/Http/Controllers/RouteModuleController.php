@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ContactEmail;
 use App\Models\FinancialYear;
 use GuzzleHttp\Client;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class RouteModuleController extends Controller
 {
@@ -21,6 +23,17 @@ class RouteModuleController extends Controller
     public function contact(Request $request)
     {
         return view('pages.contact');
+    }
+    public function contactPost(Request $request)
+    {
+        // dd($request->all());
+        $data = $request->validate([
+            'name' => 'required', 'subject' => 'required',
+            'message' => 'required', 'email' => 'required',
+            'timestamp' => 'required|integer|before_or_equal:' . now()->timestamp
+        ]);
+        Mail::to('info@asantegold.com')->send(new ContactEmail($data));
+        return redirect()->route('thankyou');
     }
     public function careers(Request $request)
     {
@@ -131,5 +144,9 @@ class RouteModuleController extends Controller
     public function stockInfo(Request $request)
     {
         return view('pages.stock-info');
+    }
+    public function thankyou(Request $request)
+    {
+        return view('pages.thankyou');
     }
 }

@@ -98,32 +98,41 @@
             </div>
         </div>
 
-        <div class="row justify-center pt-60 md:pt-30">
-            <div class="col-xl-6 col-lg-8 col-md-10">
-                <div class="contactForm">
-                    <div class="contactForm__field">
-                        <div class="contactForm__caption">Name</div>
-                        <input type="text" />
-                    </div>
-
-                    <div class="contactForm__field mt-30">
-                        <div class="contactForm__caption">email</div>
-                        <input type="text" />
-                    </div>
-
-                    <div class="contactForm__field mt-30">
-                        <div class="contactForm__caption">message</div>
-                        <input type="text" />
-                    </div>
-
-                    <div class="mt-30">
-                        <button class="button -md -dark-1 bg-accent-1 text-white col-12">
-                            SEND REQUEST
-                        </button>
+        <form action="{{route('contactus')}}" method="post">
+            @csrf
+            <div class="row justify-center pt-60 md:pt-30">
+                <div class="col-xl-6 col-lg-8 col-md-10">
+                    <div class="contactForm">
+                        <div class="contactForm__field">
+                            <div class="contactForm__caption">Name</div>
+                            <input type="text" name="name" required/>
+                        </div>
+    
+                        <div class="contactForm__field mt-30">
+                            <div class="contactForm__caption">email</div>
+                            <input type="text" name="email" required />
+                        </div>
+                        <div class="contactForm__field mt-30">
+                            <div class="contactForm__caption">subject</div>
+                            <input type="text" name="subject" required />
+                        </div>
+    
+                        <div class="contactForm__field mt-30">
+                            <div class="contactForm__caption">message</div>
+                            <input type="text" name="message" required />
+                        </div>
+                        <input type="hidden" name="timestamp" value="{{ now()->timestamp }}">
+                        <input type="hidden" name="ip_address" value="{{ request()->ip() }}">
+    
+                        <div class="mt-30">
+                            <button type="submit" class="button -md -dark-1 bg-accent-1 text-white col-12">
+                                SEND REQUEST
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </form>
     </div>
 </section>
 

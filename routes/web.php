@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [RouteModuleController::class, 'home'])->name('home');
 Route::get('contact', [RouteModuleController::class, 'contact'])->name('contactus');
+Route::post('contact', [RouteModuleController::class, 'contactPost'])->name('contactus');
 Route::get('careers', [RouteModuleController::class, 'careers'])->name('careers');
 Route::get('about', [RouteModuleController::class, 'about'])->name('about');
 Route::get('about/executive-team', [RouteModuleController::class, 'executive'])->name('about.executive');
@@ -33,3 +34,5 @@ Route::get('financial-statement', [RouteModuleController::class, 'financialState
 Route::get('news-releases', [RouteModuleController::class, 'newsReleases'])->name('news.releases');
 Route::get('news-releases/{id}', [RouteModuleController::class, 'newsReleasesDetails'])->name('news.releases.details');
 Route::get('stock-information', [RouteModuleController::class, 'stockInfo'])->name('stock.information');
+
+Route::get('thankyou/notification', [RouteModuleController::class, 'thankyou'])->name('thankyou');

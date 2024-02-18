@@ -11,6 +11,22 @@
     </style>
 @endsection
 
+@section('scripts')
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Get all elements with class 'elementor-button'
+      const buttons = document.querySelectorAll('.tv-ticker-item-change__last');
+
+      // Loop through each button element
+      buttons.forEach(button => {
+          // Add additional class to the button element
+          button.classList.add('ovfgt');
+      });
+  });
+
+  </script>
+@endsection
+
 @section('content')
 @include('fragments.home-slider')
 

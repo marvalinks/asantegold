@@ -22,6 +22,11 @@
         </div>
 
         <div class="row y-gap-30 justify-center pt-40 sm:pt-20 jobs">
+            <div class="container">
+                <p style="text-align: center;">No jobs currently available</p>
+            </div>
+        </div>
+        {{-- <div class="row y-gap-30 justify-center pt-40 sm:pt-20 jobs">
             <div class="col-xl-8 col-lg-10">
                 <div class="accordion -simple row js-accordion">
                     <div class="col-12">
@@ -105,7 +110,7 @@
 
                 </div>
             </div>
-        </div>
+        </div> --}}
     </div>
 </section>
 <br><br>
