@@ -59,7 +59,7 @@
   
       <div class="tabs__content js-tabs-content">
           <div class="tabs__pane -tab-item-1 is-tab-el-active">
-              <h2 class="text-accent-1">CHIRANO – BUSINESS IMPROVEMENT</h2>
+              <h2 class="text-accent-1">CHIRANO – BUSINESS IMPROVEMENT</h2> <br><br>
               <p>
                 Increase gold production by 45% and reduce AISC by 20% by 2024
               </p>
@@ -77,7 +77,7 @@
           </div>
   
           <div class="tabs__pane -tab-item-2">
-            <h2 class="text-accent-1">Process Plant</h2>
+            <h2 class="text-accent-1">Process Plant</h2> <br><br>
             <p>
               Install Gravity Recovery Plant – completion November 2023
             </p> <br>
@@ -92,7 +92,7 @@
           </div>
   
           <div class="tabs__pane -tab-item-3">
-            <h2 class="text-accent-1">RESULTS</h2>
+            <h2 class="text-accent-1">RESULTS</h2> <br><br>
             <p>
               Gold recovery has increased from 85 to 87% and is planned to increase further, to 92% at Q1 2024 with completion of gravity recovery and oxygen plants, plus Aachen reactor and upgrade of grinding classification system
             </p> <br>
