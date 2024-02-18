@@ -11,7 +11,7 @@
 
         <h3 class="imageCard__title text-dark-1">{{$project}}</h3>
         <p class="imageCard__text text-dark-1">
-            <a href="{{route('projects.details', [$project])}}">View project</a>
+            <a href="#">View project</a>
         </p>
     </a>
 </div>

@@ -26,6 +26,7 @@
                 <p style="text-align: center;">No jobs currently available</p>
             </div>
         </div>
+        
         {{-- <div class="row y-gap-30 justify-center pt-40 sm:pt-20 jobs">
             <div class="col-xl-8 col-lg-10">
                 <div class="accordion -simple row js-accordion">
@@ -111,6 +112,43 @@
                 </div>
             </div>
         </div> --}}
+
+        <div class="row y-gap-30 justify-center pt-40 sm:pt-20 jobs">
+            <form action="{{route('careers')}}" enctype="multipart/form-data" autocomplete="off" method="post">
+                @csrf
+                <div class="row justify-center pt-60 md:pt-30">
+                    <div class="col-xl-6 col-lg-8 col-md-10">
+                        <div class="contactForm">
+                            <div class="contactForm__field">
+                                <div class="contactForm__caption">Name</div>
+                                <input type="text" name="name" required/>
+                            </div>
+        
+                            <div class="contactForm__field mt-30">
+                                <div class="contactForm__caption">email</div>
+                                <input type="text" name="email" required />
+                            </div>
+                            <div class="contactForm__field mt-30">
+                                <div class="contactForm__caption">Cover Letter</div>
+                                <input type="file" name="cover_letter" required />
+                            </div>
+                            <div class="contactForm__field mt-30">
+                                <div class="contactForm__caption">CV</div>
+                                <input type="file" name="cv" required />
+                            </div>
+                            <input type="hidden" name="timestamp" value="{{ now()->timestamp }}">
+                            <input type="hidden" name="ip_address" value="{{ request()->ip() }}">
+        
+                            <div class="mt-30">
+                                <button type="submit" class="button -md -dark-1 bg-accent-1 text-white col-12">
+                                    SUBMIT REQUEST
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
 </section>
 <br><br>

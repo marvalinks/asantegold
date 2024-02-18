@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\CareerEmail;
 use App\Mail\ContactEmail;
 use App\Models\FinancialYear;
 use GuzzleHttp\Client;
@@ -38,6 +39,19 @@ class RouteModuleController extends Controller
     public function careers(Request $request)
     {
         return view('pages.careers');
+    }
+    public function careerPost(Request $request)
+    {
+        // dd($request->all());
+        return redirect()->route('thankyou');
+        $data = $request->validate([
+            'name' => 'required', 'email' => 'required',
+            'timestamp' => 'required|integer|before_or_equal:' . now()->timestamp,
+            'cover_letter' => 'required|mimes:pdf|max:10000', 'cv' => 'required|mimes:pdf|max:10000'
+        ]);
+        Mail::to('bludohric@gmail.com')->send(new CareerEmail($data));
+        dd('done');
+        return redirect()->route('thankyou');
     }
     public function about(Request $request)
     {

@@ -18,6 +18,7 @@ Route::get('/', [RouteModuleController::class, 'home'])->name('home');
 Route::get('contact', [RouteModuleController::class, 'contact'])->name('contactus');
 Route::post('contact', [RouteModuleController::class, 'contactPost'])->name('contactus');
 Route::get('careers', [RouteModuleController::class, 'careers'])->name('careers');
+Route::post('careers', [RouteModuleController::class, 'careerPost'])->name('careers');
 Route::get('about', [RouteModuleController::class, 'about'])->name('about');
 Route::get('about/executive-team', [RouteModuleController::class, 'executive'])->name('about.executive');
 Route::get('about/governance', [RouteModuleController::class, 'governance'])->name('about.governance');
