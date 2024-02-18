@@ -1,6 +1,6 @@
 @foreach ($projects as $project)
 <div class="col-xl-4 col-md-6">
-    <a href="{{route('projects.details', [$project])}}" class="imageCard -type-2 hover-btn-explore">
+    <a href="#" class="imageCard -type-2 hover-btn-explore">
         <div class="imageCard__image relative ratio ratio-45:40">
             <img src="/assets/images/projects/{{str_replace(' ', '-', strtolower($project))}}.jpg" alt="image" class="img-ratio" />
 
