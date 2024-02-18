@@ -35,5 +35,6 @@ Route::get('financial-statement', [RouteModuleController::class, 'financialState
 Route::get('news-releases', [RouteModuleController::class, 'newsReleases'])->name('news.releases');
 Route::get('news-releases/{id}', [RouteModuleController::class, 'newsReleasesDetails'])->name('news.releases.details');
 Route::get('stock-information', [RouteModuleController::class, 'stockInfo'])->name('stock.information');
+Route::get('about/{dep}/{id}', [RouteModuleController::class, 'profileDetails'])->name('profile.details');
 
 Route::get('thankyou/notification', [RouteModuleController::class, 'thankyou'])->name('thankyou');

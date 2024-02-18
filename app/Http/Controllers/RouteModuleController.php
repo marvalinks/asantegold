@@ -4,9 +4,13 @@ namespace App\Http\Controllers;
 
 use App\Mail\CareerEmail;
 use App\Mail\ContactEmail;
+use App\Models\DirectorTeam;
+use App\Models\ExecutiveTeam;
 use App\Models\FinancialYear;
+use App\Models\GovernanceTeam;
 use GuzzleHttp\Client;
 use Illuminate\Http\Request;
+use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Mail;
 
 class RouteModuleController extends Controller
@@ -55,19 +59,44 @@ class RouteModuleController extends Controller
     }
     public function about(Request $request)
     {
+        // dd(Str::slug('Richmong MArtison'));
+        // $aa = GovernanceTeam::latest()->get();
+        // foreach ($aa as $key => $a) {
+        //     $a->slug = Str::slug($a->name);
+        //     $a->save();
+        // }
         return view('pages.about');
     }
     public function executive(Request $request)
     {
-        return view('pages.executive');
+        $teams = ExecutiveTeam::latest()->get();
+        return view('pages.executive', compact('teams'));
     }
     public function governance(Request $request)
     {
-        return view('pages.governance');
+        $teams = GovernanceTeam::latest()->get();
+        return view('pages.governance', compact('teams'));
     }
     public function directors(Request $request)
     {
-        return view('pages.directors');
+        $teams = DirectorTeam::latest()->get();
+        return view('pages.directors', compact('teams'));
+    }
+    public function profileDetails(Request $request, $dep, $id)
+    {
+        if($dep == 'executive') {
+            $team = ExecutiveTeam::where('slug', $id)->first();
+            return view('pages.profile-details', compact('team'));
+        }
+        if($dep == 'director') {
+            $team = DirectorTeam::where('slug', $id)->first();
+            return view('pages.profile-details', compact('team'));
+        }
+        if($dep == 'governance') {
+            $team = GovernanceTeam::where('slug', $id)->first();
+            return view('pages.profile-details', compact('team'));
+        }
+        die('view not found');
     }
     public function estmaReports(Request $request)
     {

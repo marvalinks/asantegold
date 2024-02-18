@@ -14,38 +14,22 @@
     @include('fragments.about-menu')
 </section>
 <section class="layout-pt-lg layout-pb-lg bg-accent-2">
-<div class="container">
+    <div class="container">
         <div class="row y-gap-30">
-        <div class="col-lg-3 col-sm-6">
-                <div class="teamCard -type-1">
-                    <div class="teamCard__image ratio ratio-33:35">
-                    <img src="/assets/images/Executive/Dave.jpg" alt="image" class="img-ratio">
-                    </div>
-
-                    <h3 class="teamCard__title text-20 mt-20 uppercase">Dave Anthony</h3>
-                    <div class="teamCard__job uppercase">President & CEO</div>
-                </div>
-            </div>
+            @foreach ($teams as $team)
             <div class="col-lg-3 col-sm-6">
                 <div class="teamCard -type-1">
-                    <div class="teamCard__image ratio ratio-33:35">
-                    <img src="/assets/images/Executive/Fred.jpg" alt="image" class="img-ratio">
-                    </div>
-
-                    <h3 class="teamCard__title text-20 mt-20 uppercase">Frederick Attakumah</h3>
-                    <div class="teamCard__job uppercase">Executive Vice President & Country Director</div>
+                    <a href="{{route('profile.details', ['executive', $team->slug])}}">
+                        <div class="teamCard__image ratio ratio-33:35">
+                            <img src="{{$team->image_url}}" alt="image" class="img-ratio">
+                        </div>
+        
+                        <h3 class="teamCard__title text-20 mt-20 uppercase">{{$team->name}}</h3>
+                        <div class="teamCard__job uppercase">{{$team->position}}</div>
+                    </a>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="teamCard -type-1">
-                    <div class="teamCard__image ratio ratio-33:35">
-                    <img src="/assets/images/Executive/David.jpg" alt="image" class="img-ratio">
-                    </div>
-
-                    <h3 class="teamCard__title text-20 mt-20 uppercase">David Wiens</h3>
-                    <div class="teamCard__job uppercase">Chief Financial Officer</div>
-                </div>
-            </div>
+            @endforeach
         </div>
     </div>
 </section>
