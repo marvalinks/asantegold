@@ -164,7 +164,7 @@ class RouteModuleController extends Controller
     public function newsReleases(Request $request)
     {
         $client = new Client();
-        $response = $client->get('https://asantegold.com/wp-json/wp/v2/posts?_embed');
+        $response = $client->get('https://wp.asantegold.com/wp-json/wp/v2/posts?_embed');
         $posts = json_decode($response->getBody(), true);
         // $posts = [];
         return view('pages.news.releases', compact('posts'));
