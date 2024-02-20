@@ -66,7 +66,7 @@
                 </h5>
                 <p><small>{{$event->location_str}}</small></p>
                 <div class="mt-30">
-                    <a href="{{$event->url}}" target="_blank" class="button -md -outline-accent-1 text-18 text-accent-1 col-4 add-to-calendar">
+                    <a href="{{$event->url}}" target="_blank" class="button -md -outline-accent-1 text-18 text-accent-1 col-xs-12 col-md-4 add-to-calendar">
                         ADD TO CALENDAR
                     </a>
                 </div>
