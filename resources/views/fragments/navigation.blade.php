@@ -86,7 +86,7 @@
                             <a href="#">Video Gallery</a>
                         </div>
                         <div class="headerMenuSubnav__item">
-                            <a href="#">Events</a>
+                            <a href="{{route('events')}}">Events</a>
                         </div>
                         <div class="headerMenuSubnav__item">
                             <a href="#">Media Activities</a>

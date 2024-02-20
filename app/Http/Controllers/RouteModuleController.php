@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Mail\CareerEmail;
 use App\Mail\ContactEmail;
 use App\Models\DirectorTeam;
+use App\Models\Event;
 use App\Models\ExecutiveTeam;
 use App\Models\FinancialYear;
 use App\Models\GovernanceTeam;
@@ -191,5 +192,15 @@ class RouteModuleController extends Controller
     public function thankyou(Request $request)
     {
         return view('pages.thankyou');
+    }
+    public function events(Request $request)
+    {
+        $events = Event::latest()->get();
+        return view('pages.events.event', compact('events'));
+    }
+    public function eventDetail(Request $request, $slug)
+    {
+        $event = Event::where('slug', $slug)->first();
+        return view('pages.events.details', compact('event'));
     }
 }

@@ -105,7 +105,7 @@
                             <a href="#">Video Gallery</a>
                         </div>
                         <div class="submenu__item">
-                            <a href="#">Events</a>
+                            <a href="{{route('events')}}">Events</a>
                         </div>
                         <div class="submenu__item">
                             <a href="#">Media Activities</a>
@@ -125,7 +125,7 @@
 
     <div class="menu__right">
         <div class="menuImage js-menuImage">
-            <img src="/assets/img/menu/1.png" alt="image" />
+            <img src="/assets/images/Chirano.jpg" alt="image" />
         </div>
     </div>
 

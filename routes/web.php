@@ -36,5 +36,7 @@ Route::get('news-releases', [RouteModuleController::class, 'newsReleases'])->nam
 Route::get('news-releases/{id}', [RouteModuleController::class, 'newsReleasesDetails'])->name('news.releases.details');
 Route::get('stock-information', [RouteModuleController::class, 'stockInfo'])->name('stock.information');
 Route::get('about/{dep}/{id}', [RouteModuleController::class, 'profileDetails'])->name('profile.details');
+Route::get('events', [RouteModuleController::class, 'events'])->name('events');
+Route::get('events/{slug}', [RouteModuleController::class, 'eventDetail'])->name('event.details');
 
 Route::get('thankyou/notification', [RouteModuleController::class, 'thankyou'])->name('thankyou');
