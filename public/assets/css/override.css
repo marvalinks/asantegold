@@ -174,7 +174,8 @@ body {
     font-size: 30px !important;
 }
 .opop .img-ratio {
-    object-fit: contain !important;
+    /* object-fit: contain !important; */
+    object-position: top;
 }
 @media (max-width: 767px) {
     .menu .menuNav__item + * {
