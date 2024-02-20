@@ -62,7 +62,7 @@
             <div class="col-md-12 event" class="event" data-title="{{$event->name}}" data-start="{{$event->start_date}}" data-end="{{$event->end_date}}" data-description="{{$event->name}}" data-location="{{$event->location_str}}">
                 <p>{{$event->date_str}}</p>
                 <h5 class="text-accent-1">
-                    <a href="{{route('event.details', [$event->slug])}}">{{$event->name}}</a>
+                    <a href="#">{{$event->name}}</a>
                 </h5>
                 <p><small>{{$event->location_str}}</small></p>
                 <div class="mt-30">
