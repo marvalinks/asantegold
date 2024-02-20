@@ -13,7 +13,7 @@
 <section>
     @include('fragments.about-menu')
 </section>
-<section class="layout-pt-lg layout-pb-lg bg-accent-2">
+<section class="layout-pt-lg layout-pb-lg bg-accent-2 opop">
 <div class="container">
     <div class="row y-gap-30">
         @foreach ($teams as $team)
