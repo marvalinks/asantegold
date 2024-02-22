@@ -70,7 +70,7 @@
                             <a href="{{route('financial.statement')}}">Financial Statements</a>
                         </div>
                         <div class="headerMenuSubnav__item">
-                            <a href="#">Analyst Coverage</a>
+                            <a href="{{route('analyst.coverage')}}">Analyst Coverage</a>
                         </div>
                     </div>
                 </div>

@@ -27,10 +27,8 @@
     </div>
 </section>
 <section>
-    <div class="row gl-2">
-        <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-4 bg-wht"></a>
-        <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-4 bg-wht"></a>
-        <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-4">Download Chirano Technical Report</a>
+    <div class="row gl-2" style="justify-content: end;">
+        <a href="https://drive.google.com/file/d/1NfAXd4jpUcjX7Gf_hFszXDh9QPqSDVor/view?usp=drive_link" target="_blank" class="button -md -dark-1 bg-accent-1 text-white col-md-4 col-xs-12">Download Chirano Technical Report</a>
     </div>
 </section>
 <section class="layout-pt-lg pj">

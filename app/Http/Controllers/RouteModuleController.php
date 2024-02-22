@@ -203,4 +203,8 @@ class RouteModuleController extends Controller
         $event = Event::where('slug', $slug)->first();
         return view('pages.events.details', compact('event'));
     }
+    public function analystCoverage(Request $request)
+    {
+        return view('pages.analyst-coverage');
+    }
 }

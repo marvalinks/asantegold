@@ -171,7 +171,7 @@
                         <li>
                             <h4>29 June, 2022</h4>
                             <a href="#">
-                                <h3> Asante Secondary Listing By Introdiction on the GSE</h3>
+                                <h3> Asante Secondary Listing By Introduction on the GSE</h3>
                             </a>
                         </li>
                     </ui>

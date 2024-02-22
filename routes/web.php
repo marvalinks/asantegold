@@ -38,5 +38,6 @@ Route::get('stock-information', [RouteModuleController::class, 'stockInfo'])->na
 Route::get('about/{dep}/{id}', [RouteModuleController::class, 'profileDetails'])->name('profile.details');
 Route::get('events', [RouteModuleController::class, 'events'])->name('events');
 Route::get('events/{slug}', [RouteModuleController::class, 'eventDetail'])->name('event.details');
+Route::get('analyst-coverage', [RouteModuleController::class, 'analystCoverage'])->name('analyst.coverage');
 
 Route::get('thankyou/notification', [RouteModuleController::class, 'thankyou'])->name('thankyou');

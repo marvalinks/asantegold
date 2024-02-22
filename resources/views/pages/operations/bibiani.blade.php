@@ -27,10 +27,10 @@
   </div>
 </section>
 <section>
-  <div class="row gl-2">
-      <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-4 bg-wht"></a>
-      <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-4 bg-wht"></a>
-      <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-4">Download Bibiani Technical Report</a>
+  <div class="row gl-2" style="justify-content: end;">
+      {{-- <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-4 bg-wht"></a>
+      <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-4 bg-wht"></a> --}}
+      <a href="https://drive.google.com/file/d/1JeLt6Vg2uXUX3Z2IVjIbQrVqbxx3vtLR/view?usp=drive_link" target="_blank" class="button -md -dark-1 bg-accent-1 text-white col-md-4 col-xs-12">Download Bibiani Technical Report</a>
   </div>
 </section>
 
@@ -93,7 +93,7 @@
             <h2 class="text-accent-1">Operations Status</h2>
             <ul>
               <li>First gold poured July 7, 2022. Gold shipments ramp-up is progressing, to produce +250Koz/ year from 2027(with underground mining to commence 2025)</li>
-              <li>Process Plant capacity will increase from 3.oMt/y to 4Mt/y by Q4 2024</li>
+              <li>Process Plant capacity will increase from 3.0Mt/y to 4Mt/y by Q4 2024</li>
               <li>The open pit Mining Contractor will deliver +3 Mt/y ore to the process plant, from the open pit mines. This will increase to 4Mt/y by 2024</li>
               <li>4 stage development of the Main Pit to support mining to +/- 350m depth and +8 years operation. This will access the approximate 2.3 Moz open pit resource</li>
               <li>Underground mine planning has been initiated, to add +/- 100Koz/y from 2025 and increase LOM to +12years</li>
