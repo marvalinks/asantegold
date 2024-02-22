@@ -10,6 +10,7 @@ use App\Models\ExecutiveTeam;
 use App\Models\FinancialYear;
 use App\Models\GovernanceTeam;
 use App\Models\ImageGallery;
+use App\Models\VideoGallery;
 use GuzzleHttp\Client;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
@@ -212,5 +213,10 @@ class RouteModuleController extends Controller
     {
         $medias = ImageGallery::latest()->paginate(10);
         return view('pages.media.images', compact('medias'));
+    }
+    public function videoGallery(Request $request)
+    {
+        $medias = VideoGallery::orderBy('id', 'desc')->paginate(10);
+        return view('pages.media.videos', compact('medias'));
     }
 }

@@ -40,5 +40,6 @@ Route::get('events', [RouteModuleController::class, 'events'])->name('events');
 Route::get('events/{slug}', [RouteModuleController::class, 'eventDetail'])->name('event.details');
 Route::get('analyst-coverage', [RouteModuleController::class, 'analystCoverage'])->name('analyst.coverage');
 Route::get('image-gallery', [RouteModuleController::class, 'imageGallery'])->name('gallery.image');
+Route::get('video-gallery', [RouteModuleController::class, 'videoGallery'])->name('gallery.video');
 
 Route::get('thankyou/notification', [RouteModuleController::class, 'thankyou'])->name('thankyou');

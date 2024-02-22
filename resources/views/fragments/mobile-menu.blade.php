@@ -102,7 +102,7 @@
                             <a href="{{route('gallery.image')}}">Image Gallery</a>
                         </div>
                         <div class="submenu__item">
-                            <a href="#">Video Gallery</a>
+                            <a href="{{route('gallery.image')}}">Video Gallery</a>
                         </div>
                         <div class="submenu__item">
                             <a href="{{route('events')}}">Events</a>
