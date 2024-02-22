@@ -99,7 +99,7 @@
                 <div class="submenu js-submenu">
                     <div class="submenu__wrap">
                         <div class="submenu__item">
-                            <a href="#">Image Gallery</a>
+                            <a href="{{route('gallery.image')}}">Image Gallery</a>
                         </div>
                         <div class="submenu__item">
                             <a href="#">Video Gallery</a>
