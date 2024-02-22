@@ -80,7 +80,7 @@
     
                     <div class="headerMenuSubnav">
                         <div class="headerMenuSubnav__item">
-                            <a href="#">Image Gallery</a>
+                            <a href="{{route('gallery.image')}}">Image Gallery</a>
                         </div>
                         <div class="headerMenuSubnav__item">
                             <a href="#">Video Gallery</a>

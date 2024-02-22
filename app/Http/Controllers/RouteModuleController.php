@@ -9,6 +9,7 @@ use App\Models\Event;
 use App\Models\ExecutiveTeam;
 use App\Models\FinancialYear;
 use App\Models\GovernanceTeam;
+use App\Models\ImageGallery;
 use GuzzleHttp\Client;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
@@ -206,5 +207,10 @@ class RouteModuleController extends Controller
     public function analystCoverage(Request $request)
     {
         return view('pages.analyst-coverage');
+    }
+    public function imageGallery(Request $request)
+    {
+        $medias = ImageGallery::latest()->paginate(10);
+        return view('pages.media.images', compact('medias'));
     }
 }
