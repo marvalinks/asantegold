@@ -47,9 +47,8 @@
                 <div class="tabs__pane -tab-item-1 is-tab-el-active">
                     <div class="row y-gap-30">
                         @foreach ($medias as $key => $media)
-                            
                         <div data-anim-child="slide-up delay-{{$key+1}}" class="col-xl-4 col-md-6 is-in-view">
-                            <iframe width="420" height="345" src="{{$media->url}}">
+                            <iframe width="100%" height="345" src="{{$media->url}} allowfullscreen">
                             </iframe>
                         </div>
                         @endforeach
