@@ -52,7 +52,7 @@
           </div>
   
           <div class="col-auto">
-              <button class="tabs__button js-tabs-button -md -dark-1 bg-accent-1 text-white col-3" data-tab-target=".-tab-item-3">
+              <button class="tabs__button js-tabs-button -md -dark-1 bg-accent-1 text-white col-5" data-tab-target=".-tab-item-3">
                 Forecast production & Resource Block
               </button>
           </div>

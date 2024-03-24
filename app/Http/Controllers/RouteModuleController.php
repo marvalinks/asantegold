@@ -191,6 +191,10 @@ class RouteModuleController extends Controller
     {
         return view('pages.stock-info');
     }
+    public function sustainability(Request $request)
+    {
+        return view('pages.sustainability');
+    }
     public function thankyou(Request $request)
     {
         return view('pages.thankyou');

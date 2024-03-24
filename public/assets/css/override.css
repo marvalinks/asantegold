@@ -1,6 +1,9 @@
 body {
     /* background-color: #d8dee2 !important; */
 }
+a:hover {
+    color: #b09c34 !important;
+}
 .logo {
     width: 122px;
 }
@@ -126,7 +129,8 @@ body {
     padding-top: 220px;
 }
 .hero.-type-7 {
-    height: 65vh;
+    height: 95vh;
+    /* height: 65vh; */
 }
 .g78 {
     font-size: 18px;
@@ -176,6 +180,13 @@ body {
 .opop .img-ratio {
     /* object-fit: contain !important; */
     object-position: top;
+}
+.layout-pt-lg {
+    /* padding-top: 0px; */
+}
+.k6p {
+    width: 80%;
+    margin: auto;
 }
 @media (max-width: 767px) {
     .menu .menuNav__item + * {

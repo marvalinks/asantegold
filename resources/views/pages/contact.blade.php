@@ -21,9 +21,6 @@
                 <p class="fw-500 text-white">
                     (+1) 604 558 1134
                 </p>
-                <p class="fw-500 text-white">
-                    (+1) 877 339 7525
-                </p>
 
                 <h4 class="fw-500 text-15 text-dark-4 mt-20">E-mail</h4>
                 <p class="fw-500 text-white">

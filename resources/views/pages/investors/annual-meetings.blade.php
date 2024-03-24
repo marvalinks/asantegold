@@ -15,9 +15,9 @@
     <div class="row">
         <p class="mt-30 md:mt-5"></p>
         <ul>
-            <li>Date of Meeting: <span>Wednesday, December 21, 2022</span></li>
-            <li>Time of Meeting: <span>10 am Pacific</span></li>
-            <li>Location of Meeting: <span>Waterfront Centre, 200 Burrard Street, Suite 1200, Vancouver, British Columbia</span></li>
+            <li>Date of Meeting: <span>Tuesday, April 23, 2024</span></li>
+            <li>Time of Meeting: <span>10:00 am Toronto, Canada</span></li>
+            <li>Location of Meeting: <span>100 King Street West, Suite 3400, Toronto, Ontario, Canada, M5X 1A4</span></li>
         </ul>
         
     </div>
@@ -30,7 +30,7 @@
         <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-3">Management Information Circular</a>
         <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-3">Notice of Meeting</a>
         <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-3">Proxy Form</a>
-        <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-3">Voting Information Form</a>
+        <a href="https://drive.google.com/file/d/14uDqAciPmFPuNERqlHZSvAVm2G3sCH9K/view?usp=sharing" target="_blank" class="button -md -dark-1 bg-accent-1 text-white col-3">How To Vote</a>
     </div>
     <br><br><br><br><br><br>
   </div>

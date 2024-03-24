@@ -158,21 +158,17 @@
                     <ul class="">
                         <li>
                             <h4>February, 2023</h4>
-                            <a href="#">
-                                <h3> Corporate Update Presentation</h3>
-                            </a>
+                            <h3> Corporate Update Presentation</h3>
                         </li>
                     </ui>
-                    <a target="_blank" href="/assets/images/presentation/Asante-Investor-presentation-October-23-2023.pdf" class="button -md -dark-1 bg-accent-1 text-white col-12">
+                    <a target="_blank" href="https://drive.google.com/file/d/1p-6pW731T8k8KbSUbrMb9VMNoz3k7iMW/view?usp=drive_link" class="button -md -dark-1 bg-accent-1 text-white col-12">
                       Prospect - Secondary Listing By Introduction
                     </a>
                     <br>
                     <ul class="">
                         <li>
                             <h4>29 June, 2022</h4>
-                            <a href="#">
-                                <h3> Asante Secondary Listing By Introduction on the GSE</h3>
-                            </a>
+                            <h3> Asante Secondary Listing By Introduction on the GSE</h3>
                         </li>
                     </ui>
                 </div>
