@@ -17,7 +17,7 @@
         <br><br>
       <img src="/assets/images/presentation/presentation.jpg" alt="">
       <br><br>
-      <a target="_blank" href="https://drive.google.com/file/d/1XRpECYs07gCgWFeoqKtv21Mpm6Cr5cIs/view?usp=drive_link" class="button -md -dark-1 bg-accent-1 text-white col-12">
+      <a target="_blank" href="https://drive.google.com/file/d/1vIrYhCxHETN0nfWg0NMDBj-EIHBUc0dd/view?usp=drive_link" class="button -md -dark-1 bg-accent-1 text-white col-12">
         click here Download
       </a>
     </div>
