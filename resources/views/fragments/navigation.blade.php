@@ -38,7 +38,7 @@
                 </div>
 
                 <div class="headerMenu__item">
-                    <a href="#">SUSTAINABILITY</a>
+                    <a href="{{route('sustainability')}}">SUSTAINABILITY</a>
 
                     
                     <div class="headerMenuSubnav">

@@ -70,14 +70,88 @@
       <div class="tabs__content js-tabs-content">
           <div class="tabs__pane -tab-item-1 is-tab-el-active">
               <h2 class="text-accent-1">Sustainability Model: Overview for Asante Gold Corporation</h2>
+              <div class="row">
+                <div class="col-md-8">
+                    <p>
+                        Asante is committed to conducting its business operations in a socially responsible and environmentally 
+                        sustainable manner. Recognizing the importance of sustainability in the modern business landscape, Asante 
+                        aims to integrate environmental, social, and governance (ESG) principles into its core business strategies. 
+                        This overview outlines Asante's approach to sustainability, highlighting key initiatives and practices aimed at 
+                        fostering long-term value creation while minimizing negative impacts on the environment and society.
+                      </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://tt3.ams3.digitaloceanspaces.com/asante-gold/Asante%20models.png" alt="">
+                </div>
+              </div>
+              
+              <br>
+              <h2 class="text-accent-1">Our Values</h2> <br>
+              <h4>Teamwork & Performance:</h4>
               <p>
-                Asante is committed to conducting its business operations in a socially responsible and environmentally 
-                sustainable manner. Recognizing the importance of sustainability in the modern business landscape, Asante 
-                aims to integrate environmental, social, and governance (ESG) principles into its core business strategies. 
-                This overview outlines Asante's approach to sustainability, highlighting key initiatives and practices aimed at 
-                fostering long-term value creation while minimizing negative impacts on the environment and society.
+                Teamwork: Asante Gold values collaboration and recognizes the importance of working together towards common goals. 
+                The company fosters a culture where employees support and rely on one another, leveraging their diverse skills and 
+                expertise to achieve collective success. By encouraging teamwork, Asante Gold promotes innovation, problem-solving, 
+                and synergy among its workforces
               </p>
-              {{-- <h2 class="text-accent-1">People</h2> --}}
+              <p>
+                Performance: Asante Gold is committed to delivering excellence in performance across all aspects of its business operations. 
+                The company sets high standards for performance and holds itself accountable for achieving results. Through continuous improvement 
+                initiatives, goal setting, and performance tracking, Asante Gold strives to optimize efficiency, productivity, and operational 
+                effectiveness. By focusing on performance, Asante Gold ensures the success and sustainability of its business in the competitive mining industry.
+              </p>
+              <br>
+              <h4>Integrity & Accountability:</h4>
+              <p>
+                Integrity: Asante Gold upholds the highest standards of integrity, honesty, and ethical conduct in all its business dealings. The company operates 
+                with transparency, fairness, and integrity, adhering to principles of honesty, fairness, and respect in its interactions with employees, stakeholders, 
+                and the community. By demonstrating integrity in its actions and decisions, Asante Gold builds trust and credibility with its stakeholders and maintains 
+                its reputation as a responsible corporate citizen.
+              </p>
+              <p>
+                Accountability: Asante Gold believes in taking ownership of its actions and decisions and being accountable for their outcomes. The company holds itself 
+                accountable to its stakeholders, including shareholders, employees, customers, and the community, by transparently reporting on its performance and progress 
+                towards its goals. By promoting a culture of accountability, Asante Gold ensures that its employees take responsibility for their actions, learn from mistakes, 
+                and strive for continuous improvement.
+              </p>
+              <br>
+              <h4>Care & Respect:</h4>
+              <p>
+                Care: Asante Gold demonstrates care for its employees, stakeholders, and the environment by prioritizing their well-being and safety. The company invests in programs and 
+                initiatives that promote health, safety, and well-being, ensuring that employees feel valued, supported, and empowered to thrive. Additionally, Asante Gold demonstrates care 
+                for the environment by implementing sustainable practices and minimizing its environmental footprint in its operations.
+              </p>
+              <p>
+                Respect: Asante Gold treats all individuals with respect, dignity, and fairness, regardless of their background, beliefs, or position. The company values diversity and inclusion, 
+                recognizing the unique contributions and perspectives of everyone. By fostering a culture of respect, Asante Gold creates a positive work environment where all employees feel valued, 
+                empowered, and motivated to do their best. Additionally, Asante Gold respects the communities and countries where it operates, engaging with stakeholders in a respectful and inclusive 
+                manner and honoring their rights, customs, and cultures.
+              </p>
+              <br>
+              <h2>Asante Gold Business Strategy: People, Performance, and Growth</h2>
+              <br>
+              <h4>People:</h4>
+              <ul>
+                <li>
+                    <strong>Putting people first:</strong> Asante prioritizes the well-being and development of its people above all else. The company understands that its success is directly linked to the skills, 
+                    dedication, and satisfaction of its workforce. By fostering a culture where employees feel valued, respected, and supported, Asante creates a positive work environment conducive to productivity and innovation.
+                </li>
+                <li>
+                   <strong> Maintaining a competent and engaged workforce:</strong> Asante is committed to attracting, retaining, and developing top talent. The company invests in recruiting individuals with the right skills and experience 
+                   to drive its business forward. Through comprehensive training, professional development opportunities, and performance recognition programs, Asante ensures that its workforce remains engaged, motivated, and equipped to 
+                   meet the evolving needs of the business.
+                </li>
+                <li>
+                    <strong>Continuously improving productivity and operational efficiency:</strong> Asante strives for excellence in productivity and operational efficiency across its operations. The company invests in technologies, processes, 
+                    and systems to streamline workflows, eliminate waste, and optimize resource utilization. By empowering employees to identify and implement continuous improvement initiatives, Asante enhances productivity, reduces costs, and 
+                    maintains a competitive edge in the market.
+                </li>
+                <li>
+                    <strong>Making beneficial and sustainable contributions to our host communities and countries:</strong> Asante is committed to being a responsible corporate citizen and making positive contributions to the communities and countries 
+                    where it operates. The company engages with local stakeholders to understand their needs and priorities and implements sustainable development initiatives that create shared value. By investing in community development projects, 
+                    promoting local employment, and respecting local customs and cultures, Asante strives to build long-term relationships based on trust, respect, and mutual benefit.
+                </li>
+              </ul>
               
           </div>
   
