@@ -5,14 +5,14 @@
             <img src="/assets/images/projects/{{str_replace(' ', '-', strtolower($project))}}.jpg" alt="image" class="img-ratio" />
 
             <div class="hover-btn-explore__item">
-                <button class="button text-white bg-dark-1 size-120 fw-500 rounded-full">Explore</button>
+                {{-- <button class="button text-white bg-dark-1 size-120 fw-500 rounded-full">Explore</button> --}}
             </div>
         </div>
 
         <h3 class="imageCard__title text-dark-1">{{$project}}</h3>
-        <p class="imageCard__text text-dark-1">
+        {{-- <p class="imageCard__text text-dark-1">
             <a href="#">View project</a>
-        </p>
+        </p> --}}
     </a>
 </div>
 @endforeach
