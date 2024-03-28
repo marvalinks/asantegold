@@ -12,6 +12,18 @@
             width: 90%;
             margin: auto;
         }
+        .mj img{
+            width: 50%;
+        }
+        .mj{
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            justify-items: center;
+            display: flex;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
     </style>
 @endsection
 
@@ -71,7 +83,7 @@
           <div class="tabs__pane -tab-item-1 is-tab-el-active">
               <h2 class="text-accent-1">Sustainability Model: Overview for Asante Gold Corporation</h2>
               <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-12">
                     <p>
                         Asante is committed to conducting its business operations in a socially responsible and environmentally 
                         sustainable manner. Recognizing the importance of sustainability in the modern business landscape, Asante 
@@ -80,8 +92,10 @@
                         fostering long-term value creation while minimizing negative impacts on the environment and society.
                       </p>
                 </div>
-                <div class="col-md-4">
-                    <img src="https://tt3.ams3.digitaloceanspaces.com/asante-gold/Asante%20models.png" alt="">
+                <div class="col-md-12">
+                    <div class="mj">
+                        <img src="https://tt3.ams3.digitaloceanspaces.com/asante-gold/Asante%20models.png" alt="">
+                    </div>
                 </div>
               </div>
               
