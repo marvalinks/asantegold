@@ -24,6 +24,15 @@
             margin-top: 30px;
             margin-bottom: 30px;
         }
+
+        @media (max-width: 767px) {
+            .yt .col-auto {
+                width: 50%;
+            }
+            .tabs.-type-3 .tabs__controls{
+                flex-wrap: wrap;
+            }
+        }
     </style>
 @endsection
 
@@ -49,30 +58,30 @@
   <div class="container">
     {{--  --}}
     <div class="tabs -type-3 js-tabs">
-      <div class="tabs__controls row x-gap-10 -mobileScroll js-tabs-controls yt">
-          <div class="col-auto">
+      <div class="row tabs__controls row x-gap-10 -mobileScroll js-tabs-controls yt">
+          <div class="col-md-2 col-xs-6">
               <button class="tabs__button js-tabs-button -md -dark-1 bg-accent-1 text-white col-2 is-tab-el-active" data-tab-target=".-tab-item-1">
                 Overview
               </button>
           </div>
   
-          <div class="col-auto">
+          <div class="col-md-2 col-xs-6">
               <button class="tabs__button js-tabs-button -md -dark-1 bg-accent-1 text-white col-2" data-tab-target=".-tab-item-2">
                 People
               </button>
           </div>
   
-          <div class="col-auto">
+          <div class="col-md-2 col-xs-6">
               <button class="tabs__button js-tabs-button -md -dark-1 bg-accent-1 text-white col-2" data-tab-target=".-tab-item-3">
                 Governance
               </button>
           </div>
-          <div class="col-auto">
+          <div class="col-md-2 col-xs-6">
               <button class="tabs__button js-tabs-button -md -dark-1 bg-accent-1 text-white col-2" data-tab-target=".-tab-item-4">
                 Environment
               </button>
           </div>
-          <div class="col-auto">
+          <div class="col-md-3 col-xs-6">
               <button class="tabs__button js-tabs-button -md -dark-1 bg-accent-1 text-white col-2" data-tab-target=".-tab-item-5">
                 Innovation and technology
               </button>
