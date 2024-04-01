@@ -27,10 +27,10 @@
     </div>
     <br><br><br>
     <div class="row gl-2">
-        <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-3">Management Information Circular</a>
-        <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-3">Notice of Meeting</a>
-        <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-3">Proxy Form</a>
-        <a href="https://drive.google.com/file/d/14uDqAciPmFPuNERqlHZSvAVm2G3sCH9K/view?usp=sharing" target="_blank" class="button -md -dark-1 bg-accent-1 text-white col-3">How To Vote</a>
+        <a href="https://drive.google.com/file/d/1bWohLh4rJluMMfWbV5WnSCFpjjj-bmrh/view?usp=drive_link" target="_blank" class="button -md -dark-1 bg-accent-1 text-white col-3">Management Information Circular</a>
+        <a href="https://drive.google.com/file/d/1bWohLh4rJluMMfWbV5WnSCFpjjj-bmrh/view?usp=drive_link" target="_blank" class="button -md -dark-1 bg-accent-1 text-white col-3">Notice of Meeting</a>
+        <a href="https://drive.google.com/file/d/1xncFB6HKg-uBQ5rKri6VOyKozex2D0eG/view?usp=drive_link" class="button -md -dark-1 bg-accent-1 text-white col-3">Proxy Form</a>
+        <a href="https://drive.google.com/file/d/1r0-jLXuABji-af97LHni6Vr0RmIk2CH_/view?usp=drive_link" target="_blank" class="button -md -dark-1 bg-accent-1 text-white col-3">How To Vote</a>
     </div>
     <br><br><br><br><br><br>
   </div>
