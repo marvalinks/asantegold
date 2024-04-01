@@ -7,7 +7,7 @@
     </div>
 
     <div class="container">
-      <h1 data-anim-child="slide-up delay-1" class="pageHeader__title is-in-view"> Annual and Special General Meeting documents</h1>
+      <h1 data-anim-child="slide-up delay-1" class="pageHeader__title is-in-view"> Annual General Meeting documents</h1>
     </div>
 </section>
 <section class="layout-pt-lg">
