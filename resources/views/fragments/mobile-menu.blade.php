@@ -69,7 +69,7 @@
                 <div class="submenu js-submenu">
                     <div class="submenu__wrap">
                         <div class="submenu__item">
-                            <a href="{{route('annual.meetings')}}">Annual And Special General Meeting</a>
+                            <a href="{{route('annual.meetings')}}">Annual General Meeting</a>
                         </div>
                         <div class="submenu__item">
                             <a href="{{route('news.releases')}}">News Releases</a>

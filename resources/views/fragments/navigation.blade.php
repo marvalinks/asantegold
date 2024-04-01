@@ -56,7 +56,7 @@
 
                     <div class="headerMenuSubnav">
                         <div class="headerMenuSubnav__item">
-                            <a href="{{route('annual.meetings')}}">Annual And Special General Meeting</a>
+                            <a href="{{route('annual.meetings')}}">Annual General Meeting</a>
                         </div>
                         <div class="headerMenuSubnav__item">
                             <a href="{{route('news.releases')}}">News Releases</a>

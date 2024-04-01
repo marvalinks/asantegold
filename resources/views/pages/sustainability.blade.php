@@ -175,6 +175,38 @@
                     promoting local employment, and respecting local customs and cultures, Asante strives to build long-term relationships based on trust, respect, and mutual benefit.
                 </li>
               </ul>
+              <h4>Performance:</h4>
+              <br>
+              <ul>
+                <li>
+                  <strong>Delivering year-on-year on our LOM plan and project timelines:</strong> Asante is dedicated to delivering on its long-term mine plans and project timelines. The company sets clear targets and milestones for production, exploration, 
+                  and project development and works tirelessly to meet or exceed these targets. By maintaining a focus on execution and operational excellence, Asante ensures the successful implementation of its strategic plans and the realization of its 
+                  business objectives.
+                </li>
+                <li>
+                  <strong>Optimizing our portfolio of assets and leveraging synergies:</strong> Asante continuously evaluates its portfolio of assets to identify opportunities for optimization and value creation. The company seeks to maximize the value of its 
+                  existing assets by leveraging synergies, implementing cost-saving initiatives, and exploring opportunities for operational improvements. By optimizing its asset portfolio, Asante enhances its financial performance, strengthens its competitive 
+                  position, and creates value for shareholders.
+                </li>
+              </ul>
+              <h4>Growth:</h4>
+              <br>
+              <ul>
+                <li>
+                  <strong>Actively replacing depleted ounces Year-on-Year:</strong> Asante is committed to maintaining a sustainable reserve base by actively replacing depleted ounces year-on-year. The company prioritizes exploration and resource development activities 
+                  to replenish reserves and ensure the long-term viability of its operations. By investing in exploration drilling, geological studies, and resource estimation, Asante identifies new mineralization zones and expands its resource base to support future 
+                  growth and production.
+                </li>
+                <li>
+                  <strong>Leveraging exploration to increase Reserves & Resources:</strong> Asante views exploration as a key driver of growth and value creation. The company allocates resources to exploration programs aimed at discovering new mineral deposits and expanding 
+                  its reserves and resources. By leveraging its technical expertise, geological knowledge, and exploration technologies, Asante seeks to unlock the full potential of its mining properties and capitalize on promising exploration opportunities.
+                </li>
+                <li>
+                  <strong>Acquiring and transforming challenged operations with significant underlying value:</strong> Asante pursues growth opportunities through strategic acquisitions and transformations of challenged operations with significant underlying value. The company 
+                  targets assets with potential for operational improvements, cost optimizations, and value enhancements. By acquiring distressed assets and applying its operational expertise and management capabilities, Asante aims to revitalize underperforming operations, unlock 
+                  hidden value, and drive sustainable growth and profitability.
+                </li>
+              </ul>
               
           </div>
   
