@@ -1,5 +1,11 @@
 @extends('layouts.app')
-
+@section('styles')
+    <style>
+        li{
+            list-style: circle!important;
+        }
+    </style>
+@show
 @section('scripts')
   <script>
     // Get all SVG elements
