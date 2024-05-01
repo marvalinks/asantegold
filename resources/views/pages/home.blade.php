@@ -151,12 +151,12 @@
                       <br><br>
                     <img src="/assets/images/presentation/presentation.jpg" alt="">
                     <br><br>
-                    {{-- <a target="_blank" href="https://drive.google.com/file/d/1AKy6p5oki3PBfB9ZMM3CmigsO2ZUs6gL/view?usp=sharing" class="button -md -dark-1 bg-accent-1 text-white col-12">
+                    <a target="_blank" href="https://drive.google.com/file/d/1EMy4q5dUMzYBwHBy2SWeVqDx8dWrzyvt/view?usp=sharing" class="button -md -dark-1 bg-accent-1 text-white col-12">
                         DOWNLOAD INVESTOR PRESENTATION
-                    </a> --}}
-                    <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-12">
-                        UPDATE IN PROGRESS, TO BE RELEASED MAY 01
                     </a>
+                    {{-- <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-12">
+                        UPDATE IN PROGRESS, TO BE RELEASED MAY 01
+                    </a> --}}
                     <br>
                     <ul class="">
                         <li>
