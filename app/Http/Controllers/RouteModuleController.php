@@ -223,4 +223,8 @@ class RouteModuleController extends Controller
         $medias = VideoGallery::orderBy('id', 'desc')->paginate(10);
         return view('pages.media.videos', compact('medias'));
     }
+    public function newsCoverage(Request $request)
+    {
+        return view('pages.news.coverage');
+    }
 }

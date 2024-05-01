@@ -84,6 +84,9 @@
     
                     <div class="headerMenuSubnav">
                         <div class="headerMenuSubnav__item">
+                            <a href="{{route('news.coverage')}}">News Coverage</a>
+                        </div>
+                        <div class="headerMenuSubnav__item">
                             <a href="{{route('gallery.image')}}">Image Gallery</a>
                         </div>
                         <div class="headerMenuSubnav__item">

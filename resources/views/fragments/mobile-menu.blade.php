@@ -102,6 +102,9 @@
                 <div class="submenu js-submenu">
                     <div class="submenu__wrap">
                         <div class="submenu__item">
+                            <a href="{{route('news.coverage')}}">News Coverage</a>
+                        </div>
+                        <div class="submenu__item">
                             <a href="{{route('gallery.image')}}">Image Gallery</a>
                         </div>
                         <div class="submenu__item">

@@ -43,4 +43,6 @@ Route::get('analyst-coverage', [RouteModuleController::class, 'analystCoverage']
 Route::get('image-gallery', [RouteModuleController::class, 'imageGallery'])->name('gallery.image');
 Route::get('video-gallery', [RouteModuleController::class, 'videoGallery'])->name('gallery.video');
 
+Route::get('news-coverage', [RouteModuleController::class, 'newsCoverage'])->name('news.coverage');
+
 Route::get('thankyou/notification', [RouteModuleController::class, 'thankyou'])->name('thankyou');
