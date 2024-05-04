@@ -17,7 +17,7 @@
         <br><br>
       <img src="/assets/images/presentation/presentation.jpg" alt="">
       <br><br>
-      <a target="_blank" href="https://drive.google.com/file/d/1UuU49ct2CywmUY35Y213EE-SZqRElJl-/view?usp=sharing" class="button -md -dark-1 bg-accent-1 text-white col-12">
+      <a target="_blank" href="https://drive.google.com/file/d/1rtOv-EPgXaTcMgezuMFPShGTwSXYUtVa/view?usp=sharing" class="button -md -dark-1 bg-accent-1 text-white col-12">
         DOWNLOAD INVESTOR PRESENTATION
       </a>
       {{-- <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-12">
