@@ -30,7 +30,7 @@
   <div class="row gl-2" style="justify-content: end;">
       {{-- <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-4 bg-wht"></a>
       <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-4 bg-wht"></a> --}}
-      <a href="https://drive.google.com/file/d/1JeLt6Vg2uXUX3Z2IVjIbQrVqbxx3vtLR/view?usp=drive_link" target="_blank" class="button -md -dark-1 bg-accent-1 text-white col-md-4 col-xs-12">Download Bibiani Technical Report</a>
+      <a href="https://drive.google.com/file/d/1MASrTvrDY0ilgsF8VSlOdRFzYgV6t70y/view?usp=sharing" target="_blank" class="button -md -dark-1 bg-accent-1 text-white col-md-4 col-xs-12">Download Bibiani Technical Report</a>
   </div>
 </section>
 
