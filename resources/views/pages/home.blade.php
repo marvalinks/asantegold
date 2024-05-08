@@ -33,8 +33,8 @@
   </script>
   <script>
     $("#sldr").vegas({
-            delay: 10000,
-            overlay: true,
+            delay: 30000,
+            overlay: false,
             transition: 'fade',
             transitionDuration: 2000,
             slides: [
