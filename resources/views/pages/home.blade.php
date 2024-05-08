@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('styles')
+<link rel="stylesheet" href="/vegas/vegas.min.css">
     <style>
         .imageSliderNav{
             top: 90%;
@@ -8,10 +9,15 @@
         .blogCard.-type-1 .blogCard__content{
             min-height: 370px;
         }
+        #sldr{
+            height: 700px;
+        }
     </style>
 @endsection
 
 @section('scripts')
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="/vegas/vegas.min.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       // Get all elements with class 'elementor-button'
@@ -25,10 +31,31 @@
   });
 
   </script>
+  <script>
+    $("#sldr").vegas({
+            delay: 10000,
+            overlay: true,
+            transition: 'fade',
+            transitionDuration: 2000,
+            slides: [
+                { src: "https://tt3.ams3.digitaloceanspaces.com/asante-gold/6U7A6466.jpeg" },
+                { src: "https://tt3.ams3.digitaloceanspaces.com/asante-gold/DJI_0008.jpeg" },
+                { src: "https://tt3.ams3.digitaloceanspaces.com/asante-gold/IMG_5948-2.jpeg" },
+                { src: "https://tt3.ams3.digitaloceanspaces.com/asante-gold/IMG_8808.jpeg" }
+            ]
+            // slides: [
+            //     { src: "/assets/images/backgrounds/bg02.jpg" },
+            //     { src: "/assets/images/backgrounds/bg05.jpg" },
+            //     { src: "/assets/images/backgrounds/bg03.jpg" },
+            //     { src: "/assets/images/backgrounds/bg04.jpg" }
+            // ]
+        });
+  </script>
 @endsection
 
 @section('content')
-@include('fragments.home-slider')
+{{-- @include('fragments.home-slider') --}}
+<section id="sldr" class="layout-pt-lg layout-pb-lg relative news-ns rxrx"></section>
 
 <div class="pt-100 md:pt-20 sm:pt-60 bg-dark-2 stockmg">
     <!-- TradingView Widget BEGIN -->
