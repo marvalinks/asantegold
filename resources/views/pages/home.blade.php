@@ -16,7 +16,7 @@
 @endsection
 
 @section('scripts')
-<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery.min.js"></script>
 <script src="/vegas/vegas.min.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
