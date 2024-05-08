@@ -33,7 +33,7 @@
   </script>
   <script>
     $("#sldr").vegas({
-            delay: 30000,
+            delay: 8000,
             overlay: false,
             transition: 'fade',
             transitionDuration: 2000,
