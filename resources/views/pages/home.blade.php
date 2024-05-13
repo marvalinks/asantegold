@@ -40,8 +40,7 @@
             slides: [
                 { src: "https://tt3.ams3.digitaloceanspaces.com/asante-gold/6U7A6466.jpeg" },
                 { src: "https://tt3.ams3.digitaloceanspaces.com/asante-gold/DJI_0008.jpeg" },
-                { src: "https://tt3.ams3.digitaloceanspaces.com/asante-gold/IMG_5948-2.jpeg" },
-                { src: "https://tt3.ams3.digitaloceanspaces.com/asante-gold/IMG_8808.jpeg" }
+                { src: "https://tt3.ams3.digitaloceanspaces.com/asante-gold/WhatsApp%20Image%202024-05-09%20at%2011.03.50.jpeg" }
             ]
             // slides: [
             //     { src: "/assets/images/backgrounds/bg02.jpg" },
