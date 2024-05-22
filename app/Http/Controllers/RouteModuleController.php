@@ -13,6 +13,7 @@ use App\Models\ImageGallery;
 use App\Models\VideoGallery;
 use GuzzleHttp\Client;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Mail;
 
@@ -226,5 +227,29 @@ class RouteModuleController extends Controller
     public function newsCoverage(Request $request)
     {
         return view('pages.news.coverage');
+    }
+    public function login(Request $request)
+    {
+        return view('pages.auth.login');
+    }
+    public function postLogin(Request $request)
+    {
+        dd($request->all());
+        $data = $request->validate([
+            'username' => 'required', 'password' => 'required'
+        ]);
+        if (Auth::attempt(['username' => $request->username, 'password' => $request->password])) {
+            $request->session()->regenerate();
+            return redirect()->route('admin.dashboard');
+        }
+        $request->session()->flash('alert-danger', 'Error logging in');
+        return redirect()->route('login');
+    }
+    public function logout(Request $request)
+    {
+        Auth::logout();
+        $request->session()->invalidate();
+        $request->session()->regenerateToken();
+        return redirect()->route('login');
     }
 }

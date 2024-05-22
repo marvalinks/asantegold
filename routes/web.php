@@ -46,3 +46,11 @@ Route::get('video-gallery', [RouteModuleController::class, 'videoGallery'])->nam
 Route::get('news-coverage', [RouteModuleController::class, 'newsCoverage'])->name('news.coverage');
 
 Route::get('thankyou/notification', [RouteModuleController::class, 'thankyou'])->name('thankyou');
+
+Route::get('login', [RouteModuleController::class, 'login'])->name('login');
+Route::post('login', [RouteModuleController::class, 'postLogin'])->name('login');
+Route::get('logout', [RouteModuleController::class, 'logout'])->name('logout');
+
+Route::group(['as' => 'admin.', 'prefix' => 'admin', 'middleware' => ['auth']], function () {
+    // Route::get('dashboard', [AdminModuleController::class, 'dashboard'])->name('dashboard');
+});
