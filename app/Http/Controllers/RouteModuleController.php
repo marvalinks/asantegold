@@ -112,12 +112,17 @@ class RouteModuleController extends Controller
     }
     public function bibiani(Request $request)
     {
-        return view('pages.operations.bibiani');
+        $client = new Client();
+        $response = $client->get('https://wp.asantegold.com/wp-json/wp/v2/posts?_embed&per_page=3');
+        $posts = json_decode($response->getBody(), true);
+        return view('pages.operations.bibiani', compact('posts'));
     }
     public function chirano(Request $request)
     {
-        
-        return view('pages.operations.chirano');
+        $client = new Client();
+        $response = $client->get('https://wp.asantegold.com/wp-json/wp/v2/posts?_embed&per_page=3');
+        $posts = json_decode($response->getBody(), true);
+        return view('pages.operations.chirano', compact('posts'));
     }
     public function projects(Request $request)
     {

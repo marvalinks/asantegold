@@ -16,6 +16,53 @@
   </script>
 @endsection
 
+@section('styles')
+  <style>
+    table th{
+      width: 210px;
+      border: 1px solid #ccc;
+      padding-left: 30px;
+    }
+    table{
+      border: 1px solid #ccc;
+      width: 95% !important;
+      margin: auto;
+    }
+    table tr{
+      border: 1px solid #ccc;
+      padding-left: 30px;
+    }
+    table td{
+      padding-left: 30px;
+      border: 1px solid #ccc;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    .dwnld{
+      cursor: pointer;
+      color: #1173ac;
+    }
+    .card{
+      background: white;
+      padding: 30px;
+      box-shadow: 2px 2px 8px 3px #ccc;
+      min-height: 210px;
+    }
+    .card p {
+      font-size: 16px;
+      line-height: 18px;
+      color: #656565;
+      margin-bottom: 10px;
+    }
+    .card h4{
+      font-size: 42px;
+      line-height: 48px;
+      color: #00557E;
+      margin-bottom: 10px;
+    }
+  </style>
+@endsection
+
 @section('content')
 <section data-anim-wrap="" class="pageHeader -type-1 animated">
   <div data-anim-child="fade delay-1" class="pageHeader__image is-in-view">
@@ -26,129 +73,179 @@
     <h1 data-anim-child="slide-up delay-1" class="pageHeader__title is-in-view">Bibiani</h1>
   </div>
 </section>
-<section>
+{{-- <section>
   <div class="row gl-2" style="justify-content: end;">
-      {{-- <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-4 bg-wht"></a>
-      <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-4 bg-wht"></a> --}}
       <a href="https://drive.google.com/file/d/1MASrTvrDY0ilgsF8VSlOdRFzYgV6t70y/view?usp=sharing" target="_blank" class="button -md -dark-1 bg-accent-1 text-white col-md-4 col-xs-12">Download Bibiani Technical Report</a>
   </div>
-</section>
+</section> --}}
 
 <section class="layout-pt-lg pj">
   <div class="container">
-    {{--  --}}
-    <div class="tabs -type-3 js-tabs">
-      <div class="tabs__controls row x-gap-10 -mobileScroll js-tabs-controls yt">
-          <div class="col-auto">
-              <button class="tabs__button js-tabs-button -md -dark-1 bg-accent-1 text-white col-3 is-tab-el-active" data-tab-target=".-tab-item-1">
-                Introduction
-              </button>
-          </div>
-  
-          <div class="col-auto">
-              <button class="tabs__button js-tabs-button -md -dark-1 bg-accent-1 text-white col-3" data-tab-target=".-tab-item-2">
-                Operational Status
-              </button>
-          </div>
-  
-          <div class="col-auto">
-              <button class="tabs__button js-tabs-button -md -dark-1 bg-accent-1 text-white col-5" data-tab-target=".-tab-item-3">
-                Forecast production & Resource Block
-              </button>
-          </div>
+    <div class="row">
+      <div class="col-md-8">
+        <p>
+          The Project is managed and operated by Asante Gold Bibiani Limited (AGBL), a wholly owned Ghanaian subsidiary of Asante Gold Corporation. Asante is listed on the Canadian 
+          Securities Exchange (CSE: ASE); the Ghana Stock Exchange (GSE: ASG): the Frankfurt Stock Exchange (FSE: 1A9) and the United States (OTC: ASGOF) with headquarters at 
+          615-800 West Pender Street, Vancouver, British Columbia. The Ghanaian Government carries a 10% non-equity free carry in the Bibiani Mine.
+        </p>
+        <p>
+          All mining leases carry a 10% free carried interest in favour of the Ghanaian government under Section 43(1) of the Minerals and Mining Act, 2006.
+        </p>
+        <p>
+          AGBL holds one Mining Lease, as well as two Prospecting Licences, which collectively make up the AGBL tenements and span 30km strike length hosted in the Kumasi-Afema 
+          Basin sediments adjacent to the Sefwi Belt volcanic and volcaniclastic assemblage. The Mining Lease concessions cover an area of approximately 49.82 km2.
+        </p>
       </div>
-  
-      <div class="tabs__content js-tabs-content">
-          <div class="tabs__pane -tab-item-1 is-tab-el-active">
-              <h2 class="text-accent-1">Ghana – Major Gold Deposits</h2>
-              <ul>
-                <li>Ghana has the largest gold endowment in West Africa, with over 130Moz in minable reserves. The majority of gold deposits in Ghana are located in or adjacent to the Ashanti Belt and the Bibiani-Sefwi Belt</li>
-                <li>The Bibiani deposit is hosted within meta-sediments of the Kumasi-Afema basin, on the eastern margin of the Bibiani-Sefwi Belt</li>
-                <li>Other world-class deposits within the Belt include:</li>
-                <ul>
-                  <li>Ahafo – 20 Moz(Newmont)</li>
-                  <li>Chirano – 5 Moz (former Kinross)</li>
-                </ul>
-                <li>Paleoproterozoic Birimian Series hosts all the significant gold deposits in West Africa.</li>
-              </ul>
-              <h2 class="text-accent-1">Background</h2>
-            <ul>
-              <li>Drilling activities have been focused on the Bibiani Main Pit deposit from surface and underground positions</li>
-              <li>Resolute was successful in expanding the resource base with improved confidence</li>
-            </ul>
-            <h2 class="text-accent-1">Drilling Campaigns Under Resolute Ownership</h2>
-            <ul>
-              <li>Phase 1 drilling program (26,100m DD) during 2015 (2015 Resource below)</li>
-              <li>Phase 2 drilling program (23,400m DD) during 2016-2017 culminating in updated resource model (2017 Resource below)</li>
-              <li>Also: Diamond drilling program at Strauss-Walsh (1,000m DD) during 2017</li>
-            </ul>
-            <h2 class="text-accent-1">Drilling Campaigns Under Asante Ownership</h2>
-            <ul>
-              <li>Phase 1 drilling program (15,000m - 20,000m DD) initiated September 2021</li>
-            </ul>
-              
-          </div>
-  
-          <div class="tabs__pane -tab-item-2">
-            <h2 class="text-accent-1">Operations Status</h2>
-            <ul>
-              <li>First gold poured July 7, 2022. Gold shipments ramp-up is progressing, to produce +250Koz/ year from 2027(with underground mining to commence 2025)</li>
-              <li>Process Plant capacity will increase from 3.0Mt/y to 4Mt/y by Q4 2024</li>
-              <li>The open pit Mining Contractor will deliver +3 Mt/y ore to the process plant, from the open pit mines. This will increase to 4Mt/y by 2024</li>
-              <li>4 stage development of the Main Pit to support mining to +/- 350m depth and +8 years operation. This will access the approximate 2.3 Moz open pit resource</li>
-              <li>Underground mine planning has been initiated, to add +/- 100Koz/y from 2025 and increase LOM to +12years</li>
-              <li>Exploration continues, to develop satellite deposits and extend open pit mining beyond 10 years</li>
-              <li>Tailings Dam is fully reconditioned and has +12 months storage capacity. A lift to provide additional 4 years storage capacity will start Q1 2024</li>
-              <li>The Bibiani NI-43-101 Technical Report was issued mid July 2022. An update will follow at Q4 2023, to capture 2022/2023 exploration and mine planning results</li>
-            </ul>
-            
+      <div class="col-md-4">
+        <h3>Follow Us</h3>
+        <div class="footer__list">
+          {{-- <a target="_blank" href="https://web.facebook.com/corpasantegold/">Facebook</a><br>
+          <a target="_blank" href="https://twitter.com/corpasantegold">Twitter</a><br>
+          <a target="_blank" href="https://www.instagram.com/corpasantegold/">Instagram</a><br>
+          <a target="_blank" href="https://www.linkedin.com/company/corpasantegold">Linkedin</a><br>
+          <a target="_blank" href="https://www.youtube.com/channel/UCxRIWKBllJmU2cd__w1lFUg">YouTube</a><br> --}}
 
-          </div>
-  
-          <div class="tabs__pane -tab-item-3">
-            <h2 class="text-accent-1">Bibiani Forecast Gold Production</h2>
-            <p>
-              Includes planned business improvement initiatives
-            </p>
-            <p>Underground development starts Q4 2025</p>
-            <h2 class="text-accent-1">Exploration Program</h2>
-            <p>BIBIANI EXPLORATION OVERVIEW</p>
-            <p>MAIN PIT</p>
-            <p>A substantial gold deposit:</p>
-            <p>Production to date >4Moz </p>
-            <p>2Moz Reserve presented in NI 43-101</p>
-            <p>Mineralization is continuous to 800m below surface & at least 250m below the resource model. The geology suggests that mineralization may continue to considerable depth below historic underground workings</p>
-            <p>Open along strike to North and South</p>
-            <p>Near Mine exploration program has achieved significant success to date, with +120,000 oz added</p>
-            <p>Several satellite pits in production or development</p>
-            <p>Asante controls 53km of the Bibiani shear zone</p>
-            <h2 class="text-accent-1">BIBIANI – NEAR MINE EXPLORATION PROGRAM</h2>
-            <p>
-              Very little regional exploration was conducted in the goldfield since the 1990’s when the Bibiani main pit became the focus.  Asante initiated the Near Mine Exploration Program in September 2021 and has achieved excellent results to date
-            </p>
-            <p>
-              <u>Walsh</u>     2021/22 drill program has delivered +100,000oz to date
-            </p>
-            <p>
-              <u>Grasshopper</u>    Recent drill results from Grasshopper demonstrated significant resource increase
-            </p>
-            <p>
-              Satellite Pit mining started at Q2 2023.  Approximately 50,000oz gold will be mined, with upside potential to the north and south toward Aheman
-            </p>
-            <p>
-              <u>Elizabeth Hill</u>     Strike extension from the main zone is currently being explored. Early drill results indicate potential for near surface ounces
-            </p>
-            <p>
-              <u>Satellite Underground Exploration</u>     Drilling has started beneath the Walsh, Strauss and Big Mug pits to determine resource potential at depth. Additional deep drilling is planned
-            </p>
-            <p>
-              <u>Russell South</u>     Footprint of mineralization has expanded from 200m strike initially to over 500m and remains open along strike and at depth. Drill intercepts to date confirm continuity of high-grade mineralization near surface with consistent grades and widths. Recent drill intercepts include 21.5m at 3.37g/t from 22m down hole. Russell South is expected to connect to the Russell deposit 
-            </p>
-          </div>
+          <ul>
+            <li><a target="_blank" href="https://web.facebook.com/corpasantegold/">Facebook</a></li>
+            <li><a target="_blank" href="https://twitter.com/corpasantegold">Twitter</a></li>
+            <li><a target="_blank" href="https://www.instagram.com/corpasantegold/">Instagram</a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/company/corpasantegold">Linkedin</a></li>
+            <li><a target="_blank" href="https://www.youtube.com/channel/UCxRIWKBllJmU2cd__w1lFUg">YouTube</a></li>
+          </ul>
+        </div>
       </div>
+    </div>
+    <div class="row">
+      {{-- <img src="/assets/images/bb.png" alt=""> --}}
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.476996114794!2d-2.319807324935449!3d6.461091023885285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdb575c5c90f721%3A0x54ff3fbd8a735199!2sBibiani%20Gold%20Mine!5e0!3m2!1sen!2sgh!4v1719768600397!5m2!1sen!2sgh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <br><br>
+    <div class="row">
+      <h2 style="padding-left: 35px;" class="text-accent-1">History</h2>
+      <br><br>
+      <div class="container">
+        <div class="row">
+          <table>
+            <thead>
+              <th>Date</th>
+              <th>Interested Party</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1892 – 1913</td>
+                <td>Exploitation of the shallow oxide mineralisation</td>
+              </tr>
+              <tr>
+                <td>1927 – 1958</td>
+                <td>Mining activities continued and was developed and operated by foreign investors until it was nationalised in 1958.</td>
+              </tr>
+              <tr>
+                <td>1958 – 1973</td>
+                <td>Underground mining by the State Gold Mining Company.</td>
+              </tr>
+              <tr>
+                <td>1973 - 1995</td>
+                <td>GLAMC and IGR carried out tailings reclamation and surface exploration yielding positive results for open pit mining around the historic underground Bibiani Mine.</td>
+              </tr>
+              <tr>
+                <td>1995 – 2008</td>
+                <td>Ashanti Goldfields/AngloGold Ashanti (AGA) – redeveloped the mine as an open pit operation with a modern processing plant.</td>
+              </tr>
+              <tr>
+                <td>2008 – 2013</td>
+                <td>Central African Gold (CAG)/Noble Mineral Resources.</td>
+              </tr>
+              <tr>
+                <td>2014 – 2021</td>
+                <td>Mine owned and operated by Mensin Gold Bibiani, a subsidiary of Resolute Mining Limited, which conducted significant exploration on the Project during this period.</td>
+              </tr>
+              <tr>
+                <td>2021 – Present</td>
+                <td>August 2021 Asante finalises purchase the Bibiani Gold Mine. The Mine is owned by AGBL (RGD No. CS506392014 incorporated in Ghana), a wholly owned subsidiary of Asante Gold Corporation. Open pit mining and processing has been ongoing since February 2022.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <div class="row new-section">
+      <div class="col-md-6">
+        <h2 style="padding-left: 35px;" class="text-accent-1">News</h2>
+        <hr>
+        <ul class="">
+          @foreach($posts as $post)
+            <li>
+                <h4>{{\Carbon\Carbon::parse($post['date_gmt'])->toFormattedDateString()}}</h4>
+                <a href="{{route('news.releases.details', [$post['slug']])}}">
+                    <h3> {{$post['title']['rendered']}}</h3>
+                </a>
+            </li>
+          @endforeach
+        </ui>
+          <a href="{{route('news.releases')}}" class="button -md -dark-1 bg-accent-1 text-white col-12">
+              View All News
+          </a>
+      </div>
+      <div class="col-md-6">
+        <h2 style="padding-left: 35px;" class="text-accent-1">Downloads</h2>
+        <hr>
+        <h3><a href="https://drive.google.com/file/d/1MASrTvrDY0ilgsF8VSlOdRFzYgV6t70y/view?usp=sharing" target="_blank" class="dwnld">Download Bibiani Technical Report</a></h3>
+      </div>
+    </div>
+    <br><br>
+    <div class="row">
+      <h2 style="padding-left: 35px;" class="text-accent-1">2023 Performance</h2>
+      <hr>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-body">
+              <p><strong>Gold Produced in 2023</strong></p>
+              <h4>138</h4>
+              <p>Koz</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <div class="row">
+      <h2 style="padding-left: 35px;" class="text-accent-1">Reserves & Resources </h2>
+      <hr>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-body">
+              <p><strong>Measured and Indicated Gold Resources</strong></p>
+              <h4>2.0490</h4>
+              <p>Gold Koz</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-body">
+              <p><strong>Inferred Gold Resources</strong></p>
+              <h4>1.152</h4>
+              <p>Gold Koz</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-body">
+              <p><strong>Proven and Probable</strong></p>
+              <h4>1.950</h4>
+              <p>Gold Koz</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
-  
-    {{--  --}}
 </section>
 <br><br>
 
