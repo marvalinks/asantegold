@@ -105,11 +105,11 @@
           <a target="_blank" href="https://www.youtube.com/channel/UCxRIWKBllJmU2cd__w1lFUg">YouTube</a><br> --}}
 
           <ul>
-            <li><a target="_blank" href="https://web.facebook.com/corpasantegold/">Facebook</a></li>
-            <li><a target="_blank" href="https://twitter.com/corpasantegold">Twitter</a></li>
-            <li><a target="_blank" href="https://www.instagram.com/corpasantegold/">Instagram</a></li>
-            <li><a target="_blank" href="https://www.linkedin.com/company/corpasantegold">Linkedin</a></li>
-            <li><a target="_blank" href="https://www.youtube.com/channel/UCxRIWKBllJmU2cd__w1lFUg">YouTube</a></li>
+            <li><a target="_blank" class="dwnld" href="https://web.facebook.com/corpasantegold/">Facebook</a></li>
+            <li><a target="_blank" class="dwnld" href="https://twitter.com/corpasantegold">Twitter</a></li>
+            <li><a target="_blank" class="dwnld" href="https://www.instagram.com/corpasantegold/">Instagram</a></li>
+            <li><a target="_blank" class="dwnld" href="https://www.linkedin.com/company/corpasantegold">Linkedin</a></li>
+            <li><a target="_blank" class="dwnld" href="https://www.youtube.com/channel/UCxRIWKBllJmU2cd__w1lFUg">YouTube</a></li>
           </ul>
         </div>
       </div>
