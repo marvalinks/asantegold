@@ -219,7 +219,7 @@
           <div class="card">
             <div class="card-body">
               <p><strong>Measured and Indicated Gold Resources</strong></p>
-              <h4>2.0490</h4>
+              <h4>2.490</h4>
               <p>Gold Koz</p>
             </div>
           </div>

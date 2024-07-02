@@ -5,7 +5,8 @@ a:hover {
     color: #b09c34 !important;
 }
 .logo {
-    width: 122px;
+    /* width: 122px; */
+    width: 150px;
 }
 .header.-type-5.-is-sticky {
     background-color: #ffffff;
