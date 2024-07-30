@@ -182,7 +182,7 @@
           <div class="row cb00 cb01">
             <h4 class="fw-900"><span class="text-accent-1">Safety</span></h4>
           </div>
-          <div class="row lst">
+          {{-- <div class="row lst">
             <ul>
               <li>We ensure no harm to our people, the community ofr the environment.</li>
               <li>Our people comes first and our work environment must provide physical and mental safety.</li>
@@ -190,7 +190,7 @@
               <li>We lead with the courage to assess and address situations correctly.</li>
               <li>We value importance of risk management and anyone who puts themselvesor others at risk cannot work for our business.</li>
             </ul>
-          </div>
+          </div> --}}
 
         </div>
         <div class="col-md-3">
@@ -198,7 +198,7 @@
           <div class="row cb00 cb02">
             <h4 class="fw-900"><span class="text-accent-1">Ownership</span></h4>
           </div>
-          <div class="row lst">
+          {{-- <div class="row lst">
             <ul>
               <li>We act like the business is ours.</li>
               <li>We hold each other accountable for commitments and actions.</li>
@@ -206,7 +206,7 @@
               <li>We take responsibility for our decisions and results.</li>
               <li>We demonstrate Integrity and good Ethical Behaviour at all times.</li>
             </ul>
-          </div>
+          </div> --}}
 
         </div>
         <div class="col-md-3">
@@ -214,7 +214,7 @@
           <div class="row cb00 cb03">
             <h4 class="fw-900"><span class="text-accent-1">Teamwork</span></h4>
           </div>
-          <div class="row lst">
+          {{-- <div class="row lst">
             <ul>
               <li>We care for one another and collaborate with respect to achieve success.</li>
               <li>We act with trust and verify to add value.</li>
@@ -222,7 +222,7 @@
               <li>We are transparent and honest in our work.</li>
               <li>We communicate clearly, honestly and effectively.</li>
             </ul>
-          </div>
+          </div> --}}
 
         </div>
         <div class="col-md-3">
@@ -230,7 +230,7 @@
           <div class="row cb00 cb04">
             <h4 class="fw-900"><span class="text-accent-1">Continuous Improvement</span></h4>
           </div>
-          <div class="row lst">
+          {{-- <div class="row lst">
             <ul>
               <li>We are a learning organization.</li>
               <li>We are agile and embrace change.</li>
@@ -238,7 +238,7 @@
               <li>We identify and work to exceed best practice.</li>
               <li>We demonstrate a structured approach to identify and act upon opportunities to add value.</li>
             </ul>
-          </div>
+          </div> --}}
 
         </div>
       </div>
