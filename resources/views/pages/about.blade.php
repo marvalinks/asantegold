@@ -1,5 +1,97 @@
 @extends('layouts.app')
 
+@section('styles')
+    <style>
+      .cb00{
+        text-align: center;
+        padding: 40px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        position: relative; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 100px;
+      }
+
+      .cb01::before {    
+        content: "";
+        background-image: url('/assets/images/gb0/01.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.15;
+      }
+      .cb02::before {    
+        content: "";
+        background-image: url('/assets/images/gb0/03.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.15;
+      }
+      .cb03::before {    
+        content: "";
+        background-image: url('/assets/images/gb0/02.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.15;
+      }
+      .cb04::before {    
+        content: "";
+        background-image: url('/assets/images/gb0/04.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.15;
+      }
+      .cb00 h4{
+        font-weight: 900;
+        position: relative;
+        text-align: center;
+        font-size: 40px;
+      }
+
+      .lst{
+        background: #dcdbce;
+        padding: 20px;
+        border-radius: 20px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-right: 0px;
+        margin-left: 0px;
+        min-height: 680px;
+      }
+      .lst li{
+        list-style-type: disc;
+        margin-bottom: 20px;
+      }
+    </style>
+@endsection
+
 @section('content')
 <section data-anim-wrap="" class="pageHeader -type-1 animated">
     <div data-anim-child="fade delay-1" class="pageHeader__image is-in-view">
@@ -77,5 +169,83 @@
   </div>
 </section>
 <br><br>
+
+<section class="layout-pt-lg">
+  <div class="container">
+    <div data-anim-child="slide-up delay-1" class="col-xl-12 col-lg-12 md:order-1 is-in-view k6p">
+      <h2 class="text-62 md:text-38 uppercase fw-500" style="text-align: center;">Core Values</h2>
+      <br><br><br>
+  
+      <div class="row">
+        <div class="col-md-3">
+
+          <div class="row cb00 cb01">
+            <h4 class="fw-900"><span class="text-accent-1">Safety</span></h4>
+          </div>
+          <div class="row lst">
+            <ul>
+              <li>We ensure no harm to our people, the community ofr the environment.</li>
+              <li>Our people comes first and our work environment must provide physical and mental safety.</li>
+              <li>We maintain correct procedures, standards and practice.</li>
+              <li>We lead with the courage to assess and address situations correctly.</li>
+              <li>We value importance of risk management and anyone who puts themselvesor others at risk cannot work for our business.</li>
+            </ul>
+          </div>
+
+        </div>
+        <div class="col-md-3">
+
+          <div class="row cb00 cb02">
+            <h4 class="fw-900"><span class="text-accent-1">Ownership</span></h4>
+          </div>
+          <div class="row lst">
+            <ul>
+              <li>We act like the business is ours.</li>
+              <li>We hold each other accountable for commitments and actions.</li>
+              <li>We act promptly and deligently to Deliver Results.</li>
+              <li>We take responsibility for our decisions and results.</li>
+              <li>We demonstrate Integrity and good Ethical Behaviour at all times.</li>
+            </ul>
+          </div>
+
+        </div>
+        <div class="col-md-3">
+
+          <div class="row cb00 cb03">
+            <h4 class="fw-900"><span class="text-accent-1">Teamwork</span></h4>
+          </div>
+          <div class="row lst">
+            <ul>
+              <li>We care for one another and collaborate with respect to achieve success.</li>
+              <li>We act with trust and verify to add value.</li>
+              <li>We acknowledge and celebrate our success.</li>
+              <li>We are transparent and honest in our work.</li>
+              <li>We communicate clearly, honestly and effectively.</li>
+            </ul>
+          </div>
+
+        </div>
+        <div class="col-md-3">
+
+          <div class="row cb00 cb04">
+            <h4 class="fw-900"><span class="text-accent-1">Continuous Improvement</span></h4>
+          </div>
+          <div class="row lst">
+            <ul>
+              <li>We are a learning organization.</li>
+              <li>We are agile and embrace change.</li>
+              <li>We look beyond current practice to add value.</li>
+              <li>We identify and work to exceed best practice.</li>
+              <li>We demonstrate a structured approach to identify and act upon opportunities to add value.</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+</section>
 
 @endsection
