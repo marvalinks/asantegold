@@ -78,7 +78,7 @@ class RouteModuleController extends Controller
     }
     public function governance(Request $request)
     {
-        $teams = GovernanceTeam::latest()->get();
+        $teams = GovernanceTeam::orderBy('id', 'asc')->get();
         return view('pages.governance', compact('teams'));
     }
     public function directors(Request $request)
