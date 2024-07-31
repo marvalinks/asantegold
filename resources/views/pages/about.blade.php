@@ -211,7 +211,7 @@
         </div>
         <div class="col-md-3">
 
-          <div class="row cb00 cb03">
+          <div class="row cb00 cb04">
             <h4 class="fw-900"><span class="text-accent-1">Teamwork</span></h4>
           </div>
           {{-- <div class="row lst">
@@ -227,7 +227,7 @@
         </div>
         <div class="col-md-3">
 
-          <div class="row cb00 cb04">
+          <div class="row cb00 cb03">
             <h4 class="fw-900"><span class="text-accent-1">Continuous Improvement</span></h4>
           </div>
           {{-- <div class="row lst">
