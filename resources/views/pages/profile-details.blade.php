@@ -36,7 +36,7 @@
         <div data-anim-wrap="" class="row y-gap-30 justify-between animated">
             <div class="col-md-4 md:order-2">
                 <div data-anim-child="slide-up delay-1" class="relative is-in-view">
-                  <img src="{{$team->image_url}}" alt="image">
+                  <img src="{{$team->image_url}}" alt="image" style="object-fit: contain;">
                 </div>
             </div>
     
