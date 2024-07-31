@@ -10,7 +10,7 @@
             margin: auto;
         }
         .fgh img{
-            /* height: 400px; */
+            max-height: 400px;
             border-radius: 20px;
         }
     </style>
