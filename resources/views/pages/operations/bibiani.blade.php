@@ -203,7 +203,7 @@
           <div class="card">
             <div class="card-body">
               <p><strong>Gold Produced in 2023</strong></p>
-              <h4>138</h4>
+              <h4>77</h4>
               <p>Koz</p>
             </div>
           </div>

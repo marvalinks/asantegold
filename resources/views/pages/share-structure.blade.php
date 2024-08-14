@@ -14,7 +14,7 @@
 <section class="layout-pt-lg layout-pb-lg bg-accent-3 our-projects">
     <div class="container">
         <div class="row y-gap-30 mt-60 md:mt-40 sm:mt-20" style="text-align: center;">
-            <h2 class="text-62 md:text-38 uppercase fw-500"><span class="text-accent-1">As of Febrary, 2024</span></h2>
+            <h2 class="text-62 md:text-38 uppercase fw-500"><span class="text-accent-1">As of August 2024</span></h2>
         </div>
         <div class="row y-gap-30 mt-60 md:mt-40 sm:mt-20">
             <div class="table -type-2 uppercase text-18 md:text-16">
@@ -47,15 +47,15 @@
                         </tr>
                         <tr>
                             <td>Common Shares</td>
-                            <td>445,124,986</td>
+                            <td>445,384,986</td>
                         </tr>
                         <tr>
                             <td>Stock Options Outstanding</td>
-                            <td>16,362,840</td>
+                            <td>16,102,840</td>
                         </tr>
                         <tr>
                             <td>Warrants Outstanding</td>
-                            <td>23,232,000</td>
+                            <td>5,000,000</td>
                         </tr>
                         <tr>
                             <td>RSU</td>
@@ -67,7 +67,7 @@
                         </tr>
                         <tr>
                             <td>Fully Diluted Share Capital</td>
-                            <td>497,832,986</td>
+                            <td>479,600,986</td>
                         </tr>
                     </tbody>
                 </table>
