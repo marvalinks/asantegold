@@ -18,6 +18,9 @@
                         <div class="headerMenuSubnav__item">
                             <a href="{{route('about.executive')}}">Asante Team</a>
                         </div>
+                        <div class="headerMenuSubnav__item">
+                            <a href="{{route('core.values')}}">Core Values</a>
+                        </div>
                     </div>
                 </div>
 

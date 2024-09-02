@@ -233,6 +233,11 @@ class RouteModuleController extends Controller
     {
         return view('pages.news.coverage');
     }
+    public function coreValues(Request $request, $slug='safety')
+    {
+        $page = $slug;
+        return view('pages.core-values', compact('page'));
+    }
     public function login(Request $request)
     {
         return view('pages.auth.login');

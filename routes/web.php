@@ -42,6 +42,7 @@ Route::get('events/{slug}', [RouteModuleController::class, 'eventDetail'])->name
 Route::get('analyst-coverage', [RouteModuleController::class, 'analystCoverage'])->name('analyst.coverage');
 Route::get('image-gallery', [RouteModuleController::class, 'imageGallery'])->name('gallery.image');
 Route::get('video-gallery', [RouteModuleController::class, 'videoGallery'])->name('gallery.video');
+Route::get('core-values/{id?}', [RouteModuleController::class, 'coreValues'])->name('core.values');
 
 Route::get('news-coverage', [RouteModuleController::class, 'newsCoverage'])->name('news.coverage');
 
