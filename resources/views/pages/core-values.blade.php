@@ -110,22 +110,22 @@
 </section>
 <section style="margin-top: 30px;">
     <div class="row gl-2">
-        <div class="col-3 cb00 cb01 {{$page == 'safety' ? 'sel' : ''}}">
+        <div class="col-md-3 cb00 cb01 {{$page == 'safety' ? 'sel' : ''}}">
             <a href="{{route('core.values', 'safety')}}">
                 <h4 class="fw-900"><span class="text-accent-1">Safety</span></h4>
             </a>
         </div>
-        <div class="col-3 cb00 cb02 {{$page == 'ownership' ? 'sel' : ''}}">
+        <div class="col-md-3 cb00 cb02 {{$page == 'ownership' ? 'sel' : ''}}">
             <a href="{{route('core.values', 'ownership')}}">
                 <h4 class="fw-900"><span class="text-accent-1">Ownership</span></h4>
             </a>
         </div>
-        <div class="col-3 cb00 cb04 {{$page == 'teamwork' ? 'sel' : ''}}">
+        <div class="col-md-3 cb00 cb04 {{$page == 'teamwork' ? 'sel' : ''}}">
             <a href="{{route('core.values', 'teamwork')}}">
                 <h4 class="fw-900"><span class="text-accent-1">Teamwork</span></h4>
             </a>
         </div>
-        <div class="col-3 cb00 cb03 {{$page == 'continuous-improvement' ? 'sel' : ''}}">
+        <div class="col-md-3 cb00 cb03 {{$page == 'continuous-improvement' ? 'sel' : ''}}">
             <a href="{{route('core.values', 'continuous-improvement')}}">
                 <h4 class="fw-900"><span class="text-accent-1">Continuous Improvement</span></h4>
             </a>
