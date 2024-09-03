@@ -106,6 +106,25 @@
       .gl-2 a:hover {
           border: 1px solid #e7dfdf;
       }
+      .t-center{
+        text-align: center;
+      }
+      .box{
+        width: 50%;
+        margin: auto;
+        border: 3px solid #b09c34;
+        padding: 5px;
+        height: 200px;
+      }
+      .f20{
+        font-size: 20px;
+        margin-bottom: 7px;
+        margin-top: 7px;
+      }
+      .box p{
+        line-height: 22px;
+        font-size: 16px;
+      }
     </style>
 @endsection
 
@@ -147,7 +166,7 @@
   <div class="container">
     <div data-anim-child="slide-up delay-1" class="col-xl-12 col-lg-12 md:order-1 is-in-view k6p">
         @if ($page == 'safety')
-        <h2 class="text-62 md:text-38 uppercase fw-500">
+        <h2 class="text-62 md:text-38 fw-500">
             <img src="/assets/images/gb0/01.png" class="fn-img">  <span class="text-accent-1">Safety</span>
         </h2>
         <div class="row lst">
@@ -161,7 +180,7 @@
         </div>
         @endif
         @if ($page == 'ownership')
-        <h2 class="text-62 md:text-38 uppercase fw-500">
+        <h2 class="text-62 md:text-38 fw-500">
             <img src="/assets/images/gb0/03.png" class="fn-img">  <span class="text-accent-1">Ownership</span>
         </h2>
         <div class="row lst">
@@ -175,7 +194,7 @@
         </div>
         @endif
         @if ($page == 'teamwork')
-        <h2 class="text-62 md:text-38 uppercase fw-500">
+        <h2 class="text-62 md:text-38 fw-500">
             <img src="/assets/images/gb0/04.png" class="fn-img">  <span class="text-accent-1">Teamwork</span>
         </h2>
         <div class="row lst">
@@ -189,7 +208,7 @@
         </div>
         @endif
         @if ($page == 'continuous-improvement')
-        <h2 class="text-62 md:text-38 uppercase fw-500">
+        <h2 class="text-62 md:text-38 fw-500">
             <img src="/assets/images/gb0/02.png" class="fn-img">  <span class="text-accent-1">Continuous Improvement</span>
         </h2>
         <div class="row lst">
@@ -202,6 +221,41 @@
             </ul>
         </div>
         @endif
+
+        <div class="row lst" style="margin-top: 80px;">
+          <div class="col-md-3 t-center">
+            <img src="/assets/images/gb0/01.png" class="fn-img">
+            <h4 class="f20">Eban</h4>
+            <div class="box">
+              <p><strong>Fence:</strong></p>
+              <p>A symbol of safety, security and Love</p>
+            </div>
+          </div>
+          <div class="col-md-3 t-center">
+            <img src="/assets/images/gb0/03.png" class="fn-img">
+            <h4 class="f20">Agyinduwura</h4>
+            <div class="box">
+              <p><strong>Agyin's Gong:</strong></p>
+              <p>A symbol of loyalty, faithfulness, alertness and dutifulness</p>
+            </div>
+          </div>
+          <div class="col-md-3 t-center">
+            <img src="/assets/images/gb0/04.png" class="fn-img">
+            <h4 class="f20">Ti koro nko agyina</h4>
+            <div class="box">
+              <p><strong>Two heads are better than one:</strong></p>
+              <p>Emphasizing the importance of corporation and teamwork</p>
+            </div>
+          </div>
+          <div class="col-md-3 t-center">
+            <img src="/assets/images/gb0/02.png" class="fn-img">
+            <h4 class="f20">Nkyinkyim</h4>
+            <div class="box">
+              <p><strong>Twisting:</strong></p>
+              <p>Symbol of Initiative, Dynamism and LoVersatilityve</p>
+            </div>
+          </div>
+        </div>
   
      
       
