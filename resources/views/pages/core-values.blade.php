@@ -8,6 +8,7 @@
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
+        background-size: 140px;
 
         position: relative; 
         display: flex;
@@ -22,6 +23,7 @@
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
+        background-size: 140px;
         position: absolute;
         top: 0px;
         right: 0px;
@@ -35,6 +37,7 @@
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
+        background-size: 140px;
         position: absolute;
         top: 0px;
         right: 0px;
@@ -48,6 +51,7 @@
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
+        background-size: 140px;
         position: absolute;
         top: 0px;
         right: 0px;
@@ -61,6 +65,7 @@
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
+        background-size: 140px;
         position: absolute;
         top: 0px;
         right: 0px;
@@ -72,7 +77,7 @@
         font-weight: 900;
         position: relative;
         text-align: center;
-        font-size: 40px;
+        font-size: 30px;
       }
 
       .lst{
@@ -94,6 +99,12 @@
       }
       .sel{
         background: #f7f0eb;
+      }
+      .gl-2 a {
+          border: none;
+      }
+      .gl-2 a:hover {
+          border: 1px solid #e7dfdf;
       }
     </style>
 @endsection

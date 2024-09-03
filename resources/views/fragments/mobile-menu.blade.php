@@ -12,13 +12,13 @@
                         <div class="submenu__item">
                             <a href="{{route('about')}}">About Asante Gold Corporation</a>
                         </div>
-
-                        <div class="submenu__item">
-                            <a href="{{route('about.executive')}}">Asante Team</a>
-                        </div>
                         <div class="submenu__item">
                             <a href="{{route('core.values')}}">Core Values</a>
                         </div>
+                        <div class="submenu__item">
+                            <a href="{{route('about.executive')}}">Asante Team</a>
+                        </div>
+                        
 
                     </div>
                 </div>
