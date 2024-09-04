@@ -110,11 +110,11 @@
         text-align: center;
       }
       .box{
-        width: 50%;
+        width: 60%;
         margin: auto;
         border: 3px solid #b09c34;
         padding: 5px;
-        height: 200px;
+        height: 220px;
       }
       .f20{
         font-size: 20px;
