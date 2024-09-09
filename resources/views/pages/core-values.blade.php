@@ -171,7 +171,7 @@
         </h2>
         <div class="row lst">
             <ul>
-              <li>We ensure no harm to our people, the community ofr the environment.</li>
+              <li>We ensure no harm to our people, the community or the environment.</li>
               <li>Our people comes first and our work environment must provide physical and mental safety.</li>
               <li>We maintain correct procedures, standards and practice.</li>
               <li>We lead with the courage to assess and address situations correctly.</li>
@@ -252,7 +252,7 @@
             <h4 class="f20">Nkyinkyim</h4>
             <div class="box">
               <p><strong>Twisting:</strong></p>
-              <p>Symbol of Initiative, Dynamism and LoVersatilityve</p>
+              <p>Symbol of Initiative, Dynamism and Versatility</p>
             </div>
           </div>
         </div>
