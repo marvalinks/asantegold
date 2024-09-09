@@ -175,7 +175,7 @@
               <li>Our people comes first and our work environment must provide physical and mental safety.</li>
               <li>We maintain correct procedures, standards and practice.</li>
               <li>We lead with the courage to assess and address situations correctly.</li>
-              <li>We value importance of risk management and anyone who puts themselvesor others at risk cannot work for our business.</li>
+              <li>We value the importance of risk management and anyone who puts themselves or others at risk cannot work for our business.</li>
             </ul>
         </div>
         @endif
