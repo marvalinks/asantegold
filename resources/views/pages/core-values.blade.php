@@ -228,7 +228,7 @@
             <h4 class="f20">Eban</h4>
             <div class="box">
               <p><strong>Fence:</strong></p>
-              <p>A symbol of safety, security and Love</p>
+              <p>A symbol of Safety, Security and Love</p>
             </div>
           </div>
           <div class="col-md-3 t-center">
@@ -236,7 +236,7 @@
             <h4 class="f20">Agyinduwura</h4>
             <div class="box">
               <p><strong>Agyin's Gong:</strong></p>
-              <p>A symbol of loyalty, faithfulness, alertness and dutifulness</p>
+              <p>A symbol of Loyalty, Faithfulness, Alertness and Dutifulness</p>
             </div>
           </div>
           <div class="col-md-3 t-center">
@@ -244,7 +244,7 @@
             <h4 class="f20">Ti koro nko agyina</h4>
             <div class="box">
               <p><strong>Two heads are better than one:</strong></p>
-              <p>Emphasizing the importance of corporation and teamwork</p>
+              <p>Emphasizing the importance of cooperation and teamwork</p>
             </div>
           </div>
           <div class="col-md-3 t-center">
