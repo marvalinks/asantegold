@@ -228,7 +228,7 @@
             <h4 class="f20">Eban</h4>
             <div class="box">
               <p><strong>Fence:</strong></p>
-              <p>A symbol of Safety, Security and Love</p>
+              <p>A Symbol of Safety, Security and Love</p>
             </div>
           </div>
           <div class="col-md-3 t-center">
@@ -236,7 +236,7 @@
             <h4 class="f20">Agyinduwura</h4>
             <div class="box">
               <p><strong>Agyin's Gong:</strong></p>
-              <p>A symbol of Loyalty, Faithfulness, Alertness and Dutifulness</p>
+              <p>A Symbol of Loyalty, Faithfulness, Alertness and Dutifulness</p>
             </div>
           </div>
           <div class="col-md-3 t-center">
