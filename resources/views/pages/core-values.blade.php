@@ -244,7 +244,7 @@
             <h4 class="f20">Ti koro nko agyina</h4>
             <div class="box">
               <p><strong>Two heads are better than one:</strong></p>
-              <p>Emphasizing the importance of cooperation and teamwork</p>
+              <p>Emphasizing the importance of Cooperation and Teamwork</p>
             </div>
           </div>
           <div class="col-md-3 t-center">
