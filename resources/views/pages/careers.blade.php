@@ -156,7 +156,7 @@
             </div>
         </div> --}}
 
-        {{-- <div class="row y-gap-30 justify-center pt-40 sm:pt-20 jobs">
+        <div class="row y-gap-30 justify-center pt-40 sm:pt-20 jobs">
             <form action="{{route('careers')}}" enctype="multipart/form-data" autocomplete="off" method="post">
                 @csrf
                 <div class="row justify-center pt-60 md:pt-30">
@@ -191,7 +191,7 @@
                     </div>
                 </div>
             </form>
-        </div> --}}
+        </div>
     </div>
 </section>
 <br><br>
