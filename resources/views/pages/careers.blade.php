@@ -1,5 +1,18 @@
 @extends('layouts.app')
 
+@section('styles')
+    <style>
+        .pl0{
+            justify-content: center;
+            align-items: baseline;
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+    </style>
+@endsection
+
 @section('content')
 <section data-anim-wrap="" class="pageHeader -type-1 animated">
     <div data-anim-child="fade delay-1" class="pageHeader__image is-in-view">
@@ -23,10 +36,40 @@
 
         <div class="row y-gap-30 justify-center pt-40 sm:pt-20 jobs">
             <div class="container">
-                <p style="text-align: center;">No jobs currently available</p>
+                {{-- <p style="text-align: center;">No jobs currently available</p> --}}
+                <div class="row pl0">
+                    <h4 style="text-align: center;">National Service Registration</h4>
+                    <br><br>
+                    <img src="/assets/images/qr01.jpg" style="width: 220px;">
+                    <br><br><br>
+                    <p>
+                        <strong>
+                            Scan QR code with your phone camera to submit your NSS Application or click below link in your browser for registration
+                        </strong>
+                    </p>
+                    <br><br>
+                    <hr>
+                    <p>
+                        <strong>
+                            <a target="_blank" href="https://forms.gle/WLfeDQ5G7wKYcpWJ7" style="color: #bfad58;"> https://forms.gle/WLfeDQ5G7wKYcpWJ7</a>
+                        </strong>
+                    </p>
+                    <hr>
+                    <br><br>
+                    <p>
+                        <strong>Please note the following:</strong>
+                    </p>
+                    
+                    <ul>
+                        <li>1. Before you scan or connect to the link, please ensure you have a gmail account.</li>
+                        <li>2. Have a copy of your National Service appointment letter readily available to upload.</li>
+                        <li>3. National Service posting submissions without attaching appointment letters will be automatically rejected.</li>
+                        <li>4. The system allows for one-time submission only.</li>
+                    </ul>
+                </div>
             </div>
         </div>
-        
+
         {{-- <div class="row y-gap-30 justify-center pt-40 sm:pt-20 jobs">
             <div class="col-xl-8 col-lg-10">
                 <div class="accordion -simple row js-accordion">
@@ -113,7 +156,7 @@
             </div>
         </div> --}}
 
-        <div class="row y-gap-30 justify-center pt-40 sm:pt-20 jobs">
+        {{-- <div class="row y-gap-30 justify-center pt-40 sm:pt-20 jobs">
             <form action="{{route('careers')}}" enctype="multipart/form-data" autocomplete="off" method="post">
                 @csrf
                 <div class="row justify-center pt-60 md:pt-30">
@@ -148,7 +191,7 @@
                     </div>
                 </div>
             </form>
-        </div>
+        </div> --}}
     </div>
 </section>
 <br><br>
