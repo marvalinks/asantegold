@@ -178,6 +178,18 @@
               <li>We value the importance of risk management and anyone who puts themselves or others at risk cannot work for our business.</li>
             </ul>
         </div>
+        {{-- <div class="row lst" style="margin-top: 80px;">
+          <div class="col-md-3"></div>
+          <div class="col-md-6 t-center">
+            <img src="/assets/images/gb0/01.png" class="fn-img">
+            <h4 class="f20">Eban</h4>
+            <div class="box">
+              <p><strong>Fence:</strong></p>
+              <p>A Symbol of Safety, Security and Love</p>
+            </div>
+          </div>
+          <div class="col-md-3"></div>
+        </div> --}}
         @endif
         @if ($page == 'ownership')
         <h2 class="text-62 md:text-38 fw-500">
