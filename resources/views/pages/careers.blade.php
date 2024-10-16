@@ -10,6 +10,9 @@
             margin-right: auto;
             width: 50%;
         }
+        .pr p{
+            font-size: 18px;
+        }
     </style>
 @endsection
 
@@ -34,9 +37,9 @@
             </div>
         </div>
 
-        <div class="row y-gap-30 justify-center pt-40 sm:pt-20 jobs">
+        <div class="row pr y-gap-30 justify-center sm:pt-20 jobs">
             
-            <div class="row justify-center pt-60 md:pt-30">
+            <div class="row justify-center md:pt-30">
                 <div class="col-xl-6 col-lg-8 col-md-10">
                     <div class="contactForm">
                         <div class="mt-30">
