@@ -109,7 +109,7 @@
               </div>
               
               <br>
-              <h2 class="text-accent-1">Our Values</h2> <br>
+              {{-- <h2 class="text-accent-1">Our Values</h2> <br>
               <h4>Teamwork & Performance:</h4>
               <p>
                 Teamwork: Asante Gold values collaboration and recognizes the importance of working together towards common goals. 
@@ -206,7 +206,7 @@
                   targets assets with potential for operational improvements, cost optimizations, and value enhancements. By acquiring distressed assets and applying its operational expertise and management capabilities, Asante aims to revitalize underperforming operations, unlock 
                   hidden value, and drive sustainable growth and profitability.
                 </li>
-              </ul>
+              </ul> --}}
               
           </div>
   
