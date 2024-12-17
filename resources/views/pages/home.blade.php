@@ -177,7 +177,7 @@
                       <br><br>
                     <img src="/assets/images/presentation/presentation.jpg" alt="">
                     <br><br>
-                    <a target="_blank" href="https://drive.google.com/file/d/1tvCKc91-klVVEccYt-9c6Q3jasT7ucTQ/view?usp=drive_link" class="button -md -dark-1 bg-accent-1 text-white col-12">
+                    <a target="_blank" href="https://drive.google.com/file/u/1/d/12J-BQbzzfNOi3f-VQZUiKHC7O-uuePox/view?usp=drive_link" class="button -md -dark-1 bg-accent-1 text-white col-12">
                         DOWNLOAD INVESTOR PRESENTATION
                     </a>
                     {{-- <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-12">
