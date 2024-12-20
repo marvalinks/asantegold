@@ -166,7 +166,7 @@
                       @foreach ($digbee as $report)
                       <div class="col-md-12">
                         <a target="_blank" href="{{$report->url}}" class="button -md -dark-1 bg-accent-1 text-white col-12">
-                          {{$report->year}} {{$report->name}}
+                          {{$report->name}}
                         </a>
                       </div>
                       @endforeach
@@ -176,7 +176,7 @@
               </div>
 
               <div class="row" style="margin-top: 80px;">
-                <h2 style="margin-bottom: 10px;">Policies</h2>
+                <h2 style="margin-bottom: 10px;">Sustainability Policies</h2>
                 <div class="row spolicies">
                   <div class="col-md-12">
                     <div class="row">

@@ -139,7 +139,7 @@
 
 <section class="layout-pt-lg">
   <div class="row hn" style="margin-top: 20px;">
-    <h2 style="margin-bottom: 30px;">Governance</h2>
+    <h2 style="margin-bottom: 30px;">Board Documents</h2>
     <div class="row spolicies">
       <div class="col-md-12">
         <div class="row">
