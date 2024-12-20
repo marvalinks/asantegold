@@ -89,6 +89,13 @@
         list-style-type: disc;
         margin-bottom: 20px;
       }
+      .spolicies .button{
+        margin-bottom: 13px;
+      }
+      .hn{
+        width: 89%;
+        margin: auto;
+      }
     </style>
 @endsection
 
@@ -110,65 +117,50 @@
     <div data-anim-child="slide-up delay-1" class="col-xl-12 col-lg-12 md:order-1 is-in-view k6p">
       <h2 class="text-62 md:text-38 uppercase fw-500">Asante Gold  <span class="text-accent-1">Corporation</span></h2>
   
-      <p class="md:mt-30">Asante is a gold exploration, development and operating company with a high-quality portfolio of projects and mines in Ghana. Asante is currently operating the Bibiani and Chirano Gold Mines and continues with detailed technical studies at its Kubi Gold Project for early production.</p>
+      <p class="md:mt-30">
+        Asante Gold Corporation is a gold exploration, development and operating company headquartered in Vancouver, Canada. Asante owns and operates the Bibiani and Chirano Gold Mines and continues with detailed technical studies at its Kubi Gold Project for early production. All mines and projects are located on the Bibiani and Ashanti Gold Belts in the Republic of Ghana (“Ghana”). Asante is also exploring its Keyhole, Fahiakoba and Betenase projects near the centre of Ghana's Golden Triangle.
+      </p>
       
       <p class="mt-30 md:mt-5">
-        All mines and projects are located on the prolific Bibiani and Ashanti Gold Belts.  Asante is also exploring its Keyhole, Fahiakoba, and Betenase projects 
-        for new discoveries, all adjoining or along strike of major gold mines near the centre of Ghana’s Golden Triangle.
-        Asante is listed on the Canadian Securities Exchange, the Ghana Stock Exchange and the Frankfurt Stock Exchange.
-        We co-listed our shares on the Ghana Stock Exchange to allow a whole new group of Ghanaian investors the opportunity 
-        to invest in the growth of their own local gold mining industry.
+        Asante is publicly listed on the Canadian Securities Exchange (CSE:ASE) and the Ghana Stock Exchange (GSE:ASG). The company owns 90% of both operating mines, with the Ghanaian government retaining a 10% free carried interest under Section 8 of the Ghanaian Mining Act.
+      </p>
+      <p class="mt-30 md:mt-5">
+        Asante is committed to conducting its business operations in a socially responsible and environmentally sustainable manner, integrating ESG principles into its core business strategies. Asante has adopted the IFC Performance Standards and is guided by the ICMM Mining principles : performance expectations.
+      </p>
+      <p class="mt-30 md:mt-5">
+        
       </p>
     </div>
     {{--  --}}
-    <div data-anim-child="slide-up delay-1" class="col-xl-12 col-lg-12 md:order-1 is-in-view k6p">
-      <p class="mt-30 md:mt-5">
-        Asante has an experienced and skilled team of mine finders, builders and operators, with extensive experience in Ghana. 
-        Our experienced team members are our most precious asset, having discovered, explored and developed more than 24Moz of gold resources and reserves in Ghana; and having managed Ghana’s largest underground mine. 
-      </p>
-      <ul>
-        <li>- CSE: ASE</li>
-        <li>- GSE: ASG</li>
-        <li>- FRANKFURT: 1A9</li>
-        <li>- OTC: ASGOF</li>
-        <li>- LEI# 529900F9PV1G9S5YD446</li>
-      </ul>
-      <p class="mt-30 md:mt-5">
-        Our current objective is to commence initiatives to capture synergies between our Bibiani and Chirano mines, which are situated with their process plants approximately 15 km apart.  
-        These initiatives include the development of an access road to directly link the process plants and provide access for exploration along the highly mineralized Bibiani-Chirano shear zone.  
-        This road will be upgraded to become a mine haul road, so that ore can be treated where most appropriate, based upon availability and mineralogy.
-        Asante continues to develop opportunities to share infrastructure and realize operational cost reductions.
-        Asante has recognized additional exploration upside opportunities, from near surface, and underground targets.
-      </p>
-      
-    </div>
+  </div>
   </div>
 
 </section>
+
 <section class="layout-pt-lg">
-  <div class="container">
-    <div class="row y-gap-30 justify-between items-center">
-      <div class="col-lg-6">
-        <div class="ratio ratio-1:1">
-          <img src="/assets/images/backgrounds/bg05.jpg" alt="image" class="img-ratio rounded-12">
+  <div class="row hn" style="margin-top: 20px;">
+    <h2 style="margin-bottom: 30px;">Governance</h2>
+    <div class="row spolicies">
+      <div class="col-md-12">
+        <div class="row">
+          @foreach ($reports as $report)
+          <div class="col-md-6">
+            <a target="_blank" href="{{$report->url}}" class="button -md -dark-1 bg-accent-1 text-white col-12">
+              {{$report->name}}
+            </a>
+          </div>
+          @endforeach
         </div>
-      </div>
-
-      <div class="col-xl-5 col-lg-6">
-        <h2 class="text-62 md:text-38 uppercase">
-          <span class="text-accent-1">Our </span><br>
-          determination
-        </h2>
-
-        <p class="text-18 md:text-16 mt-60 md:mt-20">
-          At Asante Gold Corporation, we are determined to create a better world and benefit the local population. Where possible, we will use industry best practices and methods to lower our mining impact and improve total economic returns.
-        </p>
-        {{-- <button class="button -md -dark-1 -min-260 rounded-12 text-accent-1 border-accent-1 mt-60 md:mt-20">Explore</button> --}}
       </div>
     </div>
   </div>
 </section>
 <br><br>
+<section class="layout-pt-lg">
+  <div class="row hn">
+    <img src="https://tt3.ams3.digitaloceanspaces.com/asante-gold/P1.jpeg" alt="">
+  </div>
+</section>
 
 {{-- <section class="layout-pt-lg">
   <div class="container">

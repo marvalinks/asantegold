@@ -4,12 +4,16 @@ namespace App\Http\Controllers;
 
 use App\Mail\CareerEmail;
 use App\Mail\ContactEmail;
+use App\Models\DigbeeReport;
 use App\Models\DirectorTeam;
 use App\Models\Event;
 use App\Models\ExecutiveTeam;
 use App\Models\FinancialYear;
+use App\Models\GovernanceReport;
 use App\Models\GovernanceTeam;
 use App\Models\ImageGallery;
+use App\Models\SustainabilityPolicy;
+use App\Models\SustainabilityReport;
 use App\Models\VideoGallery;
 use GuzzleHttp\Client;
 use Illuminate\Http\Request;
@@ -69,7 +73,8 @@ class RouteModuleController extends Controller
         //     $a->slug = Str::slug($a->name);
         //     $a->save();
         // }
-        return view('pages.about');
+        $reports = GovernanceReport::latest()->get();
+        return view('pages.about', compact('reports'));
     }
     public function executive(Request $request)
     {
@@ -199,7 +204,10 @@ class RouteModuleController extends Controller
     }
     public function sustainability(Request $request)
     {
-        return view('pages.sustainability');
+        $reports = SustainabilityReport::orderBy('year', 'asc')->get();
+        $policies = SustainabilityPolicy::latest()->get();
+        $digbee = DigbeeReport::orderBy('year', 'asc')->get();
+        return view('pages.sustainability', compact('reports', 'policies', 'digbee'));
     }
     public function thankyou(Request $request)
     {

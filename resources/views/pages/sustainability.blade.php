@@ -24,6 +24,26 @@
             margin-top: 30px;
             margin-bottom: 30px;
         }
+        .sreport .button{
+          margin-bottom: 13px;
+          padding: 3px;
+        }
+        .spolicies .button{
+          margin-bottom: 13px;
+        }
+        .bgbg{
+          
+          padding-top: 80px;
+          padding-bottom: 80px;
+          padding-left: 20px;
+          padding-right: 20px;
+          background-position: center!important;
+          color: aliceblue;
+          background-color: rgb(0 0 0 / 60%)!important;
+          background-blend-mode: darken;
+          min-height: 480px;
+          background-size: contain !important;
+        }
 
         @media (max-width: 767px) {
             .yt .col-auto {
@@ -105,6 +125,70 @@
                     <div class="mj">
                         <img src="https://tt3.ams3.digitaloceanspaces.com/asante-gold/Asante%20models.png" alt="">
                     </div>
+                </div>
+
+              </div>
+
+              {{-- updates --}}
+              <div class="row" style="margin-top: 80px;">
+                <h2 style="margin-bottom: 10px;">Reports</h2>
+                <div class="col-md-6">
+                  <div class="row bgbg" style="background: url('https://tt3.ams3.digitaloceanspaces.com/asante-gold/6U7A1761.jpeg');">
+                    <h2 style="margin-bottom: 20px;">Sustainability Reports</h2>
+                    <br>
+                    <p>
+                      The sustainability report has been prepared in partial alignment with the Sustainability Accounting Standards Board (“SASB”) Metals and Mining Industry Standard.
+                    </p>
+                    <div class="row sreport" style="margin-top: 20px;">
+                      @foreach ($reports as $report)
+                      <div class="col-md-6">
+                        <a target="_blank" href="{{$report->url}}" class="button -md -dark-1 bg-accent-1 text-white col-12">
+                          {{$report->year}} {{$report->name}}
+                        </a>
+                      </div>
+                      @endforeach
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="row bgbg" style="background: url('https://tt3.ams3.digitaloceanspaces.com/asante-gold/6U7A1859.jpeg');">
+                    <h2 style="margin-bottom: 20px;">Digbee Report</h2>
+                    <br>
+                    <p>
+                      Digbee ESG is the industry standard ESG disclosure framework for the mining sector.
+                      It provides mining companies with a right-sized, future looking set of frameworks
+                      against which they can credibly disclose, track, compare and improve their ESG
+                      performance.
+
+                    </p>
+                    <br>
+                    <div class="row sreport" style="margin-top: 20px;">
+                      @foreach ($digbee as $report)
+                      <div class="col-md-12">
+                        <a target="_blank" href="{{$report->url}}" class="button -md -dark-1 bg-accent-1 text-white col-12">
+                          {{$report->year}} {{$report->name}}
+                        </a>
+                      </div>
+                      @endforeach
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row" style="margin-top: 80px;">
+                <h2 style="margin-bottom: 10px;">Policies</h2>
+                <div class="row spolicies">
+                  <div class="col-md-12">
+                    <div class="row">
+                      @foreach ($policies as $report)
+                      <div class="col-md-6">
+                        <a target="_blank" href="{{$report->url}}" class="button -md -dark-1 bg-accent-1 text-white col-12">
+                          {{$report->name}}
+                        </a>
+                      </div>
+                      @endforeach
+                    </div>
+                  </div>
                 </div>
               </div>
               
