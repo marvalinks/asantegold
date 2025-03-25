@@ -93,9 +93,17 @@
         margin-bottom: 13px;
       }
       .hn{
-        width: 89%;
+        width: 81%;
         margin: auto;
       }
+      .layout-pt-lg {
+          padding-top: 60px!important;
+      }
+      .hn h2{
+        color: var(--color-accent-1);
+      }
+
+
     </style>
 @endsection
 
@@ -115,7 +123,42 @@
 <section class="layout-pt-lg">
   <div class="container">
     <div data-anim-child="slide-up delay-1" class="col-xl-12 col-lg-12 md:order-1 is-in-view k6p">
-      <h2 class="text-62 md:text-38 uppercase fw-500">Asante Gold  <span class="text-accent-1">Corporation</span></h2>
+      <h2 class="text-62 md:text-38 uppercase fw-500" style="text-align: center;">Asante Gold  <span class="text-accent-1">Corporation</span></h2>
+    </div>
+  </div>
+</section>
+<section class="layout-pt-lg">
+  <div class="row hn">
+    <h2 style="margin-bottom: 30px;">Our Vision</h2>
+    <div class="row spolicies">
+      <div class="col-md-12">
+        <div class="row">
+          <p>
+            To become the preferred Tier-1 mining company in West Africa.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="layout-pt-lg">
+  <div class="row hn">
+    <h2 style="margin-bottom: 30px;">Our Mission</h2>
+    <div class="row spolicies">
+      <div class="col-md-12">
+        <div class="row">
+          <p>
+            To leverage mineral resources as a critical vehicle for delivering meaningful and sustainable value to all out stakeholders.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="layout-pt-lg">
+  <div class="container">
+    <div data-anim-child="slide-up delay-1" class="col-xl-12 col-lg-12 md:order-1 is-in-view k6p hn">
+      <h2 style="margin-bottom: 30px;">Company</h2>
   
       <p class="md:mt-30">
         Asante Gold Corporation is a gold exploration, development and operating company headquartered in Vancouver, Canada. Asante owns and operates the Bibiani and Chirano Gold Mines and continues with detailed technical studies at its Kubi Gold Project for early production. All mines and projects are located on the Bibiani and Ashanti Gold Belts in the Republic of Ghana (“Ghana”). Asante is also exploring its Keyhole, Fahiakoba and Betenase projects near the centre of Ghana's Golden Triangle.
