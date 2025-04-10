@@ -129,11 +129,11 @@
 </section>
 <section class="layout-pt-lg">
   <div class="row hn">
-    <h2 style="margin-bottom: 30px;">Our Vision</h2>
+    <h2 style="margin-bottom: 30px;text-align: center;">Our Vision</h2>
     <div class="row spolicies">
       <div class="col-md-12">
-        <div class="row">
-          <p>
+        <div class="row" style="text-align: center;">
+          <p style="font-size: 22px;">
             To become the preferred Tier-1 mining company in West Africa.
           </p>
         </div>
@@ -143,12 +143,12 @@
 </section>
 <section class="layout-pt-lg">
   <div class="row hn">
-    <h2 style="margin-bottom: 30px;">Our Mission</h2>
+    <h2 style="margin-bottom: 30px;text-align: center;">Our Mission</h2>
     <div class="row spolicies">
       <div class="col-md-12">
-        <div class="row">
-          <p>
-            To leverage mineral resources as a critical vehicle for delivering meaningful and sustainable value to all out stakeholders.
+        <div class="row" style="text-align: center;">
+          <p style="font-size: 22px;">
+            To leverage mineral resources as a critical vehicle for delivering meaningful and sustainable value to all our stakeholders.
           </p>
         </div>
       </div>
@@ -158,7 +158,7 @@
 <section class="layout-pt-lg">
   <div class="container">
     <div data-anim-child="slide-up delay-1" class="col-xl-12 col-lg-12 md:order-1 is-in-view k6p hn">
-      <h2 style="margin-bottom: 30px;">Company</h2>
+      <h2 style="margin-bottom: 30px;text-align: center;">Company</h2>
   
       <p class="md:mt-30">
         Asante Gold Corporation is a gold exploration, development and operating company headquartered in Vancouver, Canada. Asante owns and operates the Bibiani and Chirano Gold Mines and continues with detailed technical studies at its Kubi Gold Project for early production. All mines and projects are located on the Bibiani and Ashanti Gold Belts in the Republic of Ghana (“Ghana”). Asante is also exploring its Keyhole, Fahiakoba and Betenase projects near the centre of Ghana's Golden Triangle.
