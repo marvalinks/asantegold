@@ -74,7 +74,7 @@
             </div>
         </div> <br>
         <hr>
-        <div class="row vb">
+        <!-- <div class="row vb">
             <div class="col-md-4">
                 <p>Canaccord Genuity</p>
             </div>
@@ -83,7 +83,7 @@
                 <p>Steve Searles | Associate | <a href="mailto:SSearles@cgf.com">SSearles@cgf.com</a> | 1.416.883.4223</p>
             </div>
         </div> <br>
-        <hr>
+        <hr> -->
         <div class="row">
             <p>
                 Asante is being tracked by the research analysts mentioned. Please be aware that any assessments, estimations, or projections regarding Asante's performance made by these analysts are solely their own and do not reflect the viewpoints, forecasts, or predictions of Asante or its management. By referencing them or distributing their work, Asante does not indicate its support for or agreement with such information, conclusions, or recommendations.
