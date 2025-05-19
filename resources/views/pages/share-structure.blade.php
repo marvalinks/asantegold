@@ -47,11 +47,11 @@
                         </tr>
                         <tr>
                             <td>Common Shares</td>
-                            <td>501,086,895</td>
+                            <td>501,143,995</td>
                         </tr>
                         <tr>
                             <td>Stock Options Outstanding</td>
-                            <td>15,074,240</td>
+                            <td>14,399,240</td>
                         </tr>
                         <tr>
                             <td>Warrants Outstanding</td>
@@ -59,15 +59,15 @@
                         </tr>
                         <tr>
                             <td>RSU</td>
-                            <td>7,965,360</td>
+                            <td>18,277,493</td>
                         </tr>
                         <tr>
                             <td>DSU</td>
-                            <td>7,835,900</td>
+                            <td>18,277,493</td>
                         </tr>
                         <tr>
                             <td>Fully Diluted Share Capital</td>
-                            <td>536,962,395</td>
+                            <td>538,870,728</td>
                         </tr>
                     </tbody>
                 </table>
