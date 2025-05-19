@@ -60,32 +60,7 @@
 
 <div class="pt-100 md:pt-20 sm:pt-60 bg-dark-2 stockmg">
     <!-- TradingView Widget BEGIN -->
-    {{-- <div class="tradingview-widget-container">
-        <div class="tradingview-widget-container__widget"></div>
-        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-            {
-                "symbols": [
-                {
-                    "description": "FRANKFURT EXCHANGE",
-                    "proName": "FWB:1A9"
-                },
-                {
-                    "description": "U.S.O.T.C",
-                    "proName": "OTC:ASGOF"
-                },
-                {
-                    "description": "CSE",
-                    "proName": "CSE:ASE"
-                }
-                ],
-                "showSymbolLogo": true,
-                "isTransparent": false,
-                "displayMode": "compact",
-                "colorTheme": "dark",
-                "locale": "en"
-            }
-        </script>
-    </div> --}}
+    
     <!-- TradingView Widget BEGIN -->
     <div class="tradingview-widget-container">
         <div class="tradingview-widget-container__widget"></div>
@@ -179,7 +154,7 @@
                       <br><br>
                     <img src="/assets/images/presentation/presentation.jpg" alt="">
                     <br><br>
-                    <a target="_blank" href="https://drive.google.com/file/d/1BZlAoGVaUbig6_vqYqVqbYpRYQIOrA81/view?usp=drive_link" class="button -md -dark-1 bg-accent-1 text-white col-12">
+                    <a target="_blank" href="https://drive.google.com/file/d/1QFB2jBI2yUkKOft5Ed__lPBQ8nxjYcVh/view?usp=sharing" class="button -md -dark-1 bg-accent-1 text-white col-12">
                         DOWNLOAD INVESTOR PRESENTATION
                     </a>
                     {{-- <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-12">
