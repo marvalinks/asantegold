@@ -14,7 +14,7 @@
 <section class="layout-pt-lg layout-pb-lg bg-accent-3 our-projects">
     <div class="container">
         <div class="row y-gap-30 mt-60 md:mt-40 sm:mt-20" style="text-align: center;">
-            <h2 class="text-62 md:text-38 uppercase fw-500"><span class="text-accent-1">As of November 2024</span></h2>
+            <h2 class="text-62 md:text-38 uppercase fw-500"><span class="text-accent-1">As of May 12, 2025</span></h2>
         </div>
         <div class="row y-gap-30 mt-60 md:mt-40 sm:mt-20">
             <div class="table -type-2 uppercase text-18 md:text-16">
