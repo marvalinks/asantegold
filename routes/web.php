@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\NewsletterController;
 use App\Http\Controllers\RouteModuleController;
 use Illuminate\Support\Facades\Route;
 
@@ -46,7 +47,9 @@ Route::get('core-values/{id?}', [RouteModuleController::class, 'coreValues'])->n
 
 Route::get('news-coverage', [RouteModuleController::class, 'newsCoverage'])->name('news.coverage');
 
+Route::post('newsletter/subscribe', [NewsletterController::class, 'subscribe'])->name('newsletter.subscribe');
 Route::get('thankyou/notification', [RouteModuleController::class, 'thankyou'])->name('thankyou');
+Route::get('thankyou/newsletter', [RouteModuleController::class, 'thankyounewsletter'])->name('thankyou.newsletter');
 
 Route::get('login', [RouteModuleController::class, 'login'])->name('login');
 Route::post('login', [RouteModuleController::class, 'postLogin'])->name('login');

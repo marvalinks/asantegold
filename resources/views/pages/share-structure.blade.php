@@ -26,7 +26,7 @@
                             <td></td>
                         </tr>
                         <tr>
-                            <td>Canadian Securites Exchange</td>
+                            <td>Canadian Securities Exchange</td>
                             <td>CSE: ASE</td>
                         </tr>
                         <tr>
@@ -38,7 +38,7 @@
                             <td>FSE:1A9</td>
                         </tr>
                         <tr>
-                            <td>U.S.OTC</td>
+                            <td>OTCQX</td>
                             <td>ASGOF</td>
                         </tr>
                         <tr>
@@ -47,27 +47,27 @@
                         </tr>
                         <tr>
                             <td>Common Shares</td>
-                            <td>501,143,995</td>
+                            <td>712,734,491</td>
                         </tr>
                         <tr>
                             <td>Stock Options Outstanding</td>
-                            <td>14,399,240</td>
+                            <td>14,179,240</td>
                         </tr>
                         <tr>
                             <td>Warrants Outstanding</td>
-                            <td>5,000,000</td>
+                            <td>21,180,864</td>
                         </tr>
                         <tr>
-                            <td>RSU</td>
-                            <td>18,277,493</td>
+                            <td>RSUs Outstanding</td>
+                            <td>9,587,360</td>
                         </tr>
                         <tr>
-                            <td>DSU</td>
-                            <td>18,277,493</td>
+                            <td>DSUs Outstanding</td>
+                            <td>7,007,300</td>
                         </tr>
                         <tr>
                             <td>Fully Diluted Share Capital</td>
-                            <td>538,870,728</td>
+                            <td>764,689,255</td>
                         </tr>
                     </tbody>
                 </table>

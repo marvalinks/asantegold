@@ -213,6 +213,10 @@ class RouteModuleController extends Controller
     {
         return view('pages.thankyou');
     }
+    public function thankyounewsletter(Request $request)
+    {
+        return view('pages.thankyou-newsletter');
+    }
     public function events(Request $request)
     {
         $events = Event::latest()->get();

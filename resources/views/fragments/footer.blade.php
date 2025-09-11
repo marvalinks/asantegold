@@ -19,14 +19,17 @@
             <div class="col-lg-4">
                 <h4 class="text-18 fw-500 uppercase">SUBSCRIBE TO OUR NEWSLETTER</h4>
 
-                <div class="footerForm">
-                    <h5 class="footerForm__title">ENTER YOUR EMAIL ADDRESS</h5>
-                    <div class="footerForm__input">
-                        <input type="text" placeholder="info@asantegold.com" />
-                    </div>
+                <form action="{{route('newsletter.subscribe')}}" method="post" autocomplete="off">
+                    @csrf
+                    <div class="footerForm">
+                        <h5 class="footerForm__title">ENTER YOUR EMAIL ADDRESS</h5>
+                        <div class="footerForm__input">
+                            <input type="email" name="email" required placeholder="info@asantegold.com" />
+                        </div>
 
-                    <button class="footerForm__button button -md -dark-1 text-white bg-accent-1">SUBSCRIBE</button>
-                </div>
+                        <button type="submit" class="footerForm__button button -md -dark-1 text-white bg-accent-1">SUBSCRIBE</button>
+                    </div>
+                </form>
             </div>
 
             <div class="col-xl-6 col-lg-7">
