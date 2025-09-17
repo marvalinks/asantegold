@@ -152,7 +152,7 @@
                 <div data-anim-child="slide-up delay-1" class="col-xl-12 col-lg-12 md:order-1 is-in-view">
                     <h5 class="md:text-38 uppercase fw-500" style="font-size: 35px">Corporate Update Presentation</h5>
                       <br><br>
-                    <img src="/assets/images/presentation/presentation.jpg" alt="">
+                    <img src="/assets/images/presentation/presentation-updated.jpg" alt="">
                     <br><br>
                     <a target="_blank" href="https://drive.google.com/file/d/1QeCJDRd7Mz9PUFrOtkhZFEsBb57ILJ-N/view?usp=drive_link" class="button -md -dark-1 bg-accent-1 text-white col-12">
                         DOWNLOAD INVESTOR PRESENTATION
