@@ -78,7 +78,7 @@
                             <a href="{{route('news.releases')}}">News Releases</a>
                         </div>
                         <div class="submenu__item">
-                            <a href="{{route('presentation')}}">Presentation</a>
+                            <a href="{{route('presentation')}}">Presentation & Events</a>
                         </div>
                         <div class="submenu__item">
                             <a href="{{route('share.structure')}}">Share Structure</a>
