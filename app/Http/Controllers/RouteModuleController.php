@@ -164,7 +164,8 @@ class RouteModuleController extends Controller
     }
     public function presentation(Request $request)
     {
-        return view('pages.investors.presentation');
+        $events = Event::orderBy('id', 'desc')->get();
+        return view('pages.investors.presentation', compact('events'));
     }
     public function shareStructure(Request $request)
     {

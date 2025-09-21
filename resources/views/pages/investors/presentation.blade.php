@@ -20,9 +20,38 @@
       <a target="_blank" href="https://drive.google.com/file/d/1QeCJDRd7Mz9PUFrOtkhZFEsBb57ILJ-N/view?usp=drive_link" class="button -md -dark-1 bg-accent-1 text-white col-12">
         DOWNLOAD INVESTOR PRESENTATION
       </a>
-      {{-- <a href="#" class="button -md -dark-1 bg-accent-1 text-white col-12">
-        UPDATE IN PROGRESS, TO BE RELEASED MAY 01
-    </a> --}}
+    </div>
+    <br><br>
+    <hr>
+    <div class="col-xl-12 col-lg-12 col-md-12">
+        <div class="row" style="margin-bottom: 50px;">
+            <div class="col-md-12">
+                <h2 class="text-62 md:text-38 uppercase fw-500">Upcoming Events</h2>
+            </div>
+        </div>
+        <div class="row event-up">
+            @foreach ($events as $event)
+            <div class="col-md-12 event" class="event" data-title="{{$event->name}}" data-start="{{$event->start_date}}" data-end="{{$event->end_date}}" data-description="{{$event->name}}" data-location="{{$event->location_str}}">
+                <p>{{$event->date_str}}</p>
+                <h5 class="text-accent-1">
+                    <a href="{{route('event.details', [$event->slug])}}">{{$event->name}}</a>
+                </h5>
+                <p><small>{{$event->location_str}}</small></p>
+                @if ($event->url)
+                <div class="mt-30">
+                    <a href="{{$event->url}}" target="_blank" class="button -md -outline-accent-1 text-18 text-accent-1 col-xs-12 col-md-4 add-to-calendar">
+                        ADD TO CALENDAR
+                    </a>
+                </div>
+                @endif
+                <br>
+            </div> 
+            <hr>
+            @endforeach
+            
+        </div> <br>
+        <hr>
+      
     </div>
   </div>
 
