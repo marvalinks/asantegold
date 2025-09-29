@@ -59,59 +59,40 @@
 <section id="sldr" class="layout-pt-lg layout-pb-lg relative news-ns rxrx"></section>
 
 <div class="pt-100 md:pt-20 sm:pt-60 bg-dark-2 stockmg">
-    <!-- TradingView Widget BEGIN -->
-    
+    <!--  -->
     <!-- TradingView Widget BEGIN -->
     <div class="tradingview-widget-container">
-        <div class="tradingview-widget-container__widget"></div>
-        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" rel="noopener nofollow" target="_blank"><span class="blue-text">Markets today</span></a><span class="trademark"> by TradingView</span></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+        {
+        "symbols": [
             {
-                "symbols": [
-                {
-                    "description": "CSE",
-                    "proName": "CSE:ASE"
-                },
-                {
-                    "description": "U.S.O.T.C",
-                    "proName": "OTC:ASGOF"
-                },
-                {
-                    "description": "FRANKFURT EXCHANGE",
-                    "proName": "FWB:1A9"
-                },
-                {
-                    "description": "GOLD",
-                    "proName": "COMEX:GC1!"
-                }
-                ],
-                "isTransparent": false,
-                "showSymbolLogo": true,
-                "colorTheme": "dark",
-                "locale": "en"
-            }
-        </script>
-    </div>
-    <div class="tradingview-widget-container" id="smdf">
-        <div class="tradingview-widget-container__widget"></div>
-        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+            "proName": "TSXV:ASE",
+            "title": "TSXV"
+            },
             {
-                "symbols": [
-                    {
-                        "description": "FRANKFURT EXCHANGE",
-                        "proName": "FWB:1A9"
-                    },
-                    {
-                        "description": "GOLD",
-                        "proName": "COMEX:GC1!"
-                    }
-                ],
-                "isTransparent": false,
-                "showSymbolLogo": true,
-                "colorTheme": "dark",
-                "locale": "en"
+            "proName": "OTC:ASGOF",
+            "title": "OTC"
+            },
+            {
+            "proName": "FWB:1A9",
+            "title": "Frankfurt"
+            },
+            {
+            "proName": "TVC:GOLD",
+            "title": "Gold"
             }
-        </script>
+        ],
+        "colorTheme": "dark",
+        "locale": "en",
+        "largeChartUrl": "",
+        "isTransparent": false,
+        "showSymbolLogo": true
+        }
+    </script>
     </div>
+<!-- TradingView Widget END -->
 </div>
 <section class="layout-pt-lg news-ns">
     <br><br><br>
