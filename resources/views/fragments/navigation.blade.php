@@ -96,9 +96,9 @@
                         <div class="headerMenuSubnav__item">
                             <a href="{{route('gallery.video')}}">Video Gallery</a>
                         </div>
-                        <div class="headerMenuSubnav__item">
+                        <!-- <div class="headerMenuSubnav__item">
                             <a href="{{route('events')}}">Events</a>
-                        </div>
+                        </div> -->
                         {{-- <div class="headerMenuSubnav__item">
                             <a href="#">Media Activities</a>
                         </div> --}}

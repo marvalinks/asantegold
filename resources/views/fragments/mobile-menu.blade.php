@@ -113,9 +113,9 @@
                         <div class="submenu__item">
                             <a href="{{route('gallery.image')}}">Video Gallery</a>
                         </div>
-                        <div class="submenu__item">
+                        <!-- <div class="submenu__item">
                             <a href="{{route('events')}}">Events</a>
-                        </div>
+                        </div> -->
                         {{-- <div class="submenu__item">
                             <a href="#">Media Activities</a>
                         </div> --}}

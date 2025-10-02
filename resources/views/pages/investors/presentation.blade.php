@@ -7,19 +7,31 @@
     </div>
 
     <div class="container">
-      <h1 data-anim-child="slide-up delay-1" class="pageHeader__title is-in-view">About Asante Gold Corporation</h1>
+      <h1 data-anim-child="slide-up delay-1" class="pageHeader__title is-in-view">Presentations and Events </h1>
     </div>
 </section>
 <section class="layout-pt-lg">
   <div class="container">
-    <div data-anim-child="slide-up delay-1" class="col-xl-6 col-lg-6 md:order-1 is-in-view">
-      <h2 class="text-62 md:text-38 uppercase fw-500">Corporate Update Presentation</h2>
+    <div class="row">
+      <div data-anim-child="slide-up delay-1" class="col-xl-6 col-lg-6 md:order-1 is-in-view">
+        <h2 class="text-62 md:text-38 uppercase fw-500">Presentation</h2>
+          <br><br>
+        <img src="/assets/images/presentation/ps5.jpg" alt="">
         <br><br>
-      <img src="/assets/images/presentation/ps5.jpg" alt="">
-      <br><br>
-      <a target="_blank" href="https://drive.google.com/file/d/10rK3euVlyR7u98DcXD-LLp28v09UgnNY/view?usp=sharing" class="button -md -dark-1 bg-accent-1 text-white col-12">
-        DOWNLOAD INVESTOR PRESENTATION
-      </a>
+        <a target="_blank" href="https://drive.google.com/file/d/10rK3euVlyR7u98DcXD-LLp28v09UgnNY/view?usp=sharing" class="button -md -dark-1 bg-accent-1 text-white col-12">
+          DOWNLOAD INVESTOR PRESENTATION
+        </a>
+      </div>
+      <div data-anim-child="slide-up delay-1" class="col-xl-6 col-lg-6 md:order-1 is-in-view">
+        <!-- <h2 class="text-62 md:text-38 uppercase fw-500">Q2 FY2026 Earnings Webcast</h2> -->
+          <br><br>
+        <!-- <img src="/assets/images/presentation/ps5.jpg" alt=""> -->
+        <br><br>
+        <h4 class="md:text-38 uppercase fw-500" style="font-size: 23px;">Q2 FY2026 Earnings Webcast</h4>
+        <a target="_blank" href="https://view.knowledgevision.com/presentation/99cbdadfa7954ead8e2e03f4a8229ef9" class="button -md -dark-1 bg-accent-1 text-white col-12">
+          Watch Q2 FY2026 Earnings Webcast
+        </a>
+      </div>
     </div>
     <br><br>
     <hr>

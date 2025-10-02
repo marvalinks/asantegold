@@ -14,7 +14,11 @@
 <section class="layout-pt-lg layout-pb-lg bg-accent-3 our-projects">
     <div class="container">
         <div class="row y-gap-30 mt-60 md:mt-40 sm:mt-20" style="text-align: center;">
-            <h2 class="text-62 md:text-38 uppercase fw-500"><span class="text-accent-1">As of May 12, 2025</span></h2>
+            <h2 class="text-62 md:text-38 uppercase fw-500"><span class="text-accent-1">As of September 15, 2025</span></h2>
+        </div>
+
+        <div class="row y-gap-30 mt-60 md:mt-40 sm:mt-20" style="text-align: center;">
+            <p style="font-size: 20px;">Asante shares are traded on the TSX Venture Exchange (ASE), the Ghana Securities Exchange (ASG) and the OTCQX (ASGOF).</p>
         </div>
         <div class="row y-gap-30 mt-60 md:mt-40 sm:mt-20">
             <div class="table -type-2 uppercase text-18 md:text-16">
@@ -22,36 +26,12 @@
             
                     <tbody>
                         <tr>
-                            <td>Common shares are listed on</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Canadian Securities Exchange</td>
-                            <td>CSE: ASE</td>
-                        </tr>
-                        <tr>
-                            <td>Ghana Securities Exchange</td>
-                            <td>GSE:ASG</td>
-                        </tr>
-                        <tr>
-                            <td>Frankfurt Exchange</td>
-                            <td>FSE:1A9</td>
-                        </tr>
-                        <tr>
-                            <td>OTCQX</td>
-                            <td>ASGOF</td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
                             <td>Common Shares</td>
                             <td>712,734,491</td>
                         </tr>
                         <tr>
                             <td>Stock Options Outstanding</td>
-                            <td>14,179,240</td>
+                            <td>14,136,340</td>
                         </tr>
                         <tr>
                             <td>Warrants Outstanding</td>
