@@ -160,9 +160,9 @@
     <div data-anim-child="slide-up delay-1" class="col-xl-12 col-lg-12 md:order-1 is-in-view k6p hn">
       <h2 style="margin-bottom: 30px;text-align: center;">Company</h2>
   
-      <p class="md:mt-30">
+      <!-- <p class="md:mt-30">
         Asante Gold Corporation is a gold exploration, development and operating company headquartered in Vancouver, Canada. Asante owns and operates the Bibiani and Chirano Gold Mines and continues with detailed technical studies at its Kubi Gold Project for early production. All mines and projects are located on the Bibiani and Ashanti Gold Belts in the Republic of Ghana (“Ghana”). Asante is also exploring its Keyhole, Fahiakoba and Betenase projects near the centre of Ghana's Golden Triangle.
-      </p>
+      </p> -->
       
       <p class="mt-30 md:mt-5">
       Asante Gold Corporation “Asante” is a publicly listed company trading on the TSX Venture Exchange (TSXV: ASE), the Ghana Stock Exchange (GSE: ASG) and the OTCQX market in the United States (OTCQX: ASGOF). Asante is a mid-tier gold producer with two operating mines – Asante Gold Bibiani Limited and Asante Gold Chirano Limited both located in the Western North Region of Ghana, West Africa.
