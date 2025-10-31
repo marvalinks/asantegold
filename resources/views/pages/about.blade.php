@@ -165,7 +165,7 @@
       </p>
       
       <p class="mt-30 md:mt-5">
-        Asante is publicly listed on the Canadian Securities Exchange (CSE:ASE) and the Ghana Stock Exchange (GSE:ASG). The company owns 90% of both operating mines, with the Ghanaian government retaining a 10% free carried interest under Section 8 of the Ghanaian Mining Act.
+      Asante Gold Corporation “Asante” is a publicly listed company trading on the TSX Venture Exchange (TSXV: ASE), the Ghana Stock Exchange (GSE: ASG) and the OTCQX market in the United States (OTCQX: ASGOF). Asante is a mid-tier gold producer with two operating mines – Asante Gold Bibiani Limited and Asante Gold Chirano Limited both located in the Western North Region of Ghana, West Africa.
       </p>
       <p class="mt-30 md:mt-5">
         Asante is committed to conducting its business operations in a socially responsible and environmentally sustainable manner, integrating ESG principles into its core business strategies. Asante has adopted the IFC Performance Standards and is guided by the ICMM Mining principles : performance expectations.
