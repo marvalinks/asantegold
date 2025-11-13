@@ -205,7 +205,7 @@ class RouteModuleController extends Controller
     }
     public function sustainability(Request $request)
     {
-        $reports = SustainabilityReport::orderBy('year', 'asc')->get();
+        $reports = SustainabilityReport::orderBy('year', 'desc')->get();
         $policies = SustainabilityPolicy::latest()->get();
         $digbee = DigbeeReport::orderBy('year', 'desc')->get();
         return view('pages.sustainability', compact('reports', 'policies', 'digbee'));
