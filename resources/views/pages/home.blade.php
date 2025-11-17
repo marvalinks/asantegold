@@ -135,7 +135,7 @@
                       <br><br>
                     <img src="/assets/images/presentation/ps5.jpg" alt="">
                     <br><br>
-                    <a target="_blank" href="https://drive.google.com/file/d/1FFmfkOKstvPY_buQRITDcneS9oGaeSD4/view" class="button -md -dark-1 bg-accent-1 text-white col-12">
+                    <a target="_blank" href="https://drive.google.com/file/d/1eWLqho4abOqrKzVyQ3OV3fqNt5AiMit9/view?usp=drive_link" class="button -md -dark-1 bg-accent-1 text-white col-12">
                         DOWNLOAD INVESTOR PRESENTATION
                     </a>
                     <br>
