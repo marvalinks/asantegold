@@ -66,11 +66,10 @@
         <br>
         <div class="row vb">
             <div class="col-md-4">
-                <p>Eight Capital</p>
+                <p>Clarus Securities</p>
             </div>
             <div class="col-md-8">
-                <p>Puneet Singh | <a href="mailto:psingh@viiicapital.com">psingh@viiicapital.com</a> | (647) 265-8216</p>
-                <p>Jack Keating | <a href="mailto:jkeating@viiicapital.com">jkeating@viiicapital.com</a> | (647) 832-0908</p>
+                <p>Varun Arora | <a href="mailto:varora@clarussecurities.com">varora@clarussecurities.com</a> | 416-343-2779</p>
             </div>
         </div> <br>
         <hr>
