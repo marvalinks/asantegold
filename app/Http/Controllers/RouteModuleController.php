@@ -15,11 +15,13 @@ use App\Models\ImageGallery;
 use App\Models\SustainabilityPolicy;
 use App\Models\SustainabilityReport;
 use App\Models\VideoGallery;
+use Carbon\Carbon;
 use GuzzleHttp\Client;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Cache;
 
 class RouteModuleController extends Controller
 {
@@ -176,29 +178,138 @@ class RouteModuleController extends Controller
         $years = FinancialYear::orderBy('year', 'desc')->get();
         return view('pages.financial-statement', compact('years'));
     }
+    
+
     public function newsReleases(Request $request)
     {
         $client = new Client();
-        $response = $client->get('https://wp.asantegold.com/wp-json/wp/v2/posts?_embed');
-        $posts = json_decode($response->getBody(), true);
-        // $posts = [];
-        return view('pages.news.releases', compact('posts'));
+        $url = 'https://wp.asantegold.com/wp-json/wp/v2/posts';
+
+        // Pagination
+        $perPage = 10;
+        $page = $request->get('page', 1);
+
+        // Base query
+        $query = [
+            '_embed'   => true,
+            'per_page' => $perPage,
+            'page'     => $page,
+            'orderby'  => 'date',
+            'order'    => 'desc',
+        ];
+
+        /**
+         * ================= FILTER PRIORITY =================
+         * 1. Specific Date
+         * 2. Year + Month
+         * 3. Year only
+         */
+
+        // 1️⃣ Specific date (YYYY-MM-DD)
+        if ($request->filled('date')) {
+            $date = Carbon::parse($request->date);
+
+            $query['after']  = $date->startOfDay()->toIso8601String();
+            $query['before'] = $date->endOfDay()->toIso8601String();
+        }
+
+        // 2️⃣ Year + Month
+        elseif ($request->filled('year') && $request->filled('month')) {
+            $date = Carbon::createFromDate(
+                $request->year,
+                $request->month,
+                1
+            );
+
+            $query['after']  = $date->startOfMonth()->toIso8601String();
+            $query['before'] = $date->endOfMonth()->toIso8601String();
+        }
+
+        // 3️⃣ Year only
+        elseif ($request->filled('year')) {
+            $date = Carbon::createFromDate($request->year, 1, 1);
+
+            $query['after']  = $date->startOfYear()->toIso8601String();
+            $query['before'] = $date->endOfYear()->toIso8601String();
+        }
+
+        /**
+         * ===============================
+         * CACHE KEY (FILTER-AWARE)
+         * ===============================
+         */
+        $cacheKey = 'news_posts_' . md5(json_encode($query));
+
+        $data = Cache::remember($cacheKey, now()->addMinutes(10), function () use ($client, $url, $query) {
+            $response = $client->get($url, ['query' => $query]);
+
+            return [
+                'posts'       => json_decode($response->getBody(), true),
+                'total_pages' => (int) $response->getHeaderLine('X-WP-TotalPages'),
+                'total_posts' => (int) $response->getHeaderLine('X-WP-Total'),
+            ];
+        });
+
+        return view('pages.news.releases', [
+            'posts'        => $data['posts'],
+            'totalPages'   => $data['total_pages'],
+            'currentPage'  => $page,
+        ]);
     }
+
+    /**
+     * ===============================
+     * NEWS DETAILS PAGE
+     * ===============================
+     */
     public function newsReleasesDetails(Request $request, $slug)
     {
         $client = new Client();
-        $response = $client->get('https://wp.asantegold.com/wp-json/wp/v2/posts?slug='.$slug.'&_embed');
-        $response2 = $client->get('https://wp.asantegold.com/wp-json/wp/v2/posts?_embed');
 
-        $articles = json_decode($response->getBody(), true);
-        $posts = json_decode($response->getBody(), true);
-        if (!empty($articles) && is_array($articles)) {
-            $post = $articles[0];
-            return view('pages.news.details', compact('posts','post'));
-        } else {
-            abort(404); // Post not found
+        $cacheKey = 'news_details_' . $slug;
+
+        $data = Cache::remember($cacheKey, now()->addMinutes(30), function () use ($client, $slug) {
+
+            // Single post
+            $response = $client->get(
+                'https://wp.asantegold.com/wp-json/wp/v2/posts',
+                [
+                    'query' => [
+                        'slug'   => $slug,
+                        '_embed' => true
+                    ]
+                ]
+            );
+
+            // Recent posts
+            $response2 = $client->get(
+                'https://wp.asantegold.com/wp-json/wp/v2/posts',
+                [
+                    'query' => [
+                        '_embed'   => true,
+                        'per_page' => 6,
+                        'orderby'  => 'date',
+                        'order'    => 'desc',
+                    ]
+                ]
+            );
+
+            return [
+                'article' => json_decode($response->getBody(), true),
+                'posts'   => json_decode($response2->getBody(), true),
+            ];
+        });
+
+        if (!empty($data['article'])) {
+            return view('pages.news.details', [
+                'post'  => $data['article'][0],
+                'posts' => $data['posts'],
+            ]);
         }
+
+        abort(404);
     }
+
     public function stockInfo(Request $request)
     {
         return view('pages.stock-info');
