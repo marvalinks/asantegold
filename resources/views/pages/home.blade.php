@@ -76,10 +76,6 @@
             "title": "OTC"
             },
             {
-            "proName": "FWB:1A9",
-            "title": "Frankfurt"
-            },
-            {
             "proName": "TVC:GOLD",
             "title": "Gold"
             }

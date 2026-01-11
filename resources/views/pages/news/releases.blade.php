@@ -56,9 +56,9 @@
                     class="row y-gap-20 align-items-end bg-white p-30 rounded-8 shadow-sm">
 
                     {{-- Year --}}
-                    <div class="col-md-4">
+                    <div class="col-md-12">
                         <label class="text-13 fw-500 mb-5 d-block">Year</label>
-                        <select name="year" class="form-select">
+                        <select name="year" class="form-select" style="border: 1px solid #e9e9e9;padding: 20px;">
                             <option value="">All Years</option>
                             @for($y = now()->year; $y >= 2015; $y--)
                                 <option value="{{ $y }}" {{ request('year') == $y ? 'selected' : '' }}>
@@ -66,33 +66,6 @@
                                 </option>
                             @endfor
                         </select>
-                    </div>
-
-                    {{-- Month --}}
-                    <div class="col-md-4">
-                        <label class="text-13 fw-500 mb-5 d-block">Month</label>
-                        <select name="month" class="form-select">
-                            <option value="">All Months</option>
-                            @foreach([
-                                '01'=>'January','02'=>'February','03'=>'March','04'=>'April',
-                                '05'=>'May','06'=>'June','07'=>'July','08'=>'August',
-                                '09'=>'September','10'=>'October','11'=>'November','12'=>'December'
-                            ] as $key => $month)
-                                <option value="{{ $key }}" {{ request('month') == $key ? 'selected' : '' }}>
-                                    {{ $month }}
-                                </option>
-                            @endforeach
-                        </select>
-                    </div>
-
-                    {{-- Specific Date --}}
-                    <div class="col-md-4">
-                        <label class="text-13 fw-500 mb-5 d-block">Specific Date</label>
-                        <input
-                            type="date"
-                            name="date"
-                            class="form-control"
-                            value="{{ request('date') }}">
                     </div>
 
                     {{-- Actions --}}
