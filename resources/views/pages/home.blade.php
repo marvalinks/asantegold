@@ -129,9 +129,9 @@
                 <div data-anim-child="slide-up delay-1" class="col-xl-12 col-lg-12 md:order-1 is-in-view">
                     <h5 class="md:text-38 uppercase fw-500" style="font-size: 35px">Corporate Update Presentation</h5>
                       <br><br>
-                    <img src="/assets/images/presentation/ps7.jpg" alt="">
+                    <img src="/assets/images/presentation/ps1.png" alt="">
                     <br><br>
-                    <a target="_blank" href="https://drive.google.com/file/d/1sXA-rMTH7cVME1LyXAd8gLi9Z7uIa6DS/view?usp=sharing" class="button -md -dark-1 bg-accent-1 text-white col-12">
+                    <a target="_blank" href="https://drive.google.com/file/d/1mS8s0Cb5THNe9davSFGdd3MMNYtEXm15/view?usp=drive_link" class="button -md -dark-1 bg-accent-1 text-white col-12">
                         DOWNLOAD INVESTOR PRESENTATION
                     </a>
                     <br>
