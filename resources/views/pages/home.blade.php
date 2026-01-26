@@ -119,6 +119,39 @@
       </div>
     </div>
 </section>
+<section class="layout-pt-lg news-ns">
+    <br><br><br>
+    <div class="container">
+      <div data-anim-wrap="" class="row y-gap-30 justify-between animated">
+      <div data-anim-child="slide-up delay-1" class="col-xl-6 col-lg-6 md:order-1 is-in-view">
+          <h2 class="text-62 md:text-38 uppercase fw-500">
+            Safety at Asante <span class="text-accent-1">Gold</span> Corporation
+          </h2>
+
+          <p class="mt-60 md:mt-30 f19">
+            <strong>Safety is one of our core values at Asante. To strengthen and embed this value across our operations, we introduced the Asante Safety and Value Awards.</strong>
+          </p>
+          <p class="mt-30 md:mt-5 f19">
+          To celebrate individuals and teams who demonstrate outstanding commitment to this core values. By recognizing these teams and Individuals, we reinforce our belief that everyone has a role to play in keeping our workplaces safe.
+          </p>
+          <p class="mt-30 md:mt-5 f19">
+          At Asante, safety is how we work every day, everywhere.
+          </p>
+        </div>
+
+        <div class="col-xl-5 col-lg-6 md:order-2">
+            <div data-anim-child="slide-up delay-1" class="relative is-in-view">
+              <img src="/assets/images/CW4A8846.jpg" alt="image">
+
+              <a href="https://www.youtube.com/watch?v=7N3g2xgzSkc" class="play-button bg-dark-1 text-white js-gallery" data-gallery="gallery1">
+                <i class="icon-play text-30"></i>
+              </a>
+            </div>
+        </div>
+        
+      </div>
+    </div>
+</section>
 {{-- News --}}
 <section class="layout-pt-lg layout-pb-lg relative news-ns rxrx">
     <div class="sectionBg -mx-60 bg-accent-2 z--1"></div>

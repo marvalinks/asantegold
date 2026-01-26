@@ -42,27 +42,43 @@
             </div>
         </div>
         <div class="row event-up">
-            @foreach ($events as $event)
-            <div class="col-md-12 event" class="event" data-title="{{$event->name}}" data-start="{{$event->start_date}}" data-end="{{$event->end_date}}" data-description="{{$event->name}}" data-location="{{$event->location_str}}">
-                <p>{{$event->date_str}}</p>
-                <h5 class="text-accent-1">
-                    <a href="{{route('event.details', [$event->slug])}}">{{$event->name}}</a>
-                </h5>
-                <p><small>{{$event->location_str}}</small></p>
-                @if ($event->url)
-                <div class="mt-30">
-                    <a href="{{$event->url}}" target="_blank" class="button -md -outline-accent-1 text-18 text-accent-1 col-xs-12 col-md-4 add-to-calendar">
-                        ADD TO CALENDAR
-                    </a>
-                </div>
-                @endif
-                <br>
-            </div> 
-            <hr>
-            @endforeach
-            
-        </div> <br>
-        <hr>
+          @foreach ($events as $event)
+              <div class="col-md-12 event"
+                  data-title="{{ $event->name }}"
+                  data-start="{{ $event->start_date }}"
+                  data-end="{{ $event->end_date }}"
+                  data-description="{{ $event->name }}"
+                  data-location="{{ $event->location_str }}">
+
+                  <p>{{ $event->date_str }}</p>
+
+                  <h5 class="text-accent-1">
+                      <a href="{{ route('event.details', [$event->slug]) }}">
+                          {{ $event->name }}
+                      </a>
+                  </h5>
+
+                  <p><small>{{ $event->location_str }}</small></p>
+
+                  @if ($event->url)
+                      <div class="mt-30">
+                          <a href="{{ $event->url }}"
+                            target="_blank"
+                            class="button -md -outline-accent-1 text-18 text-accent-1 col-xs-12 col-md-4 add-to-calendar">
+                              ADD TO CALENDAR
+                          </a>
+                      </div>
+                  @endif
+
+                  <br>
+                  <hr>
+              </div>
+          @endforeach
+      </div>
+      {{ $events->links('vendor.pagination.view-more') }}
+
+
+      <hr>
       
     </div>
   </div>
