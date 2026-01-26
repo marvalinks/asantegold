@@ -166,8 +166,7 @@ class RouteModuleController extends Controller
     }
     public function presentation(Request $request)
     {
-        // $events = Event::orderBy('id', 'desc')->get();
-        $events = Event::orderBy('start_date', 'desc')
+        $events = Event::orderBy('start_date', 'asc')
         ->paginate(4);
         return view('pages.investors.presentation', compact('events'));
     }
