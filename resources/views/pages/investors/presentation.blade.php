@@ -12,7 +12,7 @@
 </section>
 <section class="layout-pt-lg">
   <div class="container">
-    <div class="row">
+    <!-- <div class="row">
       <div data-anim-child="slide-up delay-1" class="col-xl-6 col-lg-6 md:order-1 is-in-view">
         <h2 class="text-62 md:text-38 uppercase fw-500">Presentation</h2>
           <br><br>
@@ -22,7 +22,7 @@
           DOWNLOAD INVESTOR PRESENTATION
         </a>
       </div>
-      <!-- <div data-anim-child="slide-up delay-1" class="col-xl-6 col-lg-6 md:order-1 is-in-view">
+      <div data-anim-child="slide-up delay-1" class="col-xl-6 col-lg-6 md:order-1 is-in-view">
         <h2 class="text-62 md:text-38 uppercase fw-500">Q2 FY2026 Earnings Webcast</h2>
           <br><br>
         <img src="/assets/images/presentation/ps5.jpg" alt="">
@@ -31,10 +31,10 @@
         <a target="_blank" href="https://view.knowledgevision.com/presentation/99cbdadfa7954ead8e2e03f4a8229ef9" class="button -md -dark-1 bg-accent-1 text-white col-12">
           Watch Q2 FY2026 Earnings Webcast
         </a>
-      </div> -->
-    </div>
-    <br><br>
-    <hr>
+      </div>
+    </div> -->
+    <!-- <br><br>
+    <hr> -->
     <div class="col-xl-12 col-lg-12 col-md-12">
         <div class="row" style="margin-bottom: 50px;">
             <div class="col-md-12">
