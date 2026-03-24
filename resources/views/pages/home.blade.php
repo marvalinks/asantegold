@@ -160,19 +160,19 @@
         <div class="row y-gap-30 pt-60 md:pt-30 new-section">
             <div class="col-md-6">
                 <div data-anim-child="slide-up delay-1" class="col-xl-12 col-lg-12 md:order-1 is-in-view">
-                    <h5 class="md:text-38 uppercase fw-500" style="font-size: 35px">Corporate Update Presentation</h5>
+                    <!-- <h5 class="md:text-38 uppercase fw-500" style="font-size: 35px">Corporate Update Presentation</h5>
                       <br><br>
                     <img src="/assets/images/presentation/ps2.png" alt="">
                     <br><br>
                     <a target="_blank" href="https://drive.google.com/file/d/1mJk0HLFUurszkw62Kz7sz6s2v3Ulv84_/view?usp=drive_link" class="button -md -dark-1 bg-accent-1 text-white col-12">
                         DOWNLOAD INVESTOR PRESENTATION
                     </a>
-                    <br>
-                    <ul class="">
+                    <br> -->
+                    <!-- <ul class="">
                         <li>
                             <h3> Corporate Update Presentation</h3>
                         </li>
-                    </ui>
+                    </ui> -->
                     <!-- <a target="_blank" href="https://view.knowledgevision.com/presentation/99cbdadfa7954ead8e2e03f4a8229ef9" class="button -md -dark-1 bg-accent-1 text-white col-12">
                       Watch Earnings Webcast Replay
                     </a>
