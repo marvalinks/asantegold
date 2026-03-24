@@ -173,7 +173,7 @@
                             <h3> Corporate Update Presentation</h3>
                         </li>
                     </ui>
-                    <a target="_blank" href="https://view.knowledgevision.com/presentation/99cbdadfa7954ead8e2e03f4a8229ef9" class="button -md -dark-1 bg-accent-1 text-white col-12">
+                    <!-- <a target="_blank" href="https://view.knowledgevision.com/presentation/99cbdadfa7954ead8e2e03f4a8229ef9" class="button -md -dark-1 bg-accent-1 text-white col-12">
                       Watch Earnings Webcast Replay
                     </a>
                     <br>
@@ -181,7 +181,7 @@
                         <li>
                             <h3> Q2 FY2026 Earnings Webcast</h3>
                         </li>
-                    </ui>
+                    </ui> -->
                     <a target="_blank" href="https://drive.google.com/file/d/1p-6pW731T8k8KbSUbrMb9VMNoz3k7iMW/view?usp=drive_link" class="button -md -dark-1 bg-accent-1 text-white col-12">
                       Prospect - Secondary Listing By Introduction
                     </a>

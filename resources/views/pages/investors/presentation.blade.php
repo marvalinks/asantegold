@@ -22,16 +22,16 @@
           DOWNLOAD INVESTOR PRESENTATION
         </a>
       </div>
-      <div data-anim-child="slide-up delay-1" class="col-xl-6 col-lg-6 md:order-1 is-in-view">
-        <!-- <h2 class="text-62 md:text-38 uppercase fw-500">Q2 FY2026 Earnings Webcast</h2> -->
+      <!-- <div data-anim-child="slide-up delay-1" class="col-xl-6 col-lg-6 md:order-1 is-in-view">
+        <h2 class="text-62 md:text-38 uppercase fw-500">Q2 FY2026 Earnings Webcast</h2>
           <br><br>
-        <!-- <img src="/assets/images/presentation/ps5.jpg" alt=""> -->
+        <img src="/assets/images/presentation/ps5.jpg" alt="">
         <br><br>
         <h4 class="md:text-38 uppercase fw-500" style="font-size: 23px;">Q2 FY2026 Earnings Webcast</h4>
         <a target="_blank" href="https://view.knowledgevision.com/presentation/99cbdadfa7954ead8e2e03f4a8229ef9" class="button -md -dark-1 bg-accent-1 text-white col-12">
           Watch Q2 FY2026 Earnings Webcast
         </a>
-      </div>
+      </div> -->
     </div>
     <br><br>
     <hr>
