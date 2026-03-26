@@ -4,6 +4,9 @@
         li{
             list-style: circle!important;
         }
+        ul.wp-block-list > li > ul{
+            padding-left: 30px;
+        }
     </style>
 @show
 @section('scripts')
