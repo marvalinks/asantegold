@@ -51,11 +51,15 @@
                         <hr>
                         <div class="footer__list">
                             <div>Asante Gold Corporation</div>
-                            <div>Suit 615-800 West Pender Street</div>
+                            <!-- <div>Suit 615-800 West Pender Street</div>
                             <div>Vancouver, British Columbia</div>
-                            <div>Canada</div>
+                            <div>Canada</div> -->
+                            <!-- <div>Vancouver Office moved, please note our new address and update the website.</div> -->
+                            <div>Suite 1150 – 1100 Melville Street</div>
+                            <div>Vancouver, BC, Canada, V6E 4A6</div>
                         </div>
                     </div>
+                    
 
                     <div class="col-md-auto col-6">
                         <h4 class="footer__title text-18 fw-500 uppercase">
