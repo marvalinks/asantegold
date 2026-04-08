@@ -12,9 +12,8 @@
 
                 <h4 class="fw-500 text-15 text-dark-4 mt-20">ADDRESS</h4>
                 <p class="fw-500 text-white">
-                    Suite 615-800 West Pender Street<br />
-                    V6C 2V6 <br>
-                    Vancouver - Canada
+                    Suite 1150 – 1100 Melville Street<br />
+                    Vancouver, BC, Canada, V6E 4A6 <br>
                 </p>
 
                 <h4 class="fw-500 text-15 text-dark-4 mt-20">PHONE</h4>
