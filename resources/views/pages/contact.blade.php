@@ -35,7 +35,7 @@
 
                 <h4 class="fw-500 text-15 text-dark-4 mt-20">ADDRESS</h4>
                 <p class="fw-500 text-white">
-                    17 Jungle Avenue<br />
+                    No. 19 Abidjan Avenue<br />
                     East Legon <br>
                     Accra - Ghana
                 </p>

@@ -41,7 +41,7 @@
 
                         <div class="footer__list">
                             <div>
-                                17 Jungle Avenue<br class="md:d-none" />
+                                No. 19 Abidjan Avenue<br class="md:d-none" />
                                 East Legon, Accra - Ghana.
                             </div>
                             <div>info@asantegold.com</div>
