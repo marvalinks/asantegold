@@ -34,7 +34,7 @@
             <div class="col-md-6">
                 <ul>
                     <li style="padding-bottom: 20px;">
-                        <a target="_blank" href="https://drive.google.com/file/d/1i5GGQ-w6m-H-ztEbA3L_fAoYj1kFRnPx/view?usp=drive_link" class="button -md -dark-1 bg-accent-1 text-white col-12">
+                        <a target="_blank" href="https://tt3.ams3.digitaloceanspaces.com/asante-gold/2025%20ESTMA%20Report%20-%20Asante%20Gold%20Corporation%20ASE%20E099633.pdf" class="button -md -dark-1 bg-accent-1 text-white col-12">
                             DOWNLOAD  –  ASANTE GOLD ESTMA 2025 REPORT 
                         </a>
                     </li>
