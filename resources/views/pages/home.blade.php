@@ -98,9 +98,9 @@
             <div data-anim-child="slide-up delay-1" class="relative is-in-view">
               <img src="https://tt3.ams3.digitaloceanspaces.com/asante-gold/DJI_0341%20(1).jpg" alt="image">
 
-              <a href="https://www.youtube.com/watch?v=7N3g2xgzSkc" class="play-button bg-dark-1 text-white js-gallery" data-gallery="gallery1">
+              <!-- <a href="https://www.youtube.com/watch?v=7N3g2xgzSkc" class="play-button bg-dark-1 text-white js-gallery" data-gallery="gallery1">
                 <i class="icon-play text-30"></i>
-              </a>
+              </a> -->
             </div>
         </div>
 
@@ -143,9 +143,9 @@
             <div data-anim-child="slide-up delay-1" class="relative is-in-view">
               <img src="https://tt3.ams3.digitaloceanspaces.com/asante-gold/CW4A8629.jpg" alt="image">
 
-              <a href="https://www.youtube.com/watch?v=7N3g2xgzSkc" class="play-button bg-dark-1 text-white js-gallery" data-gallery="gallery1">
+              <!-- <a href="https://www.youtube.com/watch?v=7N3g2xgzSkc" class="play-button bg-dark-1 text-white js-gallery" data-gallery="gallery1">
                 <i class="icon-play text-30"></i>
-              </a>
+              </a> -->
             </div>
         </div>
         
