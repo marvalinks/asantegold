@@ -160,14 +160,14 @@
         <div class="row y-gap-30 pt-60 md:pt-30 new-section">
             <div class="col-md-6">
                 <div data-anim-child="slide-up delay-1" class="col-xl-12 col-lg-12 md:order-1 is-in-view">
-                    <!-- <h5 class="md:text-38 uppercase fw-500" style="font-size: 35px">Corporate Update Presentation</h5>
+                    <h5 class="md:text-38 uppercase fw-500" style="font-size: 35px">Corporate Update Presentation</h5>
                       <br><br>
-                    <img src="/assets/images/presentation/ps2.png" alt="">
+                    <img src="/assets/images/presentation/ps3.jpg" alt="">
                     <br><br>
-                    <a target="_blank" href="https://drive.google.com/file/d/1mJk0HLFUurszkw62Kz7sz6s2v3Ulv84_/view?usp=drive_link" class="button -md -dark-1 bg-accent-1 text-white col-12">
+                    <a target="_blank" href="http://drive.google.com/file/d/1GZhs49jHV0G8R_WoG4Xy7BjSUptZBwhf/view" class="button -md -dark-1 bg-accent-1 text-white col-12">
                         DOWNLOAD INVESTOR PRESENTATION
                     </a>
-                    <br> -->
+                    <br>
                     <!-- <ul class="">
                         <li>
                             <h3> Corporate Update Presentation</h3>

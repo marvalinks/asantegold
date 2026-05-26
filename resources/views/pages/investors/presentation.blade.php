@@ -12,17 +12,17 @@
 </section>
 <section class="layout-pt-lg">
   <div class="container">
-    <!-- <div class="row">
+    <div class="row">
       <div data-anim-child="slide-up delay-1" class="col-xl-6 col-lg-6 md:order-1 is-in-view">
         <h2 class="text-62 md:text-38 uppercase fw-500">Presentation</h2>
           <br><br>
-        <img src="/assets/images/presentation/ps2.png" alt="">
+        <img src="/assets/images/presentation/ps3.jpg" alt="">
         <br><br>
-        <a target="_blank" href="https://drive.google.com/file/d/1mJk0HLFUurszkw62Kz7sz6s2v3Ulv84_/view?usp=drive_link" class="button -md -dark-1 bg-accent-1 text-white col-12">
+        <a target="_blank" href="http://drive.google.com/file/d/1GZhs49jHV0G8R_WoG4Xy7BjSUptZBwhf/view" class="button -md -dark-1 bg-accent-1 text-white col-12">
           DOWNLOAD INVESTOR PRESENTATION
         </a>
       </div>
-      <div data-anim-child="slide-up delay-1" class="col-xl-6 col-lg-6 md:order-1 is-in-view">
+      <!-- <div data-anim-child="slide-up delay-1" class="col-xl-6 col-lg-6 md:order-1 is-in-view">
         <h2 class="text-62 md:text-38 uppercase fw-500">Q2 FY2026 Earnings Webcast</h2>
           <br><br>
         <img src="/assets/images/presentation/ps5.jpg" alt="">
@@ -31,8 +31,8 @@
         <a target="_blank" href="https://view.knowledgevision.com/presentation/99cbdadfa7954ead8e2e03f4a8229ef9" class="button -md -dark-1 bg-accent-1 text-white col-12">
           Watch Q2 FY2026 Earnings Webcast
         </a>
-      </div>
-    </div> -->
+      </div> -->
+    </div>
     <!-- <br><br>
     <hr> -->
     <div class="col-xl-12 col-lg-12 col-md-12">
