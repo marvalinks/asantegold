@@ -12,6 +12,7 @@ use App\Models\FinancialYear;
 use App\Models\GovernanceReport;
 use App\Models\GovernanceTeam;
 use App\Models\ImageGallery;
+use App\Models\SlaveryReport;
 use App\Models\SustainabilityPolicy;
 use App\Models\SustainabilityReport;
 use App\Models\VideoGallery;
@@ -19,54 +20,61 @@ use Carbon\Carbon;
 use GuzzleHttp\Client;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Str;
-use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Str;
 
 class RouteModuleController extends Controller
 {
-    
     public function home(Request $request)
     {
         $projects = ['Aboduabo', 'kubi', 'keyhole', 'betenase', 'fahiakoba', 'ashanti ii project'];
-        $client = new Client();
+        $client = new Client;
         $response = $client->get('https://wp.asantegold.com/wp-json/wp/v2/posts?_embed&per_page=6');
         $posts = json_decode($response->getBody(), true);
+
         // $posts = [];
         return view('pages.home', compact('projects', 'posts'));
     }
+
     public function contact(Request $request)
     {
         return view('pages.contact');
     }
+
     public function contactPost(Request $request)
     {
         // dd($request->all());
         $data = $request->validate([
             'name' => 'required', 'subject' => 'required',
             'message' => 'required', 'email' => 'required',
-            'timestamp' => 'required|integer|before_or_equal:' . now()->timestamp
+            'timestamp' => 'required|integer|before_or_equal:'.now()->timestamp,
         ]);
         Mail::to('info@asantegold.com')->send(new ContactEmail($data));
+
         return redirect()->route('thankyou');
     }
+
     public function careers(Request $request)
     {
         return view('pages.careers');
     }
+
     public function careerPost(Request $request)
     {
         // dd($request->all());
         return redirect()->route('thankyou');
         $data = $request->validate([
             'name' => 'required', 'email' => 'required',
-            'timestamp' => 'required|integer|before_or_equal:' . now()->timestamp,
-            'cover_letter' => 'required|mimes:pdf|max:10000', 'cv' => 'required|mimes:pdf|max:10000'
+            'timestamp' => 'required|integer|before_or_equal:'.now()->timestamp,
+            'cover_letter' => 'required|mimes:pdf|max:10000', 'cv' => 'required|mimes:pdf|max:10000',
         ]);
         Mail::to('bludohric@gmail.com')->send(new CareerEmail($data));
         dd('done');
+
         return redirect()->route('thankyou');
     }
+
     public function about(Request $request)
     {
         // dd(Str::slug('Richmong MArtison'));
@@ -76,69 +84,89 @@ class RouteModuleController extends Controller
         //     $a->save();
         // }
         $reports = GovernanceReport::latest()->get();
+
         return view('pages.about', compact('reports'));
     }
+
     public function executive(Request $request)
     {
         $teams = ExecutiveTeam::latest()->get();
+
         return view('pages.executive', compact('teams'));
     }
+
     public function governance(Request $request)
     {
         $teams = GovernanceTeam::orderBy('id', 'asc')->get();
+
         return view('pages.governance', compact('teams'));
     }
+
     public function directors(Request $request)
     {
         $teams = DirectorTeam::latest()->get();
+
         return view('pages.directors', compact('teams'));
     }
+
     public function profileDetails(Request $request, $dep, $id)
     {
-        if($dep == 'executive') {
+        if ($dep == 'executive') {
             $team = ExecutiveTeam::where('slug', $id)->first();
+
             return view('pages.profile-details', compact('team'));
         }
-        if($dep == 'director') {
+        if ($dep == 'director') {
             $team = DirectorTeam::where('slug', $id)->first();
+
             return view('pages.profile-details', compact('team'));
         }
-        if($dep == 'governance') {
+        if ($dep == 'governance') {
             $team = GovernanceTeam::where('slug', $id)->first();
+
             return view('pages.profile-details', compact('team'));
         }
-        die('view not found');
+        exit('view not found');
     }
+
     public function estmaReports(Request $request)
     {
         return view('pages.estmaReports');
     }
+
     public function test(Request $request)
     {
         return view('pages.test');
     }
+
     public function bibiani(Request $request)
     {
-        $client = new Client();
+        $client = new Client;
         $response = $client->get('https://wp.asantegold.com/wp-json/wp/v2/posts?_embed&per_page=3');
         $posts = json_decode($response->getBody(), true);
+
         return view('pages.operations.bibiani', compact('posts'));
     }
+
     public function chirano(Request $request)
     {
-        $client = new Client();
+        $client = new Client;
         $response = $client->get('https://wp.asantegold.com/wp-json/wp/v2/posts?_embed&per_page=3');
         $posts = json_decode($response->getBody(), true);
+
         return view('pages.operations.chirano', compact('posts'));
     }
+
     public function projects(Request $request)
     {
         $projects = ['Aboduabo', 'kubi', 'keyhole', 'betenase', 'fahiakoba', 'ashanti ii project'];
+
         // $projects = [
         //     ['name' => 'Aboduabo', 'image' => '/assets/images/projects/'.strtolower()]
         // ]
         return view('pages.projects', compact('projects'));
     }
+
     public function projectSingle(Request $request, $id)
     {
         $projects = ['aboduabo', 'kubi', 'keyhole', 'betenase', 'fahiakoba', 'ashanti ii project'];
@@ -146,44 +174,49 @@ class RouteModuleController extends Controller
         if (in_array($name, $projects)) {
             return view('pages.projects.kubi', compact('name'));
         }
-        die('not found');
+        exit('not found');
         $name = '';
         $data = '';
-        if($id == 'bibiani') {
-            $name = "Bibiani Gold Mine";
+        if ($id == 'bibiani') {
+            $name = 'Bibiani Gold Mine';
             $data = 'aaa';
         }
-        if($id == 'chirano') {
-            $name = "Chirano Gold Mine";
+        if ($id == 'chirano') {
+            $name = 'Chirano Gold Mine';
             $data = 'skasaks';
         }
-        
+
         return view('pages.projects.kubi', compact('name', 'data'));
     }
+
     public function annualMeetings(Request $request)
     {
         return view('pages.investors.annual-meetings');
     }
+
     public function presentation(Request $request)
     {
         $events = Event::orderBy('start_date', 'asc')
-        ->paginate(4);
+            ->paginate(4);
+
         return view('pages.investors.presentation', compact('events'));
     }
+
     public function shareStructure(Request $request)
     {
         return view('pages.share-structure');
     }
+
     public function financialStatement(Request $request)
     {
         $years = FinancialYear::orderBy('year', 'desc')->get();
+
         return view('pages.financial-statement', compact('years'));
     }
-    
 
     public function newsReleases(Request $request)
     {
-        $client = new Client();
+        $client = new Client;
         $url = 'https://wp.asantegold.com/wp-json/wp/v2/posts';
 
         // Pagination
@@ -192,11 +225,11 @@ class RouteModuleController extends Controller
 
         // Base query
         $query = [
-            '_embed'   => true,
+            '_embed' => true,
             'per_page' => $perPage,
-            'page'     => $page,
-            'orderby'  => 'date',
-            'order'    => 'desc',
+            'page' => $page,
+            'orderby' => 'date',
+            'order' => 'desc',
         ];
 
         /**
@@ -210,7 +243,7 @@ class RouteModuleController extends Controller
         if ($request->filled('date')) {
             $date = Carbon::parse($request->date);
 
-            $query['after']  = $date->startOfDay()->toIso8601String();
+            $query['after'] = $date->startOfDay()->toIso8601String();
             $query['before'] = $date->endOfDay()->toIso8601String();
         }
 
@@ -222,7 +255,7 @@ class RouteModuleController extends Controller
                 1
             );
 
-            $query['after']  = $date->startOfMonth()->toIso8601String();
+            $query['after'] = $date->startOfMonth()->toIso8601String();
             $query['before'] = $date->endOfMonth()->toIso8601String();
         }
 
@@ -230,7 +263,7 @@ class RouteModuleController extends Controller
         elseif ($request->filled('year')) {
             $date = Carbon::createFromDate($request->year, 1, 1);
 
-            $query['after']  = $date->startOfYear()->toIso8601String();
+            $query['after'] = $date->startOfYear()->toIso8601String();
             $query['before'] = $date->endOfYear()->toIso8601String();
         }
 
@@ -239,22 +272,22 @@ class RouteModuleController extends Controller
          * CACHE KEY (FILTER-AWARE)
          * ===============================
          */
-        $cacheKey = 'news_posts_' . md5(json_encode($query));
+        $cacheKey = 'news_posts_'.md5(json_encode($query));
 
         $data = Cache::remember($cacheKey, now()->addMinutes(10), function () use ($client, $url, $query) {
             $response = $client->get($url, ['query' => $query]);
 
             return [
-                'posts'       => json_decode($response->getBody(), true),
+                'posts' => json_decode($response->getBody(), true),
                 'total_pages' => (int) $response->getHeaderLine('X-WP-TotalPages'),
                 'total_posts' => (int) $response->getHeaderLine('X-WP-Total'),
             ];
         });
 
         return view('pages.news.releases', [
-            'posts'        => $data['posts'],
-            'totalPages'   => $data['total_pages'],
-            'currentPage'  => $page,
+            'posts' => $data['posts'],
+            'totalPages' => $data['total_pages'],
+            'currentPage' => $page,
         ]);
     }
 
@@ -265,9 +298,9 @@ class RouteModuleController extends Controller
      */
     public function newsReleasesDetails(Request $request, $slug)
     {
-        $client = new Client();
+        $client = new Client;
 
-        $cacheKey = 'news_details_' . $slug;
+        $cacheKey = 'news_details_'.$slug;
 
         $data = Cache::remember($cacheKey, now()->addMinutes(30), function () use ($client, $slug) {
 
@@ -276,9 +309,9 @@ class RouteModuleController extends Controller
                 'https://wp.asantegold.com/wp-json/wp/v2/posts',
                 [
                     'query' => [
-                        'slug'   => $slug,
-                        '_embed' => true
-                    ]
+                        'slug' => $slug,
+                        '_embed' => true,
+                    ],
                 ]
             );
 
@@ -287,23 +320,23 @@ class RouteModuleController extends Controller
                 'https://wp.asantegold.com/wp-json/wp/v2/posts',
                 [
                     'query' => [
-                        '_embed'   => true,
+                        '_embed' => true,
                         'per_page' => 6,
-                        'orderby'  => 'date',
-                        'order'    => 'desc',
-                    ]
+                        'orderby' => 'date',
+                        'order' => 'desc',
+                    ],
                 ]
             );
 
             return [
                 'article' => json_decode($response->getBody(), true),
-                'posts'   => json_decode($response2->getBody(), true),
+                'posts' => json_decode($response2->getBody(), true),
             ];
         });
 
-        if (!empty($data['article'])) {
+        if (! empty($data['article'])) {
             return view('pages.news.details', [
-                'post'  => $data['article'][0],
+                'post' => $data['article'][0],
                 'posts' => $data['posts'],
             ]);
         }
@@ -315,76 +348,99 @@ class RouteModuleController extends Controller
     {
         return view('pages.stock-info');
     }
+
     public function sustainability(Request $request)
     {
         $reports = SustainabilityReport::orderBy('year', 'desc')->get();
         $policies = SustainabilityPolicy::latest()->get();
         $digbee = DigbeeReport::orderBy('year', 'desc')->get();
-        return view('pages.sustainability', compact('reports', 'policies', 'digbee'));
+        $slavery = SlaveryReport::orderBy('year', 'desc')->get();
+
+        return view('pages.sustainability', compact('reports', 'policies', 'digbee', 'slavery'));
     }
+
     public function thankyou(Request $request)
     {
         return view('pages.thankyou');
     }
+
     public function thankyounewsletter(Request $request)
     {
         return view('pages.thankyou-newsletter');
     }
+
     public function events(Request $request)
     {
         $events = Event::latest()->get();
+
         return view('pages.events.event', compact('events'));
     }
+
     public function eventDetail(Request $request, $slug)
     {
         $event = Event::where('slug', $slug)->first();
+
         return view('pages.events.details', compact('event'));
     }
+
     public function analystCoverage(Request $request)
     {
         return view('pages.analyst-coverage');
     }
+
     public function imageGallery(Request $request)
     {
         $medias = ImageGallery::latest()->paginate(10);
+
         return view('pages.media.images', compact('medias'));
     }
+
     public function videoGallery(Request $request)
     {
         $medias = VideoGallery::orderBy('id', 'desc')->paginate(10);
+
         return view('pages.media.videos', compact('medias'));
     }
+
     public function newsCoverage(Request $request)
     {
         return view('pages.news.coverage');
     }
-    public function coreValues(Request $request, $slug='safety')
+
+    public function coreValues(Request $request, $slug = 'safety')
     {
         $page = $slug;
+
         return view('pages.core-values', compact('page'));
     }
+
     public function login(Request $request)
     {
         return view('pages.auth.login');
     }
+
     public function postLogin(Request $request)
     {
         dd($request->all());
         $data = $request->validate([
-            'username' => 'required', 'password' => 'required'
+            'username' => 'required', 'password' => 'required',
         ]);
         if (Auth::attempt(['username' => $request->username, 'password' => $request->password])) {
             $request->session()->regenerate();
+
             return redirect()->route('admin.dashboard');
         }
         $request->session()->flash('alert-danger', 'Error logging in');
+
         return redirect()->route('login');
     }
+
     public function logout(Request $request)
     {
         Auth::logout();
         $request->session()->invalidate();
         $request->session()->regenerateToken();
+
         return redirect()->route('login');
     }
 }
