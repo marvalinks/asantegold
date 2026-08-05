@@ -189,6 +189,26 @@ a:hover {
     width: 80%;
     margin: auto;
 }
+.wp-element-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    background-color: var(--color-accent-1) !important;
+    padding: 15px 30px;
+    color: var(--color-white);
+}
+.wp-element-button:hover {
+    border-color: var(--color-dark-1);
+    background-color: var(--color-dark-1) !important;
+    color: white !important;
+}
 @media (max-width: 767px) {
     .menu .menuNav__item + * {
         margin-top: 28px;
