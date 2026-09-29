@@ -1,48 +1,58 @@
 @extends('layouts.app')
 
 @section('styles')
-<link rel="stylesheet" href="/vegas/vegas.min.css">
+    <link href="/vegas/vegas.min.css" rel="stylesheet">
     <style>
-        .imageSliderNav{
+        .imageSliderNav {
             top: 90%;
         }
-        .blogCard.-type-1 .blogCard__content{
+
+        .blogCard.-type-1 .blogCard__content {
             min-height: 370px;
         }
-        #sldr{
+
+        #sldr {
             height: 700px;
         }
     </style>
 @endsection
 
 @section('scripts')
-<script src="https://code.jquery.com/jquery.min.js"></script>
-<script src="/vegas/vegas.min.js"></script>
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      // Get all elements with class 'elementor-button'
-      const buttons = document.querySelectorAll('.tv-ticker-item-change__last');
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <script src="/vegas/vegas.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get all elements with class 'elementor-button'
+            const buttons = document.querySelectorAll('.tv-ticker-item-change__last');
 
-      // Loop through each button element
-      buttons.forEach(button => {
-          // Add additional class to the button element
-          button.classList.add('ovfgt');
-      });
-  });
-
-  </script>
-  <script>
-    $("#sldr").vegas({
+            // Loop through each button element
+            buttons.forEach(button => {
+                // Add additional class to the button element
+                button.classList.add('ovfgt');
+            });
+        });
+    </script>
+    <script>
+        $("#sldr").vegas({
             delay: 8000,
             overlay: false,
             transition: 'fade',
             transitionDuration: 2000,
-            slides: [
-                { src: "https://tt3.ams3.digitaloceanspaces.com/asante-gold/6U7A6466.jpeg" },
-                { src: "https://tt3.ams3.digitaloceanspaces.com/asante-gold/6U7A1801.jpeg" },
-                { src: "https://tt3.ams3.digitaloceanspaces.com/asante-gold/6U7A1811.jpeg" },
-                { src: "https://tt3.ams3.digitaloceanspaces.com/asante-gold/6U7A1843.jpeg" },
-                { src: "https://tt3.ams3.digitaloceanspaces.com/asante-gold/6U7A2327.jpeg" },
+            slides: [{
+                    src: "https://tt3.ams3.digitaloceanspaces.com/asante-gold/6U7A6466.jpeg"
+                },
+                {
+                    src: "https://tt3.ams3.digitaloceanspaces.com/asante-gold/6U7A1801.jpeg"
+                },
+                {
+                    src: "https://tt3.ams3.digitaloceanspaces.com/asante-gold/6U7A1811.jpeg"
+                },
+                {
+                    src: "https://tt3.ams3.digitaloceanspaces.com/asante-gold/6U7A1843.jpeg"
+                },
+                {
+                    src: "https://tt3.ams3.digitaloceanspaces.com/asante-gold/6U7A2327.jpeg"
+                },
             ]
             // slides: [
             //     { src: "/assets/images/backgrounds/bg02.jpg" },
@@ -51,176 +61,187 @@
             //     { src: "/assets/images/backgrounds/bg04.jpg" }
             // ]
         });
-  </script>
+    </script>
 @endsection
 
 @section('content')
-{{-- @include('fragments.home-slider') --}}
-<section id="sldr" class="layout-pt-lg layout-pb-lg relative news-ns rxrx"></section>
+    {{-- @include('fragments.home-slider') --}}
+    <section class="layout-pt-lg layout-pb-lg news-ns rxrx relative" id="sldr"></section>
 
-<div class="pt-100 md:pt-20 sm:pt-60 bg-dark-2 stockmg">
-    <!--  -->
-    <!-- TradingView Widget BEGIN -->
-    <div class="tradingview-widget-container">
-    <div class="tradingview-widget-container__widget"></div>
-    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" rel="noopener nofollow" target="_blank"><span class="blue-text">Markets today</span></a><span class="trademark"> by TradingView</span></div>
-    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
-        {
-        "symbols": [
-            {
-            "proName": "TSXV:ASE",
-            "title": "TSXV"
-            },
-            {
-            "proName": "OTC:ASGOF",
-            "title": "OTC"
-            },
-            {
-            "proName": "TVC:GOLD",
-            "title": "Gold"
-            }
-        ],
-        "colorTheme": "dark",
-        "locale": "en",
-        "largeChartUrl": "",
-        "isTransparent": false,
-        "showSymbolLogo": true
-        }
-    </script>
+    <div class="pt-100 bg-dark-2 stockmg sm:pt-60 md:pt-20">
+        <!--  -->
+        <!-- TradingView Widget BEGIN -->
+        <div class="tradingview-widget-container">
+            <div class="tradingview-widget-container__widget"></div>
+            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" rel="noopener nofollow"
+                    target="_blank"><span class="blue-text">Markets today</span></a><span class="trademark"> by
+                    TradingView</span></div>
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+                {
+                    "symbols": [{
+                            "proName": "TSXV:ASE",
+                            "title": "TSXV"
+                        },
+                        {
+                            "proName": "OTC:ASGOF",
+                            "title": "OTC"
+                        },
+                        {
+                            "proName": "TVC:GOLD",
+                            "title": "Gold"
+                        }
+                    ],
+                    "colorTheme": "dark",
+                    "locale": "en",
+                    "largeChartUrl": "",
+                    "isTransparent": false,
+                    "showSymbolLogo": true
+                }
+            </script>
+        </div>
+        <!-- TradingView Widget END -->
     </div>
-<!-- TradingView Widget END -->
-</div>
-<section class="layout-pt-lg news-ns">
-    <br><br><br>
-    <div class="container">
-      <div data-anim-wrap="" class="row y-gap-30 justify-between animated">
-        <div class="col-xl-5 col-lg-6 md:order-2">
-            <div data-anim-child="slide-up delay-1" class="relative is-in-view">
-              <img src="https://tt3.ams3.digitaloceanspaces.com/asante-gold/DJI_0341%20(1).jpg" alt="image">
+    <section class="layout-pt-lg news-ns">
+        <br><br><br>
+        <div class="container">
+            <div class="row y-gap-30 animated justify-between" data-anim-wrap="">
+                <div class="col-xl-5 col-lg-6 md:order-2">
+                    <div class="is-in-view relative" data-anim-child="slide-up delay-1">
+                        <img alt="image" src="https://tt3.ams3.digitaloceanspaces.com/asante-gold/DJI_0341%20(1).jpg">
 
-              <!-- <a href="https://www.youtube.com/watch?v=7N3g2xgzSkc" class="play-button bg-dark-1 text-white js-gallery" data-gallery="gallery1">
-                <i class="icon-play text-30"></i>
-              </a> -->
-            </div>
-        </div>
-
-        <div data-anim-child="slide-up delay-1" class="col-xl-6 col-lg-6 md:order-1 is-in-view">
-          <h2 class="text-62 md:text-38 uppercase fw-500">
-            Asante <span class="text-accent-1">Gold</span> Corporation
-          </h2>
-
-          <p class="mt-60 md:mt-30 f19">
-            <strong>Asante Gold Corporation is a gold production, exploration and development company with a high-quality portfolio of mines and projects in Ghana, Africa’s largest and safest gold producer.</strong>
-          </p>
-          <p class="mt-30 md:mt-5 f19">
-            Asante is focused on operating, developing and managing gold mines and projects including the Bibiani mine, Chirano mine and Kubi development project located on the prolific Bibiani and Ashanti Gold Belts.
-          </p>
-        </div>
-      </div>
-    </div>
-</section>
-<section class="layout-pt-lg news-ns">
-    <br><br><br>
-    <div class="container">
-      <div data-anim-wrap="" class="row y-gap-30 justify-between animated">
-      <div data-anim-child="slide-up delay-1" class="col-xl-6 col-lg-6 md:order-1 is-in-view">
-          <h2 class="text-62 md:text-38 uppercase fw-500">
-            Safety at Asante <span class="text-accent-1">Gold</span> Corporation
-          </h2>
-
-          <p class="mt-60 md:mt-30 f19">
-            <strong>Safety is one of our core values at Asante. To strengthen and embed this value across our operations, we introduced the Asante Safety and Value Awards.</strong>
-          </p>
-          <p class="mt-30 md:mt-5 f19">
-          To celebrate individuals and teams who demonstrate outstanding commitment to this core values. By recognizing these teams and Individuals, we reinforce our belief that everyone has a role to play in keeping our workplaces safe.
-          </p>
-          <p class="mt-30 md:mt-5 f19">
-          At Asante, safety is how we work every day, everywhere.
-          </p>
-        </div>
-
-        <div class="col-xl-5 col-lg-6 md:order-2">
-            <div data-anim-child="slide-up delay-1" class="relative is-in-view">
-              <img src="https://tt3.ams3.digitaloceanspaces.com/asante-gold/CW4A8629.jpg" alt="image">
-
-              <!-- <a href="https://www.youtube.com/watch?v=7N3g2xgzSkc" class="play-button bg-dark-1 text-white js-gallery" data-gallery="gallery1">
-                <i class="icon-play text-30"></i>
-              </a> -->
-            </div>
-        </div>
-        
-      </div>
-    </div>
-</section>
-{{-- News --}}
-<section class="layout-pt-lg layout-pb-lg relative news-ns rxrx">
-    <div class="sectionBg -mx-60 bg-accent-2 z--1"></div>
-
-    <div class="container-fluid">
-        <div class="row y-gap-30 pt-60 md:pt-30 new-section">
-            <div class="col-md-6">
-                <div data-anim-child="slide-up delay-1" class="col-xl-12 col-lg-12 md:order-1 is-in-view">
-                    <h5 class="md:text-38 uppercase fw-500" style="font-size: 35px">Corporate Update Presentation</h5>
-                      <br><br>
-                    <img src="/assets/images/presentation/ps3.jpg" alt="">
-                    <br><br>
-                    <a target="_blank" href="http://drive.google.com/file/d/1GZhs49jHV0G8R_WoG4Xy7BjSUptZBwhf/view" class="button -md -dark-1 bg-accent-1 text-white col-12">
-                        DOWNLOAD INVESTOR PRESENTATION
-                    </a>
-                    <br>
-                    <!-- <ul class="">
-                        <li>
-                            <h3> Corporate Update Presentation</h3>
-                        </li>
-                    </ui> -->
-                    <!-- <a target="_blank" href="https://view.knowledgevision.com/presentation/99cbdadfa7954ead8e2e03f4a8229ef9" class="button -md -dark-1 bg-accent-1 text-white col-12">
-                      Watch Earnings Webcast Replay
-                    </a>
-                    <br>
-                    <ul class="">
-                        <li>
-                            <h3> Q2 FY2026 Earnings Webcast</h3>
-                        </li>
-                    </ui> -->
-                    <a target="_blank" href="https://drive.google.com/file/d/1p-6pW731T8k8KbSUbrMb9VMNoz3k7iMW/view?usp=drive_link" class="button -md -dark-1 bg-accent-1 text-white col-12">
-                      Prospect - Secondary Listing By Introduction
-                    </a>
-                    <br>
-                    <ul class="">
-                        <li>
-                            <h4>29 June, 2022</h4>
-                            <h3> Asante Secondary Listing By Introduction on the GSE</h3>
-                        </li>
-                    </ui>
+                        <!-- <a class="play-button bg-dark-1 js-gallery text-white" data-gallery="gallery1" href="https://www.youtube.com/watch?v=7N3g2xgzSkc">
+                    <i class="icon-play text-30"></i>
+                  </a> -->
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-6">
-                <div class="col-auto">
-                    <h2 class="text-62 md:text-38 uppercase fw-500 hdd">
-                        <span class="text-accent-1">Our Latest </span><br />
-                        News
+
+                <div class="col-xl-6 col-lg-6 is-in-view md:order-1" data-anim-child="slide-up delay-1">
+                    <h2 class="text-62 md:text-38 fw-500 uppercase">
+                        Asante <span class="text-accent-1">Gold</span> Corporation
                     </h2>
+
+                    <p class="md:mt-30 f19 mt-60">
+                        <strong>Asante Gold Corporation is a gold production, exploration and development company with a
+                            high-quality portfolio of mines and projects in Ghana, Africa’s largest and safest gold
+                            producer.</strong>
+                    </p>
+                    <p class="mt-30 f19 md:mt-5">
+                        Asante is focused on operating, developing and managing gold mines and projects including the
+                        Bibiani mine, Chirano mine and Kubi development project located on the prolific Bibiani and Ashanti
+                        Gold Belts.
+                    </p>
                 </div>
-                @foreach($posts as $post)
-                <ul class="">
-                    <li>
-                        <h4>{{\Carbon\Carbon::parse($post['date_gmt'])->toFormattedDateString()}}</h4>
-                        <a href="{{route('news.releases.details', [$post['slug']])}}">
-                            <h3> {!! $post['title']['rendered'] !!}</h3>
-                        </a>
-                    </li>
-                </ui>
-                @endforeach
-                <a href="{{route('news.releases')}}" class="button -md -dark-1 bg-accent-1 text-white col-12">
-                    View All News
-                </a>
             </div>
         </div>
-    </div>
-</section>
-<br><br>
-{{-- Projects --}}
-{{-- <section class="layout-pt-lg layout-pb-lg bg-accent-2 our-projects bg-accent-2">
+    </section>
+    <section class="layout-pt-lg news-ns">
+        <br><br><br>
+        <div class="container">
+            <div class="row y-gap-30 animated justify-between" data-anim-wrap="">
+                <div class="col-xl-6 col-lg-6 is-in-view md:order-1" data-anim-child="slide-up delay-1">
+                    <h2 class="text-62 md:text-38 fw-500 uppercase">
+                        Safety at Asante <span class="text-accent-1">Gold</span> Corporation
+                    </h2>
+
+                    <p class="md:mt-30 f19 mt-60">
+                        <strong>Safety is one of our core values at Asante. To strengthen and embed this value across our
+                            operations, we introduced the Asante Safety and Value Awards.</strong>
+                    </p>
+                    <p class="mt-30 f19 md:mt-5">
+                        To celebrate individuals and teams who demonstrate outstanding commitment to this core values. By
+                        recognizing these teams and Individuals, we reinforce our belief that everyone has a role to play in
+                        keeping our workplaces safe.
+                    </p>
+                    <p class="mt-30 f19 md:mt-5">
+                        At Asante, safety is how we work every day, everywhere.
+                    </p>
+                </div>
+
+                <div class="col-xl-5 col-lg-6 md:order-2">
+                    <div class="is-in-view relative" data-anim-child="slide-up delay-1">
+                        <img alt="image" src="https://tt3.ams3.digitaloceanspaces.com/asante-gold/CW4A8629.jpg">
+
+                        <!-- <a class="play-button bg-dark-1 js-gallery text-white" data-gallery="gallery1" href="https://www.youtube.com/watch?v=7N3g2xgzSkc">
+                    <i class="icon-play text-30"></i>
+                  </a> -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    {{-- News --}}
+    <section class="layout-pt-lg layout-pb-lg news-ns rxrx relative">
+        <div class="sectionBg bg-accent-2 z--1 -mx-60"></div>
+
+        <div class="container-fluid">
+            <div class="row y-gap-30 md:pt-30 new-section pt-60">
+                <div class="col-md-6">
+                    <div class="col-xl-12 col-lg-12 is-in-view md:order-1" data-anim-child="slide-up delay-1">
+                        <h5 class="md:text-38 fw-500 uppercase" style="font-size: 35px">Corporate Update Presentation</h5>
+                        <br><br>
+                        <img alt="" src="/assets/images/presentation/ps3.jpg">
+                        <br><br>
+                        <a class="button -md -dark-1 bg-accent-1 col-12 text-white"
+                            href="https://drive.google.com/file/d/1viaqfKqxKdffy6PdbSiEsO0GrqHgQl1p/view" target="_blank">
+                            DOWNLOAD INVESTOR PRESENTATION
+                        </a>
+                        <br>
+                        <!-- <ul class="">
+                            <li>
+                                <h3> Corporate Update Presentation</h3>
+                            </li>
+                        </ui> -->
+                        <!-- <a class="button -md -dark-1 bg-accent-1 col-12 text-white" href="https://view.knowledgevision.com/presentation/99cbdadfa7954ead8e2e03f4a8229ef9" target="_blank">
+                          Watch Earnings Webcast Replay
+                        </a>
+                        <br>
+                        <ul class="">
+                            <li>
+                                <h3> Q2 FY2026 Earnings Webcast</h3>
+                            </li>
+                        </ui> -->
+                        <a class="button -md -dark-1 bg-accent-1 col-12 text-white"
+                            href="https://drive.google.com/file/d/1p-6pW731T8k8KbSUbrMb9VMNoz3k7iMW/view?usp=drive_link"
+                            target="_blank">
+                            Prospect - Secondary Listing By Introduction
+                        </a>
+                        <br>
+                        <ul class="">
+                            <li>
+                                <h4>29 June, 2022</h4>
+                                <h3> Asante Secondary Listing By Introduction on the GSE</h3>
+                            </li>
+                            </ui>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="col-auto">
+                        <h2 class="text-62 md:text-38 fw-500 hdd uppercase">
+                            <span class="text-accent-1">Our Latest </span><br />
+                            News
+                        </h2>
+                    </div>
+                    @foreach ($posts as $post)
+                        <ul class="">
+                            <li>
+                                <h4>{{ \Carbon\Carbon::parse($post['date_gmt'])->toFormattedDateString() }}</h4>
+                                <a href="{{ route('news.releases.details', [$post['slug']]) }}">
+                                    <h3> {!! $post['title']['rendered'] !!}</h3>
+                                </a>
+                            </li>
+                            </ui>
+                    @endforeach
+                    <a class="button -md -dark-1 bg-accent-1 col-12 text-white" href="{{ route('news.releases') }}">
+                        View All News
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br>
+    {{-- Projects --}}
+    {{-- <section class="layout-pt-lg layout-pb-lg bg-accent-2 our-projects bg-accent-2">
     <div class="container">
         <div class="row justify-between items-center">
             <div class="col-auto">
@@ -239,68 +260,69 @@
         </div>
     </div>
 </section> --}}
-{{-- Gold mines --}}
-<section class="layout-pt-lg mines">
-    <div class="container">
-        <div class="row justify-between items-center">
-            <div class="col-auto">
-                <h2 class="text-62 md:text-38 uppercase fw-500">
-                    <span class="text-accent-1">MINING</span><br />
-                    OPERATIONS
-                </h2>
-            </div>
-
-            <div class="col-xl-6 md:d-none">
-                {{-- <p class="">From the vibrant ground level plaza to the terraces, privategardens, balconies and lush rooftop work spaces, Costix offersan array of amenities …</p> --}}
-            </div>
-        </div>
-    </div>
-
-    <div class="mt-60 md:mt-40 sm:mt-20 px-60 md:px-0">
-        <div
-            class="relative overflow-hidden js-section-slider swiper-initialized swiper-horizontal swiper-pointer-events swiper-autoheight swiper-watch-progress swiper-backface-hidden"
-            data-slider-cols="xl-2 lg-2 md-2 sm-1 base-1"
-            data-gap="0"
-        >
-            <div class="swiper-wrapper h-auto" id="swiper-wrapper-beb109e552f566af8" aria-live="polite" style="height: 660px;">
-                <div class="swiper-slide swiper-slide-visible swiper-slide-active" style="width: 660px;" role="group" aria-label="1 / 4">
-                    <div class="imageCard -type-1">
-                        <div class="imageCard__image ratio ratio-1:1">
-                            <img src="/assets/images/mines/bibiani.jpg" alt="image" class="img-ratio" />
-                        </div>
-
-                        <h3 class="imageCard__title text-white">
-                            <a href="{{route('operations.bibiani')}}">BIBIANI GOLD MINE</a>
-                        </h3>
-                    </div>
+    {{-- Gold mines --}}
+    <section class="layout-pt-lg mines">
+        <div class="container">
+            <div class="row items-center justify-between">
+                <div class="col-auto">
+                    <h2 class="text-62 md:text-38 fw-500 uppercase">
+                        <span class="text-accent-1">MINING</span><br />
+                        OPERATIONS
+                    </h2>
                 </div>
 
-                <div class="swiper-slide swiper-slide-visible swiper-slide-next" style="width: 660px;" role="group" aria-label="2 / 4">
-                    <div class="imageCard -type-1">
-                        <div class="imageCard__image ratio ratio-1:1">
-                            <img src="/assets/images/mines/chirano.jpg" alt="image" class="img-ratio" />
-                        </div>
+                <div class="col-xl-6 md:d-none">
+                    {{-- <p class="">From the vibrant ground level plaza to the terraces, privategardens, balconies and lush rooftop work spaces, Costix offersan array of amenities …</p> --}}
+                </div>
+            </div>
+        </div>
 
-                        <h3 class="imageCard__title text-white">
-                            <a href="{{route('operations.chirano')}}">CHIRANO GOLD MINE</a>
-                        </h3>
+        <div class="mt-60 px-60 sm:mt-20 md:mt-40 md:px-0">
+            <div class="js-section-slider swiper-initialized swiper-horizontal swiper-pointer-events swiper-autoheight swiper-watch-progress swiper-backface-hidden relative overflow-hidden"
+                data-gap="0" data-slider-cols="xl-2 lg-2 md-2 sm-1 base-1">
+                <div aria-live="polite" class="swiper-wrapper h-auto" id="swiper-wrapper-beb109e552f566af8"
+                    style="height: 660px;">
+                    <div aria-label="1 / 4" class="swiper-slide swiper-slide-visible swiper-slide-active" role="group"
+                        style="width: 660px;">
+                        <div class="imageCard -type-1">
+                            <div class="imageCard__image ratio ratio-1:1">
+                                <img alt="image" class="img-ratio" src="/assets/images/mines/bibiani.jpg" />
+                            </div>
+
+                            <h3 class="imageCard__title text-white">
+                                <a href="{{ route('operations.bibiani') }}">BIBIANI GOLD MINE</a>
+                            </h3>
+                        </div>
                     </div>
+
+                    <div aria-label="2 / 4" class="swiper-slide swiper-slide-visible swiper-slide-next" role="group"
+                        style="width: 660px;">
+                        <div class="imageCard -type-1">
+                            <div class="imageCard__image ratio ratio-1:1">
+                                <img alt="image" class="img-ratio" src="/assets/images/mines/chirano.jpg" />
+                            </div>
+
+                            <h3 class="imageCard__title text-white">
+                                <a href="{{ route('operations.chirano') }}">CHIRANO GOLD MINE</a>
+                            </h3>
+                        </div>
+                    </div>
+
                 </div>
 
+                <div class="imageSliderNav">
+                    <button aria-controls="swiper-wrapper-beb109e552f566af8" aria-disabled="true"
+                        aria-label="Previous slide" class="-prev js-prev swiper-button-disabled" disabled=""
+                        tabindex="-1">
+                        <i class="icon-left-arrow"></i>
+                    </button>
+                    <button aria-controls="swiper-wrapper-beb109e552f566af8" aria-disabled="false"
+                        aria-label="Next slide" class="-next js-next" tabindex="0">
+                        <i class="icon-right-arrow"></i>
+                    </button>
+                </div>
+                <span aria-atomic="true" aria-live="assertive" class="swiper-notification"></span>
             </div>
-
-            <div class="imageSliderNav">
-                <button class="-prev js-prev swiper-button-disabled" disabled="" tabindex="-1" aria-label="Previous slide" aria-controls="swiper-wrapper-beb109e552f566af8" aria-disabled="true">
-                    <i class="icon-left-arrow"></i>
-                </button>
-                <button class="-next js-next" tabindex="0" aria-label="Next slide" aria-controls="swiper-wrapper-beb109e552f566af8" aria-disabled="false">
-                    <i class="icon-right-arrow"></i>
-                </button>
-            </div>
-            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
         </div>
-    </div>
-</section>
-
-
+    </section>
 @endsection
