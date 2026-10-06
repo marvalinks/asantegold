@@ -110,8 +110,8 @@
                         <img alt="image" src="https://tt3.ams3.digitaloceanspaces.com/asante-gold/DJI_0341%20(1).jpg">
 
                         <!-- <a class="play-button bg-dark-1 js-gallery text-white" data-gallery="gallery1" href="https://www.youtube.com/watch?v=7N3g2xgzSkc">
-                    <i class="icon-play text-30"></i>
-                  </a> -->
+                        <i class="icon-play text-30"></i>
+                      </a> -->
                     </div>
                 </div>
 
@@ -162,8 +162,8 @@
                         <img alt="image" src="https://tt3.ams3.digitaloceanspaces.com/asante-gold/CW4A8629.jpg">
 
                         <!-- <a class="play-button bg-dark-1 js-gallery text-white" data-gallery="gallery1" href="https://www.youtube.com/watch?v=7N3g2xgzSkc">
-                    <i class="icon-play text-30"></i>
-                  </a> -->
+                        <i class="icon-play text-30"></i>
+                      </a> -->
                     </div>
                 </div>
 
@@ -180,7 +180,7 @@
                     <div class="col-xl-12 col-lg-12 is-in-view md:order-1" data-anim-child="slide-up delay-1">
                         <h5 class="md:text-38 fw-500 uppercase" style="font-size: 35px">Corporate Update Presentation</h5>
                         <br><br>
-                        <img alt="" src="/assets/images/presentation/ps3.jpg">
+                        <img alt="" src="/assets/images/presentation/ps4.jpg">
                         <br><br>
                         <a class="button -md -dark-1 bg-accent-1 col-12 text-white"
                             href="https://drive.google.com/file/d/1viaqfKqxKdffy6PdbSiEsO0GrqHgQl1p/view" target="_blank">
@@ -188,19 +188,19 @@
                         </a>
                         <br>
                         <!-- <ul class="">
-                            <li>
-                                <h3> Corporate Update Presentation</h3>
-                            </li>
-                        </ui> -->
+                                <li>
+                                    <h3> Corporate Update Presentation</h3>
+                                </li>
+                            </ui> -->
                         <!-- <a class="button -md -dark-1 bg-accent-1 col-12 text-white" href="https://view.knowledgevision.com/presentation/99cbdadfa7954ead8e2e03f4a8229ef9" target="_blank">
-                          Watch Earnings Webcast Replay
-                        </a>
-                        <br>
-                        <ul class="">
-                            <li>
-                                <h3> Q2 FY2026 Earnings Webcast</h3>
-                            </li>
-                        </ui> -->
+                              Watch Earnings Webcast Replay
+                            </a>
+                            <br>
+                            <ul class="">
+                                <li>
+                                    <h3> Q2 FY2026 Earnings Webcast</h3>
+                                </li>
+                            </ui> -->
                         <a class="button -md -dark-1 bg-accent-1 col-12 text-white"
                             href="https://drive.google.com/file/d/1p-6pW731T8k8KbSUbrMb9VMNoz3k7iMW/view?usp=drive_link"
                             target="_blank">
