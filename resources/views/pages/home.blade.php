@@ -110,8 +110,8 @@
                         <img alt="image" src="https://tt3.ams3.digitaloceanspaces.com/asante-gold/DJI_0341%20(1).jpg">
 
                         <!-- <a class="play-button bg-dark-1 js-gallery text-white" data-gallery="gallery1" href="https://www.youtube.com/watch?v=7N3g2xgzSkc">
-                        <i class="icon-play text-30"></i>
-                      </a> -->
+                                        <i class="icon-play text-30"></i>
+                                      </a> -->
                     </div>
                 </div>
 
@@ -162,8 +162,8 @@
                         <img alt="image" src="https://tt3.ams3.digitaloceanspaces.com/asante-gold/CW4A8629.jpg">
 
                         <!-- <a class="play-button bg-dark-1 js-gallery text-white" data-gallery="gallery1" href="https://www.youtube.com/watch?v=7N3g2xgzSkc">
-                        <i class="icon-play text-30"></i>
-                      </a> -->
+                                        <i class="icon-play text-30"></i>
+                                      </a> -->
                     </div>
                 </div>
 
@@ -178,41 +178,42 @@
             <div class="row y-gap-30 md:pt-30 new-section pt-60">
                 <div class="col-md-6">
                     <div class="col-xl-12 col-lg-12 is-in-view md:order-1" data-anim-child="slide-up delay-1">
-                        <h5 class="md:text-38 fw-500 uppercase" style="font-size: 35px">Corporate Update Presentation</h5>
+                        <h5 class="md:text-38 fw-500 uppercase" style="font-size: 35px">Corporate Presentation</h5>
                         <br><br>
-                        <img alt="" src="/assets/images/presentation/ps4.jpg">
+                        <img alt="" src="/assets/images/presentation/ps5.jpg">
                         <br><br>
                         <a class="button -md -dark-1 bg-accent-1 col-12 text-white"
-                            href="https://drive.google.com/file/d/1viaqfKqxKdffy6PdbSiEsO0GrqHgQl1p/view" target="_blank">
-                            DOWNLOAD INVESTOR PRESENTATION
+                            href="https://drive.google.com/file/d/14IICjkIqEQRghIvfVYq2iEoR93ctpsxn/view?usp=drive_link"
+                            target="_blank">
+                            DOWNLOAD WEBINAR PRESENTATION
                         </a>
                         <br>
                         <!-- <ul class="">
-                                <li>
-                                    <h3> Corporate Update Presentation</h3>
-                                </li>
-                            </ui> -->
+                                                <li>
+                                                    <h3> Corporate Update Presentation</h3>
+                                                </li>
+                                            </ui> -->
                         <!-- <a class="button -md -dark-1 bg-accent-1 col-12 text-white" href="https://view.knowledgevision.com/presentation/99cbdadfa7954ead8e2e03f4a8229ef9" target="_blank">
-                              Watch Earnings Webcast Replay
-                            </a>
-                            <br>
-                            <ul class="">
-                                <li>
-                                    <h3> Q2 FY2026 Earnings Webcast</h3>
-                                </li>
-                            </ui> -->
-                        <a class="button -md -dark-1 bg-accent-1 col-12 text-white"
+                                              Watch Earnings Webcast Replay
+                                            </a>
+                                            <br>
+                                            <ul class="">
+                                                <li>
+                                                    <h3> Q2 FY2026 Earnings Webcast</h3>
+                                                </li>
+                                            </ui> -->
+                        {{-- <a class="button -md -dark-1 bg-accent-1 col-12 text-white"
                             href="https://drive.google.com/file/d/1p-6pW731T8k8KbSUbrMb9VMNoz3k7iMW/view?usp=drive_link"
                             target="_blank">
                             Prospect - Secondary Listing By Introduction
-                        </a>
+                        </a> --}}
                         <br>
-                        <ul class="">
+                        {{-- <ul class="">
                             <li>
                                 <h4>29 June, 2022</h4>
                                 <h3> Asante Secondary Listing By Introduction on the GSE</h3>
                             </li>
-                            </ui>
+                            </ui> --}}
                     </div>
                 </div>
                 <div class="col-md-6">
