@@ -37,9 +37,9 @@
 
             </div>
             <!-- <br><br>
-                                    <hr> -->
+                                        <hr> -->
             <div class="col-xl-12 col-lg-12 col-md-12">
-                <div class="row" style="margin-bottom: 50px;">
+                <div class="row" style="margin-bottom: 50px; margin-top: 50px;">
                     <div class="col-md-12">
                         <h2 class="text-62 md:text-38 fw-500 uppercase">Upcoming Events</h2>
                     </div>
